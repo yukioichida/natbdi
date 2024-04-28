@@ -1,0 +1,15 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,428,0,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+go to outside,False,428,1,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+open door to kitchen,True,428,2,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+go to kitchen,True,428,3,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+pick up thermometer,True,428,4,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+focus on thermometer in inventory,True,428,5,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,428,6,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+go to hallway,True,428,7,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+open door to living room,True,428,8,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+go to living room,True,428,9,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+pick up wood,True,428,10,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+focus on wood in inventory,True,428,11,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+use thermometer in inventory on wood in inventory,True,428,12,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer
+move wood in inventory to orange box,False,428,13,"Your task is to measure the temperature of wood, which is located around the living room",task-10-use-thermometer

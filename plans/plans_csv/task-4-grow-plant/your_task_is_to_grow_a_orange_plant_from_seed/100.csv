@@ -1,0 +1,28 @@
+action,landmark,variation,order,goal,task_id
+open door to bedroom,False,100,0,Your task is to grow a orange plant from seed,task-4-grow-plant
+go to bedroom,False,100,1,Your task is to grow a orange plant from seed,task-4-grow-plant
+pick up seed jar,True,100,2,Your task is to grow a orange plant from seed,task-4-grow-plant
+open door to hallway,False,100,3,Your task is to grow a orange plant from seed,task-4-grow-plant
+go to hallway,False,100,4,Your task is to grow a orange plant from seed,task-4-grow-plant
+open door to green house,False,100,5,Your task is to grow a orange plant from seed,task-4-grow-plant
+go to green house,False,100,6,Your task is to grow a orange plant from seed,task-4-grow-plant
+move soil to flower pot 1,False,100,7,Your task is to grow a orange plant from seed,task-4-grow-plant
+move orange seed in seed jar to flower pot 1,False,100,8,Your task is to grow a orange plant from seed,task-4-grow-plant
+0,True,100,9,Your task is to grow a orange plant from seed,task-4-grow-plant
+focus on orange seed in flower pot 1,False,100,10,Your task is to grow a orange plant from seed,task-4-grow-plant
+activate sink,True,100,11,Your task is to grow a orange plant from seed,task-4-grow-plant
+move jug to sink,True,100,12,Your task is to grow a orange plant from seed,task-4-grow-plant
+pour jug into flower pot 1,False,100,13,Your task is to grow a orange plant from seed,task-4-grow-plant
+deactivate sink,True,100,14,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,15,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,16,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,17,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,18,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,19,Your task is to grow a orange plant from seed,task-4-grow-plant
+activate sink,True,100,20,Your task is to grow a orange plant from seed,task-4-grow-plant
+move jug to sink,True,100,21,Your task is to grow a orange plant from seed,task-4-grow-plant
+pour jug into flower pot 1,False,100,22,Your task is to grow a orange plant from seed,task-4-grow-plant
+deactivate sink,True,100,23,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,24,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,25,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,100,26,Your task is to grow a orange plant from seed,task-4-grow-plant

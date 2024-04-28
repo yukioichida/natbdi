@@ -1,0 +1,42 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,28,0,Your task is to melt caesium,task-1-melt
+go to kitchen,True,28,1,Your task is to melt caesium,task-1-melt
+pick up thermometer,True,28,2,Your task is to melt caesium,task-1-melt
+open cupboard,True,28,3,Your task is to melt caesium,task-1-melt
+pick up metal pot,True,28,4,Your task is to melt caesium,task-1-melt
+open drawer in counter,True,28,5,Your task is to melt caesium,task-1-melt
+open freezer,True,28,6,Your task is to melt caesium,task-1-melt
+open drawer in cupboard,True,28,7,Your task is to melt caesium,task-1-melt
+open fridge,True,28,8,Your task is to melt caesium,task-1-melt
+open glass jar,True,28,9,Your task is to melt caesium,task-1-melt
+open oven,True,28,10,Your task is to melt caesium,task-1-melt
+open door to bathroom,True,28,11,Your task is to melt caesium,task-1-melt
+go to bathroom,True,28,12,Your task is to melt caesium,task-1-melt
+open door to kitchen,True,28,13,Your task is to melt caesium,task-1-melt
+go to kitchen,True,28,14,Your task is to melt caesium,task-1-melt
+open door to outside,True,28,15,Your task is to melt caesium,task-1-melt
+go to outside,True,28,16,Your task is to melt caesium,task-1-melt
+open door to foundry,True,28,17,Your task is to melt caesium,task-1-melt
+go to foundry,True,28,18,Your task is to melt caesium,task-1-melt
+open door to outside,True,28,19,Your task is to melt caesium,task-1-melt
+go to outside,True,28,20,Your task is to melt caesium,task-1-melt
+open door to green house,True,28,21,Your task is to melt caesium,task-1-melt
+go to green house,True,28,22,Your task is to melt caesium,task-1-melt
+open door to hallway,True,28,23,Your task is to melt caesium,task-1-melt
+go to hallway,True,28,24,Your task is to melt caesium,task-1-melt
+open door to workshop,True,28,25,Your task is to melt caesium,task-1-melt
+go to workshop,True,28,26,Your task is to melt caesium,task-1-melt
+pick up caesium,True,28,27,Your task is to melt caesium,task-1-melt
+open door to hallway,True,28,28,Your task is to melt caesium,task-1-melt
+go to hallway,True,28,29,Your task is to melt caesium,task-1-melt
+open door to kitchen,True,28,30,Your task is to melt caesium,task-1-melt
+go to kitchen,True,28,31,Your task is to melt caesium,task-1-melt
+focus on caesium,True,28,32,Your task is to melt caesium,task-1-melt
+move caesium to metal pot,True,28,33,Your task is to melt caesium,task-1-melt
+pick up metal pot,True,28,34,Your task is to melt caesium,task-1-melt
+move metal pot to stove,True,28,35,Your task is to melt caesium,task-1-melt
+activate stove,True,28,36,Your task is to melt caesium,task-1-melt
+examine caesium,False,28,37,Your task is to melt caesium,task-1-melt
+use thermometer in inventory on caesium,False,28,38,Your task is to melt caesium,task-1-melt
+examine caesium,False,28,39,Your task is to melt caesium,task-1-melt
+use thermometer in inventory on caesium,False,28,40,Your task is to melt caesium,task-1-melt

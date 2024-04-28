@@ -1,0 +1,35 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,0,0,Your task is to boil water,task-1-boil
+go to kitchen,True,0,1,Your task is to boil water,task-1-boil
+pick up thermometer,True,0,2,Your task is to boil water,task-1-boil
+open cupboard,True,0,3,Your task is to boil water,task-1-boil
+pick up metal pot,True,0,4,Your task is to boil water,task-1-boil
+move metal pot to sink,True,0,5,Your task is to boil water,task-1-boil
+activate sink,True,0,6,Your task is to boil water,task-1-boil
+deactivate sink,True,0,7,Your task is to boil water,task-1-boil
+pick up metal pot,True,0,8,Your task is to boil water,task-1-boil
+focus on substance in metal pot,True,0,9,Your task is to boil water,task-1-boil
+pour metal pot into metal pot,True,0,10,Your task is to boil water,task-1-boil
+pick up metal pot,True,0,11,Your task is to boil water,task-1-boil
+move metal pot to stove,True,0,12,Your task is to boil water,task-1-boil
+activate stove,True,0,13,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,14,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,15,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,16,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,17,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,18,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,19,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,20,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,21,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,22,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,23,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,24,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,25,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,26,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,27,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,28,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,29,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,30,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,31,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,0,32,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,0,33,Your task is to boil water,task-1-boil

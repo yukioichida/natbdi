@@ -1,0 +1,3 @@
+action,landmark,variation,order,goal,task_id
+focus on drawer in counter,False,30,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move drawer in counter to red box,False,30,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

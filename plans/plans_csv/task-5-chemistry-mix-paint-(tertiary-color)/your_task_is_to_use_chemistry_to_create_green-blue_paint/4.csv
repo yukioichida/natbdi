@@ -1,0 +1,13 @@
+action,landmark,variation,order,goal,task_id
+open door to art studio,False,4,0,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+go to art studio,False,4,1,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing blue paint in art studio in bowl,False,4,2,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing yellow paint in art studio in bowl,False,4,3,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix bowl,False,4,4,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on green paint,True,4,5,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+wait1,True,4,6,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour bowl in bowl,False,4,7,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+open cupboard,False,4,8,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing blue paint in bowl,False,4,9,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix bowl,False,4,10,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on green-blue paint,True,4,11,Your task is to use chemistry to create green-blue paint,task-5-chemistry-mix-paint-(tertiary-color)

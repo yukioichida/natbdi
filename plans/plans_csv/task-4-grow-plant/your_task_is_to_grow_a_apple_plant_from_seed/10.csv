@@ -1,0 +1,30 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,10,0,Your task is to grow a apple plant from seed,task-4-grow-plant
+go to hallway,False,10,1,Your task is to grow a apple plant from seed,task-4-grow-plant
+open door to bedroom,False,10,2,Your task is to grow a apple plant from seed,task-4-grow-plant
+go to bedroom,False,10,3,Your task is to grow a apple plant from seed,task-4-grow-plant
+pick up seed jar,True,10,4,Your task is to grow a apple plant from seed,task-4-grow-plant
+open door to hallway,False,10,5,Your task is to grow a apple plant from seed,task-4-grow-plant
+go to hallway,False,10,6,Your task is to grow a apple plant from seed,task-4-grow-plant
+open door to green house,True,10,7,Your task is to grow a apple plant from seed,task-4-grow-plant
+go to green house,True,10,8,Your task is to grow a apple plant from seed,task-4-grow-plant
+move soil to flower pot 1,False,10,9,Your task is to grow a apple plant from seed,task-4-grow-plant
+move apple seed in seed jar to flower pot 1,False,10,10,Your task is to grow a apple plant from seed,task-4-grow-plant
+0,True,10,11,Your task is to grow a apple plant from seed,task-4-grow-plant
+focus on apple seed in flower pot 1,False,10,12,Your task is to grow a apple plant from seed,task-4-grow-plant
+activate sink,True,10,13,Your task is to grow a apple plant from seed,task-4-grow-plant
+move jug to sink,True,10,14,Your task is to grow a apple plant from seed,task-4-grow-plant
+pour jug into flower pot 1,False,10,15,Your task is to grow a apple plant from seed,task-4-grow-plant
+deactivate sink,True,10,16,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,17,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,18,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,19,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,20,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,21,Your task is to grow a apple plant from seed,task-4-grow-plant
+activate sink,True,10,22,Your task is to grow a apple plant from seed,task-4-grow-plant
+move jug to sink,True,10,23,Your task is to grow a apple plant from seed,task-4-grow-plant
+pour jug into flower pot 1,False,10,24,Your task is to grow a apple plant from seed,task-4-grow-plant
+deactivate sink,True,10,25,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,26,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,27,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,10,28,Your task is to grow a apple plant from seed,task-4-grow-plant

@@ -1,0 +1,21 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,452,0,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to hallway,True,452,1,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to kitchen,False,452,2,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to kitchen,False,452,3,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+pick up thermometer,True,452,4,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+focus on thermometer in inventory,True,452,5,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to hallway,True,452,6,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to hallway,True,452,7,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to bedroom,True,452,8,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to bedroom,True,452,9,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+pick up wood,True,452,10,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+focus on wood in inventory,True,452,11,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to hallway,True,452,12,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to hallway,True,452,13,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to kitchen,False,452,14,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to kitchen,False,452,15,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to bathroom,False,452,16,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to bathroom,False,452,17,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+use thermometer in inventory on wood in inventory,True,452,18,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+move wood in inventory to yellow box,False,452,19,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer

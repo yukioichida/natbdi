@@ -1,0 +1,3 @@
+action,landmark,variation,order,goal,task_id
+focus on orange wire,False,239,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move orange wire to purple box,False,239,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

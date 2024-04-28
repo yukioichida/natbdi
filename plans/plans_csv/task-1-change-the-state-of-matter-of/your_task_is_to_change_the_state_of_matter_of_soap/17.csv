@@ -1,0 +1,23 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,17,0,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+go to kitchen,True,17,1,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up thermometer,True,17,2,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+open cupboard,True,17,3,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up metal pot,True,17,4,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+focus on soap in kitchen,False,17,5,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+move soap in kitchen to metal pot,False,17,6,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up metal pot,True,17,7,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,17,8,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+activate stove,True,17,9,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up metal pot,True,17,10,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+open door to outside,False,17,11,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+go to outside,False,17,12,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+open door to foundry,False,17,13,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+go to foundry,False,17,14,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+open blast furnace,False,17,15,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+move metal pot to blast furnace,False,17,16,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+activate blast furnace,False,17,17,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap,False,17,18,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap,False,17,19,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap,False,17,20,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap,False,17,21,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of

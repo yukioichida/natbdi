@@ -1,0 +1,13 @@
+action,landmark,variation,order,goal,task_id
+open door to art studio,False,31,0,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+go to art studio,False,31,1,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing red paint in art studio in cup containing nothing in table,False,31,2,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing blue paint in art studio in cup containing red paint in table,False,31,3,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix cup containing blue paint and red paint,False,31,4,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on paint in cup containing violet paint,False,31,5,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+wait1,True,31,6,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing violet paint in cup containing violet paint,False,31,7,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+open cupboard,False,31,8,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing blue paint in cup containing violet paint,False,31,9,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix cup containing blue paint and violet paint,False,31,10,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on blue-violet paint,True,31,11,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)

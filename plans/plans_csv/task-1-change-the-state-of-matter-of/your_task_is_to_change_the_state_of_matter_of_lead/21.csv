@@ -1,0 +1,51 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,21,0,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to kitchen,True,21,1,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+pick up thermometer,True,21,2,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open cupboard,True,21,3,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+pick up metal pot,True,21,4,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open freezer,True,21,5,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open drawer in counter,True,21,6,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open oven,True,21,7,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open drawer in cupboard,True,21,8,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open fridge,True,21,9,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open glass jar,True,21,10,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to bathroom,True,21,11,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to bathroom,True,21,12,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to kitchen,True,21,13,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to kitchen,True,21,14,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to outside,True,21,15,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to outside,True,21,16,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to foundry,True,21,17,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to foundry,True,21,18,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to outside,True,21,19,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to outside,True,21,20,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to green house,True,21,21,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to green house,True,21,22,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to hallway,True,21,23,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to hallway,True,21,24,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to workshop,True,21,25,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to workshop,True,21,26,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+pick up lead,True,21,27,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to hallway,True,21,28,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to hallway,True,21,29,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to kitchen,True,21,30,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to kitchen,True,21,31,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+focus on lead,True,21,32,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+move lead to metal pot,True,21,33,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+pick up metal pot,True,21,34,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,21,35,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+activate stove,True,21,36,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+pick up metal pot,True,21,37,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to outside,True,21,38,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to outside,True,21,39,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open door to foundry,True,21,40,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+go to foundry,True,21,41,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+open blast furnace,True,21,42,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+move metal pot to blast furnace,True,21,43,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+activate blast furnace,True,21,44,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+examine lead,True,21,45,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+use thermometer in inventory on lead,True,21,46,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+examine lead,True,21,47,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+use thermometer in inventory on lead,True,21,48,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of
+examine lead,True,21,49,Your task is to change the state of matter of lead,task-1-change-the-state-of-matter-of

@@ -1,0 +1,54 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,True,19,0,Your task is to boil rubber,task-1-boil
+go to outside,True,19,1,Your task is to boil rubber,task-1-boil
+open door to kitchen,True,19,2,Your task is to boil rubber,task-1-boil
+go to kitchen,True,19,3,Your task is to boil rubber,task-1-boil
+pick up thermometer,True,19,4,Your task is to boil rubber,task-1-boil
+open cupboard,True,19,5,Your task is to boil rubber,task-1-boil
+pick up metal pot,True,19,6,Your task is to boil rubber,task-1-boil
+open drawer in counter,True,19,7,Your task is to boil rubber,task-1-boil
+open freezer,True,19,8,Your task is to boil rubber,task-1-boil
+open oven,True,19,9,Your task is to boil rubber,task-1-boil
+open drawer in cupboard,True,19,10,Your task is to boil rubber,task-1-boil
+open fridge,True,19,11,Your task is to boil rubber,task-1-boil
+open glass jar,True,19,12,Your task is to boil rubber,task-1-boil
+open door to bathroom,True,19,13,Your task is to boil rubber,task-1-boil
+go to bathroom,True,19,14,Your task is to boil rubber,task-1-boil
+open door to kitchen,True,19,15,Your task is to boil rubber,task-1-boil
+go to kitchen,True,19,16,Your task is to boil rubber,task-1-boil
+open door to outside,True,19,17,Your task is to boil rubber,task-1-boil
+go to outside,True,19,18,Your task is to boil rubber,task-1-boil
+open door to foundry,True,19,19,Your task is to boil rubber,task-1-boil
+go to foundry,True,19,20,Your task is to boil rubber,task-1-boil
+open door to outside,True,19,21,Your task is to boil rubber,task-1-boil
+go to outside,True,19,22,Your task is to boil rubber,task-1-boil
+open door to green house,True,19,23,Your task is to boil rubber,task-1-boil
+go to green house,True,19,24,Your task is to boil rubber,task-1-boil
+open door to hallway,True,19,25,Your task is to boil rubber,task-1-boil
+go to hallway,True,19,26,Your task is to boil rubber,task-1-boil
+open door to workshop,True,19,27,Your task is to boil rubber,task-1-boil
+go to workshop,True,19,28,Your task is to boil rubber,task-1-boil
+pick up rubber,True,19,29,Your task is to boil rubber,task-1-boil
+open door to hallway,True,19,30,Your task is to boil rubber,task-1-boil
+go to hallway,True,19,31,Your task is to boil rubber,task-1-boil
+open door to kitchen,True,19,32,Your task is to boil rubber,task-1-boil
+go to kitchen,True,19,33,Your task is to boil rubber,task-1-boil
+focus on rubber,True,19,34,Your task is to boil rubber,task-1-boil
+move rubber to metal pot,True,19,35,Your task is to boil rubber,task-1-boil
+pick up metal pot,True,19,36,Your task is to boil rubber,task-1-boil
+move metal pot to stove,True,19,37,Your task is to boil rubber,task-1-boil
+activate stove,True,19,38,Your task is to boil rubber,task-1-boil
+pick up metal pot,True,19,39,Your task is to boil rubber,task-1-boil
+open door to outside,True,19,40,Your task is to boil rubber,task-1-boil
+go to outside,True,19,41,Your task is to boil rubber,task-1-boil
+open door to foundry,True,19,42,Your task is to boil rubber,task-1-boil
+go to foundry,True,19,43,Your task is to boil rubber,task-1-boil
+open blast furnace,True,19,44,Your task is to boil rubber,task-1-boil
+move metal pot to blast furnace,True,19,45,Your task is to boil rubber,task-1-boil
+activate blast furnace,True,19,46,Your task is to boil rubber,task-1-boil
+examine rubber,True,19,47,Your task is to boil rubber,task-1-boil
+use thermometer in inventory on rubber,True,19,48,Your task is to boil rubber,task-1-boil
+examine rubber,True,19,49,Your task is to boil rubber,task-1-boil
+use thermometer in inventory on rubber,True,19,50,Your task is to boil rubber,task-1-boil
+examine rubber,True,19,51,Your task is to boil rubber,task-1-boil
+use thermometer in inventory on liquid rubber,True,19,52,Your task is to boil rubber,task-1-boil

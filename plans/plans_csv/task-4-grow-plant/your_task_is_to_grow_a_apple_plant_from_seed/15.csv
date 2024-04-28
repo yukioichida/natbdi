@@ -1,0 +1,25 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,15,0,Your task is to grow a apple plant from seed,task-4-grow-plant
+go to hallway,False,15,1,Your task is to grow a apple plant from seed,task-4-grow-plant
+open door to green house,True,15,2,Your task is to grow a apple plant from seed,task-4-grow-plant
+go to green house,True,15,3,Your task is to grow a apple plant from seed,task-4-grow-plant
+pick up seed jar,True,15,4,Your task is to grow a apple plant from seed,task-4-grow-plant
+move apple seed in seed jar to flower pot 2,False,15,5,Your task is to grow a apple plant from seed,task-4-grow-plant
+0,True,15,6,Your task is to grow a apple plant from seed,task-4-grow-plant
+focus on apple seed in flower pot 2,False,15,7,Your task is to grow a apple plant from seed,task-4-grow-plant
+activate sink,True,15,8,Your task is to grow a apple plant from seed,task-4-grow-plant
+move jug to sink,True,15,9,Your task is to grow a apple plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,15,10,Your task is to grow a apple plant from seed,task-4-grow-plant
+deactivate sink,True,15,11,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,12,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,13,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,14,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,15,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,16,Your task is to grow a apple plant from seed,task-4-grow-plant
+activate sink,True,15,17,Your task is to grow a apple plant from seed,task-4-grow-plant
+move jug to sink,True,15,18,Your task is to grow a apple plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,15,19,Your task is to grow a apple plant from seed,task-4-grow-plant
+deactivate sink,True,15,20,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,21,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,22,Your task is to grow a apple plant from seed,task-4-grow-plant
+wait1,True,15,23,Your task is to grow a apple plant from seed,task-4-grow-plant

@@ -1,0 +1,13 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,376,0,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to hallway,False,376,1,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,False,376,2,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,False,376,3,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+pick up thermometer,True,376,4,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,376,5,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,376,6,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,376,7,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+pick up unknown substance B,True,376,8,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+focus on unknown substance B in inventory,True,376,9,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on unknown substance B in inventory,True,376,10,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+move unknown substance B in inventory to orange box,False,376,11,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer

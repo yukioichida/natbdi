@@ -1,0 +1,15 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,420,0,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,420,1,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,420,2,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,420,3,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+pick up wood,True,420,4,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+focus on wood in inventory,True,420,5,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,True,420,6,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,420,7,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to hallway,False,420,8,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to hallway,False,420,9,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to bedroom,False,420,10,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to bedroom,False,420,11,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on wood in inventory,True,420,12,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+move wood in inventory to orange box,False,420,13,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer

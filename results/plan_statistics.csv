@@ -1,0 +1,11 @@
+plans_pct,task,num_total_plans,num_common_plans,num_specific_plans
+0,melt,180,180,0
+25,melt,184,180,4
+50,melt,187,180,7
+75,melt,190,180,10
+100,melt,193,180,13
+0,find-non-living-thing,180,180,0
+25,find-non-living-thing,188,180,8
+50,find-non-living-thing,195,180,15
+75,find-non-living-thing,203,180,23
+100,find-non-living-thing,210,180,30

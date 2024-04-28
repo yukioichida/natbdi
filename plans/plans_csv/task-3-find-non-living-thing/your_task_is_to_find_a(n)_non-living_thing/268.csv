@@ -1,0 +1,9 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,False,268,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to kitchen,False,268,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to hallway,False,268,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to hallway,False,268,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to workshop,False,268,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to workshop,False,268,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on black wire,False,268,6,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move black wire to yellow box,False,268,7,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

@@ -1,0 +1,9 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,306,0,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,306,1,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,306,2,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,306,3,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+pick up unknown substance B,True,306,4,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+focus on unknown substance B in inventory,True,306,5,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on unknown substance B in inventory,True,306,6,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+move unknown substance B in inventory to orange box,False,306,7,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer

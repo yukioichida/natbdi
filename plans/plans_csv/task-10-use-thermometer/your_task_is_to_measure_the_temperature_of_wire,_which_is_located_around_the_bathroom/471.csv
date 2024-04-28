@@ -1,0 +1,17 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,471,0,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,471,1,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+pick up thermometer,True,471,2,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,471,3,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,471,4,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,471,5,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+pick up wire,True,471,6,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+focus on wire in inventory,True,471,7,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,True,471,8,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,471,9,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+open door to hallway,False,471,10,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to hallway,False,471,11,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+open door to living room,False,471,12,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to living room,False,471,13,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on wire in inventory,True,471,14,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+move wire in inventory to blue box,False,471,15,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer

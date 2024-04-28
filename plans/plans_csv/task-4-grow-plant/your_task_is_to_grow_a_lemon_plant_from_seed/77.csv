@@ -1,0 +1,41 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,77,0,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to hallway,False,77,1,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to kitchen,False,77,2,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to kitchen,False,77,3,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to bathroom,False,77,4,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to bathroom,False,77,5,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pick up seed jar,True,77,6,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to kitchen,False,77,7,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to kitchen,False,77,8,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to hallway,False,77,9,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to hallway,False,77,10,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to green house,True,77,11,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to green house,True,77,12,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pick up shovel,False,77,13,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to outside,False,77,14,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to outside,False,77,15,Your task is to grow a lemon plant from seed,task-4-grow-plant
+use shovel in inventory on ground,False,77,16,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pick up soil,False,77,17,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to green house,True,77,18,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to green house,True,77,19,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move soil in inventory to flower pot 2,False,77,20,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move lemon seed in seed jar to flower pot 2,False,77,21,Your task is to grow a lemon plant from seed,task-4-grow-plant
+0,True,77,22,Your task is to grow a lemon plant from seed,task-4-grow-plant
+focus on lemon seed in flower pot 2,False,77,23,Your task is to grow a lemon plant from seed,task-4-grow-plant
+activate sink,True,77,24,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move jug to sink,True,77,25,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,77,26,Your task is to grow a lemon plant from seed,task-4-grow-plant
+deactivate sink,True,77,27,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,28,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,29,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,30,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,31,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,32,Your task is to grow a lemon plant from seed,task-4-grow-plant
+activate sink,True,77,33,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move jug to sink,True,77,34,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,77,35,Your task is to grow a lemon plant from seed,task-4-grow-plant
+deactivate sink,True,77,36,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,37,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,38,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,77,39,Your task is to grow a lemon plant from seed,task-4-grow-plant

@@ -1,0 +1,13 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,207,0,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+go to hallway,True,207,1,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,True,207,2,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,207,3,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+pick up thermometer,True,207,4,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,207,5,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,207,6,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,207,7,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+pick up metal fork,True,207,8,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+focus on metal fork in inventory,True,207,9,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on metal fork in inventory,True,207,10,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer
+move metal fork in inventory to red box,False,207,11,"Your task is to measure the temperature of metal fork, which is located around the bathroom",task-10-use-thermometer

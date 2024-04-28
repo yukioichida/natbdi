@@ -1,0 +1,15 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,525,0,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,525,1,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,525,2,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,525,3,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+pick up unknown substance B,True,525,4,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+focus on unknown substance B in inventory,True,525,5,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,False,525,6,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,False,525,7,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to hallway,False,525,8,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to hallway,False,525,9,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+open door to living room,False,525,10,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+go to living room,False,525,11,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on unknown substance B in inventory,True,525,12,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer
+move unknown substance B in inventory to purple box,False,525,13,"Your task is to measure the temperature of unknown substance B, which is located around the bathroom",task-10-use-thermometer

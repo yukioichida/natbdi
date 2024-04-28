@@ -1,0 +1,10 @@
+num_bdi_actions,num_rl_actions,plan_found,variation,error,bdi_score,rl_score,final_score,complete,num_plans,plan_library_size,plans_pct,eps,drrn_model_file,nli_model
+0,50,0,21,True,0,3,3,False,0,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+5,50,1,22,True,0,5,5,False,2,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+3,50,1,23,True,0,5,5,False,2,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+5,50,1,24,True,0,5,5,False,3,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+2,50,1,25,True,0,3,3,False,2,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+2,50,1,26,True,0,5,5,False,2,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+30,0,1,27,False,100,0,100,True,7,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+28,0,1,28,False,100,0,100,True,7,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli
+28,0,1,29,False,100,0,100,True,7,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,gchhablani/bert-base-cased-finetuned-mnli

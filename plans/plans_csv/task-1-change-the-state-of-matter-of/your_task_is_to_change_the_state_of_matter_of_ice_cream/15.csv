@@ -1,0 +1,20 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,15,0,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+go to hallway,True,15,1,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open door to kitchen,True,15,2,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+go to kitchen,True,15,3,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+pick up thermometer,True,15,4,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open cupboard,True,15,5,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+pick up metal pot,True,15,6,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open fridge,True,15,7,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open glass jar,False,15,8,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open drawer in counter,False,15,9,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open oven,True,15,10,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open freezer,True,15,11,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+focus on ice cream,True,15,12,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+move ice cream to metal pot,True,15,13,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+pick up metal pot,True,15,14,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,15,15,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+activate stove,True,15,16,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+pick up metal pot,True,15,17,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of
+open door to outside,False,15,18,Your task is to change the state of matter of ice cream,task-1-change-the-state-of-matter-of

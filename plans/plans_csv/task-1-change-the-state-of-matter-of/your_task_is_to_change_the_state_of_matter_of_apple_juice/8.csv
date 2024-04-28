@@ -1,0 +1,22 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,8,0,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+go to kitchen,True,8,1,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+pick up thermometer,True,8,2,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open cupboard,True,8,3,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,8,4,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open freezer,True,8,5,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open drawer in counter,True,8,6,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open drawer in cupboard,True,8,7,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open glass jar,True,8,8,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open fridge,True,8,9,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+focus on apple juice,True,8,10,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+pour cup containing apple juice into metal pot,True,8,11,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,8,12,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+open freezer,True,8,13,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+move metal pot to freezer,True,8,14,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+examine apple juice,True,8,15,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+use thermometer in inventory on apple juice,True,8,16,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+wait,True,8,17,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+examine apple juice,True,8,18,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+use thermometer in inventory on apple juice,True,8,19,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of
+wait,True,8,20,Your task is to change the state of matter of apple juice,task-1-change-the-state-of-matter-of

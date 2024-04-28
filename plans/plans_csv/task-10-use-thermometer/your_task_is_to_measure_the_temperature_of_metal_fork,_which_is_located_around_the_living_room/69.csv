@@ -1,0 +1,21 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,69,0,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to outside,False,69,1,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+open door to kitchen,True,69,2,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to kitchen,True,69,3,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+pick up thermometer,True,69,4,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+focus on thermometer in inventory,True,69,5,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,69,6,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to hallway,True,69,7,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+open door to living room,True,69,8,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to living room,True,69,9,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+pick up metal fork,True,69,10,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+focus on metal fork in inventory,True,69,11,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,69,12,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to hallway,True,69,13,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+open door to kitchen,True,69,14,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to kitchen,True,69,15,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+open door to bathroom,False,69,16,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+go to bathroom,False,69,17,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+use thermometer in inventory on metal fork in inventory,True,69,18,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer
+move metal fork in inventory to blue box,False,69,19,"Your task is to measure the temperature of metal fork, which is located around the living room",task-10-use-thermometer

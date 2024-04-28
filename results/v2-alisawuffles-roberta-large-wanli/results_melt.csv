@@ -1,0 +1,11 @@
+num_bdi_actions,num_rl_actions,plan_found,variation,error,bdi_score,rl_score,final_score,complete,num_plans,plan_library_size,plans_pct,eps,drrn_model_file,nli_model
+0,0,0,21,False,0,0,0,False,0,24,100,117,models/model_task1melt/model-steps8000-eps117.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,173,models/model_task1melt/model-steps16000-eps173.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,231,models/model_task1melt/model-steps24000-eps231.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,288,models/model_task1melt/model-steps32000-eps288.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,344,models/model_task1melt/model-steps40000-eps344.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,400,models/model_task1melt/model-steps48000-eps400.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,457,models/model_task1melt/model-steps56000-eps457.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,512,models/model_task1melt/model-steps64000-eps512.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,565,models/model_task1melt/model-steps72000-eps565.pt,alisawuffles/roberta-large-wanli
+0,0,0,21,False,0,0,0,False,0,24,100,614,models/model_task1melt/model-steps80000-eps614.pt,alisawuffles/roberta-large-wanli

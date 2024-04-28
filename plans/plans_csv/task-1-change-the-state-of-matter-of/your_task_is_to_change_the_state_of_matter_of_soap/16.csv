@@ -1,0 +1,41 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,16,0,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+go to kitchen,True,16,1,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up thermometer,True,16,2,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+open cupboard,True,16,3,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up metal pot,True,16,4,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+focus on soap in table,False,16,5,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+move soap in table to metal pot,False,16,6,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+pick up metal pot,True,16,7,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,16,8,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+activate stove,True,16,9,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,10,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,11,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,12,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,13,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,14,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,15,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,16,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,17,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,18,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,19,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,20,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,21,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,22,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,23,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,24,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,25,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,26,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,27,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,28,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,29,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,30,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,31,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,32,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,33,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,34,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,35,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,36,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,37,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+examine soap in metal pot,False,16,38,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of
+use thermometer in inventory on soap in metal pot,False,16,39,Your task is to change the state of matter of soap,task-1-change-the-state-of-matter-of

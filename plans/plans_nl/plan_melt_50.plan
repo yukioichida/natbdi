@@ -1,0 +1,64 @@
+IF your goal is to melt caesium THEN
+    move to kitchen,
+    pick up thermometer,
+    get metal pot,
+    get caesium,
+    heat caesium on blast furnace
+--
+IF your goal is to get caesium CONSIDERING you have metal pot in your inventory THEN
+    move to workshop,
+    pick up caesium,
+    focus on caesium,
+    move caesium to metal pot
+--
+IF your goal is to heat caesium on blast furnace CONSIDERING you have metal pot with caesium in your inventory THEN
+    move to foundry,
+    open blast furnace,
+    move metal pot to blast furnace,
+    activate blast furnace,
+    use thermometer on metal pot,
+    wait,
+    use thermometer on metal pot
+
+
+
+
+--
+
+
+
+
+IF your goal is to melt mercury THEN
+        move to kitchen,
+        pick up thermometer,
+        get metal pot,
+        get mercury,
+        focus on substance in metal pot,
+        refrigerate mercury,
+        heat mercury on blast furnace,
+        focus on substance in metal pot
+--
+IF your goal is to get mercury CONSIDERING you are not in workshop AND you have metal pot in your inventory THEN
+        move to workshop,
+        pour paper cup into metal pot in inventory
+
+--
+IF your goal is to refrigerate mercury CONSIDERING you have a metal pot with mercury in your inventory THEN
+        move to workshop,
+        open freezer,
+        move metal pot to freezer,
+        wait,
+        wait,
+        use thermometer on metal pot,
+        focus on substance in metal pot,
+        pick up metal pot
+--
+IF your goal is to heat mercury on blast furnace CONSIDERING you have metal pot with mercury in your inventory THEN
+        move to foundry,
+        open blast furnace,
+        move metal pot to blast furnace,
+        activate blast furnace,
+        use thermometer on metal pot,
+        focus on substance in metal pot,
+        wait,
+        use thermometer on metal pot

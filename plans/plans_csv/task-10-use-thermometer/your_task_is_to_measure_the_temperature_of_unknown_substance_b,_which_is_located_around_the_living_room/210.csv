@@ -1,0 +1,19 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,210,0,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+go to hallway,True,210,1,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+open door to kitchen,False,210,2,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+go to kitchen,False,210,3,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+pick up thermometer,True,210,4,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+focus on thermometer in inventory,True,210,5,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,210,6,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+go to hallway,True,210,7,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+open door to living room,True,210,8,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+go to living room,True,210,9,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+pick up unknown substance B,True,210,10,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+focus on unknown substance B in inventory,True,210,11,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,210,12,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+go to hallway,True,210,13,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+open door to bedroom,False,210,14,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+go to bedroom,False,210,15,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+use thermometer in inventory on unknown substance B in inventory,True,210,16,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer
+move unknown substance B in inventory to purple box,False,210,17,"Your task is to measure the temperature of unknown substance B, which is located around the living room",task-10-use-thermometer

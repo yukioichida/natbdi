@@ -1,0 +1,23 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,10,0,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+go to hallway,False,10,1,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open door to kitchen,False,10,2,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+go to kitchen,False,10,3,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+pick up thermometer,True,10,4,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open cupboard,True,10,5,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+pick up metal pot,True,10,6,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open drawer in cupboard,False,10,7,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open glass jar,False,10,8,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open fridge,True,10,9,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+focus on chocolate,True,10,10,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+move chocolate to metal pot,True,10,11,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+pick up metal pot,True,10,12,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,10,13,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+activate stove,True,10,14,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+examine chocolate,True,10,15,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+use thermometer in inventory on chocolate,False,10,16,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+examine chocolate,True,10,17,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+use thermometer in inventory on chocolate,False,10,18,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+examine chocolate,True,10,19,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+use thermometer in inventory on chocolate,False,10,20,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+examine chocolate,True,10,21,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of

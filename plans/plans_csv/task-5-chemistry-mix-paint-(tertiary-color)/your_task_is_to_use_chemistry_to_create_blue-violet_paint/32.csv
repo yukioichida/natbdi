@@ -1,0 +1,10 @@
+action,landmark,variation,order,goal,task_id
+pour cup containing red paint in art studio in bowl,False,32,0,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing blue paint in art studio in bowl,False,32,1,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix bowl,False,32,2,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on paint in bowl,False,32,3,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+wait1,True,32,4,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour bowl in bowl,False,32,5,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing blue paint in desk in bowl,False,32,6,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix bowl,False,32,7,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on blue-violet paint,True,32,8,Your task is to use chemistry to create blue-violet paint,task-5-chemistry-mix-paint-(tertiary-color)

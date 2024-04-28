@@ -1,0 +1,34 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,14,0,Your task is to freeze ice cream,task-1-freeze
+go to hallway,True,14,1,Your task is to freeze ice cream,task-1-freeze
+open door to kitchen,True,14,2,Your task is to freeze ice cream,task-1-freeze
+go to kitchen,True,14,3,Your task is to freeze ice cream,task-1-freeze
+pick up thermometer,True,14,4,Your task is to freeze ice cream,task-1-freeze
+open cupboard,True,14,5,Your task is to freeze ice cream,task-1-freeze
+pick up metal pot containing nothing,False,14,6,Your task is to freeze ice cream,task-1-freeze
+open oven,False,14,7,Your task is to freeze ice cream,task-1-freeze
+open drawer in counter,False,14,8,Your task is to freeze ice cream,task-1-freeze
+open freezer,True,14,9,Your task is to freeze ice cream,task-1-freeze
+focus on ice cream,True,14,10,Your task is to freeze ice cream,task-1-freeze
+move ice cream to metal pot containing nothing,False,14,11,Your task is to freeze ice cream,task-1-freeze
+pick up metal pot containing ice cream,False,14,12,Your task is to freeze ice cream,task-1-freeze
+move metal pot containing ice cream to stove,False,14,13,Your task is to freeze ice cream,task-1-freeze
+activate stove,True,14,14,Your task is to freeze ice cream,task-1-freeze
+examine ice cream,True,14,15,Your task is to freeze ice cream,task-1-freeze
+use thermometer in inventory on ice cream,True,14,16,Your task is to freeze ice cream,task-1-freeze
+pick up metal pot containing liquid ice cream,False,14,17,Your task is to freeze ice cream,task-1-freeze
+pick up metal pot containing liquid ice cream,False,14,18,Your task is to freeze ice cream,task-1-freeze
+open freezer,True,14,19,Your task is to freeze ice cream,task-1-freeze
+move metal pot containing liquid ice cream to freezer,False,14,20,Your task is to freeze ice cream,task-1-freeze
+examine ice cream,True,14,21,Your task is to freeze ice cream,task-1-freeze
+use thermometer in inventory on ice cream,True,14,22,Your task is to freeze ice cream,task-1-freeze
+wait,True,14,23,Your task is to freeze ice cream,task-1-freeze
+examine ice cream,True,14,24,Your task is to freeze ice cream,task-1-freeze
+use thermometer in inventory on ice cream,True,14,25,Your task is to freeze ice cream,task-1-freeze
+wait,True,14,26,Your task is to freeze ice cream,task-1-freeze
+examine ice cream,True,14,27,Your task is to freeze ice cream,task-1-freeze
+use thermometer in inventory on ice cream,True,14,28,Your task is to freeze ice cream,task-1-freeze
+wait,True,14,29,Your task is to freeze ice cream,task-1-freeze
+examine ice cream,True,14,30,Your task is to freeze ice cream,task-1-freeze
+use thermometer in inventory on ice cream,True,14,31,Your task is to freeze ice cream,task-1-freeze
+wait,True,14,32,Your task is to freeze ice cream,task-1-freeze

@@ -1,0 +1,21 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,406,0,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to outside,False,406,1,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+open door to kitchen,True,406,2,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to kitchen,True,406,3,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+pick up thermometer,True,406,4,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+focus on thermometer in inventory,True,406,5,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,406,6,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to hallway,True,406,7,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+open door to living room,True,406,8,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to living room,True,406,9,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+pick up wire,True,406,10,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+focus on wire in inventory,True,406,11,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,406,12,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to hallway,True,406,13,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+open door to kitchen,True,406,14,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to kitchen,True,406,15,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+open door to bathroom,False,406,16,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+go to bathroom,False,406,17,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+use thermometer in inventory on wire in inventory,True,406,18,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer
+move wire in inventory to green box,False,406,19,"Your task is to measure the temperature of wire, which is located around the living room",task-10-use-thermometer

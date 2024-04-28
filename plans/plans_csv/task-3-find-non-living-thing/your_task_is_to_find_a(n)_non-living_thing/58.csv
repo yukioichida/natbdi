@@ -1,0 +1,5 @@
+action,landmark,variation,order,goal,task_id
+open door to workshop,False,58,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to workshop,False,58,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on table,False,58,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move table to yellow box,False,58,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

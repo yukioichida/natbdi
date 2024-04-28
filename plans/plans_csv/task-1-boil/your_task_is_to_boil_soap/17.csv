@@ -1,0 +1,30 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,17,0,Your task is to boil soap,task-1-boil
+go to kitchen,True,17,1,Your task is to boil soap,task-1-boil
+pick up thermometer,True,17,2,Your task is to boil soap,task-1-boil
+open cupboard,True,17,3,Your task is to boil soap,task-1-boil
+pick up metal pot,True,17,4,Your task is to boil soap,task-1-boil
+focus on soap in kitchen,False,17,5,Your task is to boil soap,task-1-boil
+move soap in kitchen to metal pot,False,17,6,Your task is to boil soap,task-1-boil
+pick up metal pot,True,17,7,Your task is to boil soap,task-1-boil
+move metal pot to stove,True,17,8,Your task is to boil soap,task-1-boil
+activate stove,True,17,9,Your task is to boil soap,task-1-boil
+pick up metal pot,True,17,10,Your task is to boil soap,task-1-boil
+open door to outside,True,17,11,Your task is to boil soap,task-1-boil
+go to outside,True,17,12,Your task is to boil soap,task-1-boil
+open door to foundry,True,17,13,Your task is to boil soap,task-1-boil
+go to foundry,True,17,14,Your task is to boil soap,task-1-boil
+open blast furnace,True,17,15,Your task is to boil soap,task-1-boil
+move metal pot to blast furnace,True,17,16,Your task is to boil soap,task-1-boil
+activate blast furnace,True,17,17,Your task is to boil soap,task-1-boil
+examine soap,False,17,18,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap,False,17,19,Your task is to boil soap,task-1-boil
+examine soap,False,17,20,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap,False,17,21,Your task is to boil soap,task-1-boil
+examine liquid soap,True,17,22,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,17,23,Your task is to boil soap,task-1-boil
+examine liquid soap,True,17,24,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,17,25,Your task is to boil soap,task-1-boil
+examine liquid soap,True,17,26,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,17,27,Your task is to boil soap,task-1-boil
+examine liquid soap,True,17,28,Your task is to boil soap,task-1-boil

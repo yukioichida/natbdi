@@ -1,0 +1,25 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,87,0,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to outside,False,87,1,Your task is to grow a lemon plant from seed,task-4-grow-plant
+open door to green house,True,87,2,Your task is to grow a lemon plant from seed,task-4-grow-plant
+go to green house,True,87,3,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pick up seed jar,True,87,4,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move lemon seed in seed jar to flower pot 2,False,87,5,Your task is to grow a lemon plant from seed,task-4-grow-plant
+0,True,87,6,Your task is to grow a lemon plant from seed,task-4-grow-plant
+focus on lemon seed in flower pot 2,False,87,7,Your task is to grow a lemon plant from seed,task-4-grow-plant
+activate sink,True,87,8,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move jug to sink,True,87,9,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,87,10,Your task is to grow a lemon plant from seed,task-4-grow-plant
+deactivate sink,True,87,11,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,12,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,13,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,14,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,15,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,16,Your task is to grow a lemon plant from seed,task-4-grow-plant
+activate sink,True,87,17,Your task is to grow a lemon plant from seed,task-4-grow-plant
+move jug to sink,True,87,18,Your task is to grow a lemon plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,87,19,Your task is to grow a lemon plant from seed,task-4-grow-plant
+deactivate sink,True,87,20,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,21,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,22,Your task is to grow a lemon plant from seed,task-4-grow-plant
+wait1,True,87,23,Your task is to grow a lemon plant from seed,task-4-grow-plant

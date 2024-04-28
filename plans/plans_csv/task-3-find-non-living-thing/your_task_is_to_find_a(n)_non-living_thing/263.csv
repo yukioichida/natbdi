@@ -1,0 +1,7 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,263,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to hallway,False,263,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to bedroom,False,263,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to bedroom,False,263,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on book shelf,False,263,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move book shelf to purple box,False,263,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

@@ -1,0 +1,7 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,254,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to hallway,False,254,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to living room,False,254,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to living room,False,254,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on book (pride and prejudice),False,254,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move book (pride and prejudice) to blue box,False,254,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

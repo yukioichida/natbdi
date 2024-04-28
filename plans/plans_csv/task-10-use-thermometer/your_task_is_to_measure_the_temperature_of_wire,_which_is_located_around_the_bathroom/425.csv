@@ -1,0 +1,13 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,425,0,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to outside,False,425,1,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,True,425,2,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,425,3,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+pick up thermometer,True,425,4,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,425,5,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,425,6,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,425,7,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+pick up wire,True,425,8,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+focus on wire in inventory,True,425,9,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on wire in inventory,True,425,10,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer
+move wire in inventory to yellow box,False,425,11,"Your task is to measure the temperature of wire, which is located around the bathroom",task-10-use-thermometer

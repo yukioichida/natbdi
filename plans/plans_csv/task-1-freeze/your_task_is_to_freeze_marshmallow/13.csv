@@ -1,0 +1,44 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,13,0,Your task is to freeze marshmallow,task-1-freeze
+go to kitchen,True,13,1,Your task is to freeze marshmallow,task-1-freeze
+pick up thermometer,True,13,2,Your task is to freeze marshmallow,task-1-freeze
+open cupboard,True,13,3,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,13,4,Your task is to freeze marshmallow,task-1-freeze
+focus on marshmallow,True,13,5,Your task is to freeze marshmallow,task-1-freeze
+move marshmallow to metal pot,True,13,6,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,13,7,Your task is to freeze marshmallow,task-1-freeze
+move metal pot to stove,True,13,8,Your task is to freeze marshmallow,task-1-freeze
+activate stove,True,13,9,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,13,10,Your task is to freeze marshmallow,task-1-freeze
+open door to outside,False,13,11,Your task is to freeze marshmallow,task-1-freeze
+go to outside,False,13,12,Your task is to freeze marshmallow,task-1-freeze
+open door to foundry,False,13,13,Your task is to freeze marshmallow,task-1-freeze
+go to foundry,False,13,14,Your task is to freeze marshmallow,task-1-freeze
+open blast furnace,False,13,15,Your task is to freeze marshmallow,task-1-freeze
+move metal pot to blast furnace,False,13,16,Your task is to freeze marshmallow,task-1-freeze
+activate blast furnace,False,13,17,Your task is to freeze marshmallow,task-1-freeze
+examine marshmallow,True,13,18,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,13,19,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,13,20,Your task is to freeze marshmallow,task-1-freeze
+open door to outside,False,13,21,Your task is to freeze marshmallow,task-1-freeze
+go to outside,False,13,22,Your task is to freeze marshmallow,task-1-freeze
+open door to kitchen,True,13,23,Your task is to freeze marshmallow,task-1-freeze
+go to kitchen,True,13,24,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,13,25,Your task is to freeze marshmallow,task-1-freeze
+open freezer,True,13,26,Your task is to freeze marshmallow,task-1-freeze
+move metal pot to freezer,True,13,27,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,13,28,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,13,29,Your task is to freeze marshmallow,task-1-freeze
+wait,True,13,30,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,13,31,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,13,32,Your task is to freeze marshmallow,task-1-freeze
+wait,True,13,33,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,13,34,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,13,35,Your task is to freeze marshmallow,task-1-freeze
+wait,True,13,36,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,13,37,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,13,38,Your task is to freeze marshmallow,task-1-freeze
+wait,True,13,39,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,13,40,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,13,41,Your task is to freeze marshmallow,task-1-freeze
+wait,True,13,42,Your task is to freeze marshmallow,task-1-freeze

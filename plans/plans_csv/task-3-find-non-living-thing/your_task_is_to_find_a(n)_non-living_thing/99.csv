@@ -1,0 +1,9 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,99,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to hallway,False,99,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to kitchen,False,99,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to kitchen,False,99,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to bathroom,False,99,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to bathroom,False,99,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on finger painting,False,99,6,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move finger painting to orange box,False,99,7,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

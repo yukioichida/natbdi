@@ -1,0 +1,7 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,65,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to outside,False,65,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to kitchen,False,65,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to kitchen,False,65,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on soap,False,65,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move soap to purple box,False,65,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

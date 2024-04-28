@@ -1,0 +1,358 @@
+IF your goal is to move to art studio CONSIDERING you are in hallway THEN open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in hallway THEN open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in hallway THEN open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in hallway THEN open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in hallway THEN open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in hallway THEN open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in hallway THEN open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in hallway THEN open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in hallway THEN open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in art studio THEN open door,go to hallway
+--
+IF your goal is to move to bedroom CONSIDERING you are in art studio THEN open door,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in art studio THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in art studio THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in art studio THEN open door,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in art studio THEN open door,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in art studio THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in art studio THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in art studio THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in bedroom THEN open door,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in bedroom THEN open door,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to greenhouse CONSIDERING you are in bedroom THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in bedroom THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in bedroom THEN open door,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in bedroom THEN open door,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in bedroom THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in bedroom THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in bedroom THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to kitchen CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in greenhouse THEN open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in greenhouse THEN open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in kitchen THEN open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to living room CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in kitchen THEN open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in kitchen THEN open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in kitchen THEN open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in living room THEN open door,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in living room THEN open door,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in living room THEN open door,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in living room THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in living room THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to workshop CONSIDERING you are in living room THEN open door,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in living room THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in living room THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in living room THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in workshop THEN open door,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in workshop THEN open door,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in workshop THEN open door,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in workshop THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in workshop THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in workshop THEN open door,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to outside CONSIDERING you are in workshop THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in workshop THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in workshop THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in outside THEN open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to foundry CONSIDERING you are in outside THEN open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in outside THEN open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in foundry THEN open door,go to outside,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in foundry THEN open door,go to outside
+--
+IF your goal is to move to bathroom CONSIDERING you are in foundry THEN open door,go to outside,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in bathroom THEN open door,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry
+IF your goal is to move to art studio CONSIDERING you are in hallway THEN open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in hallway THEN open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in hallway THEN open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in hallway THEN open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in hallway THEN open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in hallway THEN open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in hallway THEN open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in hallway THEN open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in hallway THEN open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in art studio THEN open door,go to hallway
+--
+IF your goal is to move to bedroom CONSIDERING you are in art studio THEN open door,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in art studio THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in art studio THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in art studio THEN open door,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in art studio THEN open door,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in art studio THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in art studio THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in art studio THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in bedroom THEN open door,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in bedroom THEN open door,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to greenhouse CONSIDERING you are in bedroom THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in bedroom THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in bedroom THEN open door,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in bedroom THEN open door,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in bedroom THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in bedroom THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in bedroom THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to kitchen CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in greenhouse THEN open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in greenhouse THEN open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in greenhouse THEN open door to hallway,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in kitchen THEN open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to living room CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in kitchen THEN open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in kitchen THEN open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in kitchen THEN open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in kitchen THEN open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in living room THEN open door,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in living room THEN open door,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in living room THEN open door,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in living room THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in living room THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to workshop CONSIDERING you are in living room THEN open door,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in living room THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in living room THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in living room THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in workshop THEN open door,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in workshop THEN open door,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in workshop THEN open door,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in workshop THEN open door,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in workshop THEN open door,go to hallway,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in workshop THEN open door,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to outside CONSIDERING you are in workshop THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in workshop THEN open door,go to hallway,open door to greenhouse,go to greenhouse,open door to outside,go to outside,open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in workshop THEN open door,go to hallway,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in outside THEN open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in outside THEN open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to foundry CONSIDERING you are in outside THEN open door to foundry,go to foundry
+--
+IF your goal is to move to bathroom CONSIDERING you are in outside THEN open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in foundry THEN open door,go to outside,open door to kitchen,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in foundry THEN open door,go to outside,open door to greenhouse,go to greenhouse,open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in foundry THEN open door,go to outside
+--
+IF your goal is to move to bathroom CONSIDERING you are in foundry THEN open door,go to outside,open door to kitchen,go to kitchen,open door to bathroom,go to bathroom
+--
+IF your goal is to move to hallway CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway
+--
+IF your goal is to move to art studio CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open art studio door,go to art studio
+--
+IF your goal is to move to bedroom CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to bedroom,go to bedroom
+--
+IF your goal is to move to greenhouse CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to greenhouse,go to greenhouse
+--
+IF your goal is to move to kitchen CONSIDERING you are in bathroom THEN open door,go to kitchen
+--
+IF your goal is to move to living room CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to living room,go to living room
+--
+IF your goal is to move to workshop CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to hallway,go to hallway,open door to workshop,go to workshop
+--
+IF your goal is to move to outside CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside
+--
+IF your goal is to move to foundry CONSIDERING you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry

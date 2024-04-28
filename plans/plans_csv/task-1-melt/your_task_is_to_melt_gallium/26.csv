@@ -1,0 +1,44 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,True,26,0,Your task is to melt gallium,task-1-melt
+go to outside,True,26,1,Your task is to melt gallium,task-1-melt
+open door to kitchen,True,26,2,Your task is to melt gallium,task-1-melt
+go to kitchen,True,26,3,Your task is to melt gallium,task-1-melt
+pick up thermometer,True,26,4,Your task is to melt gallium,task-1-melt
+open cupboard,True,26,5,Your task is to melt gallium,task-1-melt
+pick up metal pot,True,26,6,Your task is to melt gallium,task-1-melt
+open fridge,True,26,7,Your task is to melt gallium,task-1-melt
+open glass jar,True,26,8,Your task is to melt gallium,task-1-melt
+open drawer in cupboard,True,26,9,Your task is to melt gallium,task-1-melt
+open freezer,True,26,10,Your task is to melt gallium,task-1-melt
+open drawer in counter,True,26,11,Your task is to melt gallium,task-1-melt
+open oven,True,26,12,Your task is to melt gallium,task-1-melt
+open door to bathroom,True,26,13,Your task is to melt gallium,task-1-melt
+go to bathroom,True,26,14,Your task is to melt gallium,task-1-melt
+open door to kitchen,True,26,15,Your task is to melt gallium,task-1-melt
+go to kitchen,True,26,16,Your task is to melt gallium,task-1-melt
+open door to outside,True,26,17,Your task is to melt gallium,task-1-melt
+go to outside,True,26,18,Your task is to melt gallium,task-1-melt
+open door to foundry,True,26,19,Your task is to melt gallium,task-1-melt
+go to foundry,True,26,20,Your task is to melt gallium,task-1-melt
+open door to outside,True,26,21,Your task is to melt gallium,task-1-melt
+go to outside,True,26,22,Your task is to melt gallium,task-1-melt
+open door to green house,True,26,23,Your task is to melt gallium,task-1-melt
+go to green house,True,26,24,Your task is to melt gallium,task-1-melt
+open door to hallway,True,26,25,Your task is to melt gallium,task-1-melt
+go to hallway,True,26,26,Your task is to melt gallium,task-1-melt
+open door to workshop,True,26,27,Your task is to melt gallium,task-1-melt
+go to workshop,True,26,28,Your task is to melt gallium,task-1-melt
+pick up gallium,True,26,29,Your task is to melt gallium,task-1-melt
+open door to hallway,True,26,30,Your task is to melt gallium,task-1-melt
+go to hallway,True,26,31,Your task is to melt gallium,task-1-melt
+open door to kitchen,True,26,32,Your task is to melt gallium,task-1-melt
+go to kitchen,True,26,33,Your task is to melt gallium,task-1-melt
+focus on gallium,True,26,34,Your task is to melt gallium,task-1-melt
+move gallium to metal pot,True,26,35,Your task is to melt gallium,task-1-melt
+pick up metal pot,True,26,36,Your task is to melt gallium,task-1-melt
+move metal pot to stove,True,26,37,Your task is to melt gallium,task-1-melt
+activate stove,True,26,38,Your task is to melt gallium,task-1-melt
+examine gallium,False,26,39,Your task is to melt gallium,task-1-melt
+use thermometer in inventory on gallium,False,26,40,Your task is to melt gallium,task-1-melt
+examine gallium,False,26,41,Your task is to melt gallium,task-1-melt
+use thermometer in inventory on gallium,False,26,42,Your task is to melt gallium,task-1-melt

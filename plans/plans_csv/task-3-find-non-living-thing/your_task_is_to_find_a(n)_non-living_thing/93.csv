@@ -1,0 +1,7 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,93,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to outside,False,93,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to kitchen,False,93,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to kitchen,False,93,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on glass jar,False,93,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move glass jar to orange box,False,93,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

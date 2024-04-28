@@ -1,0 +1,45 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,17,0,Your task is to freeze soap,task-1-freeze
+go to kitchen,True,17,1,Your task is to freeze soap,task-1-freeze
+pick up thermometer,True,17,2,Your task is to freeze soap,task-1-freeze
+open cupboard,True,17,3,Your task is to freeze soap,task-1-freeze
+pick up metal pot,True,17,4,Your task is to freeze soap,task-1-freeze
+focus on soap in cupboard,False,17,5,Your task is to freeze soap,task-1-freeze
+move soap in cupboard to metal pot,False,17,6,Your task is to freeze soap,task-1-freeze
+pick up metal pot,True,17,7,Your task is to freeze soap,task-1-freeze
+move metal pot to stove,True,17,8,Your task is to freeze soap,task-1-freeze
+activate stove,True,17,9,Your task is to freeze soap,task-1-freeze
+pick up metal pot,True,17,10,Your task is to freeze soap,task-1-freeze
+open door to outside,False,17,11,Your task is to freeze soap,task-1-freeze
+go to outside,False,17,12,Your task is to freeze soap,task-1-freeze
+open door to foundry,False,17,13,Your task is to freeze soap,task-1-freeze
+go to foundry,False,17,14,Your task is to freeze soap,task-1-freeze
+open blast furnace,False,17,15,Your task is to freeze soap,task-1-freeze
+move metal pot to blast furnace,False,17,16,Your task is to freeze soap,task-1-freeze
+activate blast furnace,False,17,17,Your task is to freeze soap,task-1-freeze
+examine soap,False,17,18,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on soap,False,17,19,Your task is to freeze soap,task-1-freeze
+examine soap,False,17,20,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on soap,False,17,21,Your task is to freeze soap,task-1-freeze
+examine liquid soap,True,17,22,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on liquid soap,True,17,23,Your task is to freeze soap,task-1-freeze
+pick up metal pot,True,17,24,Your task is to freeze soap,task-1-freeze
+open door to outside,False,17,25,Your task is to freeze soap,task-1-freeze
+go to outside,False,17,26,Your task is to freeze soap,task-1-freeze
+open door to kitchen,True,17,27,Your task is to freeze soap,task-1-freeze
+go to kitchen,True,17,28,Your task is to freeze soap,task-1-freeze
+pick up metal pot,True,17,29,Your task is to freeze soap,task-1-freeze
+open freezer,True,17,30,Your task is to freeze soap,task-1-freeze
+move metal pot to freezer,True,17,31,Your task is to freeze soap,task-1-freeze
+examine liquid soap,True,17,32,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on liquid soap,True,17,33,Your task is to freeze soap,task-1-freeze
+wait,True,17,34,Your task is to freeze soap,task-1-freeze
+examine liquid soap,True,17,35,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on liquid soap,True,17,36,Your task is to freeze soap,task-1-freeze
+wait,True,17,37,Your task is to freeze soap,task-1-freeze
+examine liquid soap,True,17,38,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on liquid soap,True,17,39,Your task is to freeze soap,task-1-freeze
+wait,True,17,40,Your task is to freeze soap,task-1-freeze
+examine liquid soap,True,17,41,Your task is to freeze soap,task-1-freeze
+use thermometer in inventory on liquid soap,True,17,42,Your task is to freeze soap,task-1-freeze
+wait,True,17,43,Your task is to freeze soap,task-1-freeze

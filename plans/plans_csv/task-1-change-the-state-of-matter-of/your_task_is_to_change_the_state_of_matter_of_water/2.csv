@@ -1,0 +1,31 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,2,0,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+open cupboard,True,2,1,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+pick up metal pot,True,2,2,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+move metal pot to sink,True,2,3,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+activate sink,True,2,4,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+deactivate sink,True,2,5,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+pick up metal pot,True,2,6,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+move metal pot to sink,True,2,7,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+activate sink,True,2,8,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+deactivate sink,True,2,9,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+pick up metal pot,True,2,10,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+open door to bathroom,False,2,11,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+go to bathroom,False,2,12,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+move metal pot to sink,True,2,13,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+activate sink,True,2,14,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+deactivate sink,True,2,15,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+pick up metal pot,True,2,16,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+focus on substance in metal pot,True,2,17,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+pour metal pot into metal pot,True,2,18,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+open door to kitchen,True,2,19,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+go to kitchen,True,2,20,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+pick up metal pot,True,2,21,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+open freezer,True,2,22,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+move metal pot to freezer,True,2,23,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+examine substance in metal pot,True,2,24,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+use thermometer in inventory on substance in metal pot,True,2,25,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+wait,True,2,26,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+examine substance in metal pot,True,2,27,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+use thermometer in inventory on substance in metal pot,True,2,28,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of
+wait,True,2,29,Your task is to change the state of matter of water,task-1-change-the-state-of-matter-of

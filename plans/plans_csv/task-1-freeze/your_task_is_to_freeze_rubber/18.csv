@@ -1,0 +1,91 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,18,0,Your task is to freeze rubber,task-1-freeze
+go to kitchen,True,18,1,Your task is to freeze rubber,task-1-freeze
+pick up thermometer,True,18,2,Your task is to freeze rubber,task-1-freeze
+open cupboard,True,18,3,Your task is to freeze rubber,task-1-freeze
+pick up metal pot,True,18,4,Your task is to freeze rubber,task-1-freeze
+open drawer in cupboard,True,18,5,Your task is to freeze rubber,task-1-freeze
+open oven,True,18,6,Your task is to freeze rubber,task-1-freeze
+open glass jar,True,18,7,Your task is to freeze rubber,task-1-freeze
+open freezer,True,18,8,Your task is to freeze rubber,task-1-freeze
+open fridge,True,18,9,Your task is to freeze rubber,task-1-freeze
+open drawer in counter,True,18,10,Your task is to freeze rubber,task-1-freeze
+open door to bathroom,True,18,11,Your task is to freeze rubber,task-1-freeze
+go to bathroom,True,18,12,Your task is to freeze rubber,task-1-freeze
+open door to kitchen,True,18,13,Your task is to freeze rubber,task-1-freeze
+go to kitchen,True,18,14,Your task is to freeze rubber,task-1-freeze
+open door to outside,True,18,15,Your task is to freeze rubber,task-1-freeze
+go to outside,True,18,16,Your task is to freeze rubber,task-1-freeze
+open door to foundry,True,18,17,Your task is to freeze rubber,task-1-freeze
+go to foundry,True,18,18,Your task is to freeze rubber,task-1-freeze
+open door to outside,True,18,19,Your task is to freeze rubber,task-1-freeze
+go to outside,True,18,20,Your task is to freeze rubber,task-1-freeze
+open door to green house,True,18,21,Your task is to freeze rubber,task-1-freeze
+go to green house,True,18,22,Your task is to freeze rubber,task-1-freeze
+open door to hallway,True,18,23,Your task is to freeze rubber,task-1-freeze
+go to hallway,True,18,24,Your task is to freeze rubber,task-1-freeze
+open door to workshop,True,18,25,Your task is to freeze rubber,task-1-freeze
+go to workshop,True,18,26,Your task is to freeze rubber,task-1-freeze
+pick up rubber,True,18,27,Your task is to freeze rubber,task-1-freeze
+open door to hallway,True,18,28,Your task is to freeze rubber,task-1-freeze
+go to hallway,True,18,29,Your task is to freeze rubber,task-1-freeze
+open door to kitchen,True,18,30,Your task is to freeze rubber,task-1-freeze
+go to kitchen,True,18,31,Your task is to freeze rubber,task-1-freeze
+focus on rubber,True,18,32,Your task is to freeze rubber,task-1-freeze
+move rubber to metal pot,True,18,33,Your task is to freeze rubber,task-1-freeze
+pick up metal pot,True,18,34,Your task is to freeze rubber,task-1-freeze
+move metal pot to stove,True,18,35,Your task is to freeze rubber,task-1-freeze
+activate stove,True,18,36,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,37,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,38,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,39,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,40,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,41,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,42,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,43,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,44,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,45,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,46,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,47,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,48,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,49,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,50,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,51,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,52,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,53,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,54,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,55,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,56,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,57,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,58,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,59,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,60,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,61,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,62,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,63,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,64,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,65,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,66,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,67,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,68,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,69,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,70,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,71,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,72,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,73,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,74,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,75,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,76,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,77,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,78,Your task is to freeze rubber,task-1-freeze
+examine rubber,True,18,79,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on rubber,True,18,80,Your task is to freeze rubber,task-1-freeze
+examine liquid rubber,True,18,81,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on liquid rubber,True,18,82,Your task is to freeze rubber,task-1-freeze
+pick up metal pot,True,18,83,Your task is to freeze rubber,task-1-freeze
+pick up metal pot,True,18,84,Your task is to freeze rubber,task-1-freeze
+open freezer,True,18,85,Your task is to freeze rubber,task-1-freeze
+move metal pot to freezer,True,18,86,Your task is to freeze rubber,task-1-freeze
+examine liquid rubber,True,18,87,Your task is to freeze rubber,task-1-freeze
+use thermometer in inventory on liquid rubber,True,18,88,Your task is to freeze rubber,task-1-freeze
+wait,True,18,89,Your task is to freeze rubber,task-1-freeze

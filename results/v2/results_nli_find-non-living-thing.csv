@@ -1,0 +1,1076 @@
+p,h,output,model
+"In your inventory, you see: an orange ",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in hallway,0,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in art studio,0,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in foundry,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange ",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the art studio.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a bowl (containing nothing).,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing blue paint),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing red paint),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a wood cup (containing yellow paint),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in hallway,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in hallway,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in kitchen,0,gchhablani/bert-base-cased-finetuned-mnli
+You see the agent,you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called air,you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in kitchen,0,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the hallway (that is open),you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in kitchen,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in outside,0,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in outside,0,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in foundry,1,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in bathroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in bathroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in bathroom,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in bathroom,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the outside (that is open),you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in foundry,0,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the foundry.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: nothing.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bathroom.,you are in bathroom,0,gchhablani/bert-base-cased-finetuned-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a drawing,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass cup (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in bathroom,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the kitchen (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the kitchen.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a chair. On the chair is: nothing.,you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a cupboard. The cupboard door is closed.,you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a freezer. The freezer door is closed.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fridge. The fridge door is closed.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a lighter,you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a painting,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called soap,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stopwatch, which is deactivated.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bathroom (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a thermometer, currently reading a temperature of 10 degrees celsius",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in greenhouse,0,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in outside,0,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the greenhouse.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bee hive. The bee hive door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 1 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 3 (containing a banana tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a peach tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a apple tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 8 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a jug (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a shovel,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in workshop,0,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in outside,0,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the workshop.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in living room,0,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the living room.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a couch. On the couch is: a white pillow.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a desk. On the desk is: a drawer.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in greenhouse,0,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in outside,0,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in foundry,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in foundry,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This outside location is called the outside.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see an axe,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a frog egg,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fire pit (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a fountain (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see the ground,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a turtle egg,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a baby wolf,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a substance called wood,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the foundry (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the greenhouse (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a green box (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in greenhouse,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in living room,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a picture,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a purple box (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green wire, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in hallway,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in hallway,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in art studio,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in bedroom,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in living room,0,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in workshop,0,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in foundry,0,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the hallway.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the art studio (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the bedroom (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the living room (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+A door to the workshop (that is open),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a orange box (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a giant tortoise egg,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a butterfly egg,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a peach tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a cherry tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 7 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a pea plant in the adult stage with a tall height, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in bedroom,0,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+This room is called the bedroom.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a bed. On the bed is: a mattress. On the mattress is: a white pillow..,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a closet. The closet door is closed.,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow wire.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a finger painting,you are in kitchen,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 3 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 4 (containing a cherry tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a peach tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a table. On the table is: a jug (containing nothing).,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 2 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 7 (containing a cherry tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 8 (containing a peach tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue light bulb, which is off, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow wire.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in foundry,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a red box (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off, a yellow light bulb, which is off.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in outside,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a pea plant in the adult stage with a short height, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 6 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a peach tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a blue box (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in art studio,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow wire.",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in workshop,1,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 5 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 6 (containing a banana tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 9 (containing a avocado tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 2 (containing a avocado tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a flower pot 4 (containing nothing),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a flower pot 5 (containing a avocado tree in the adult stage, soil)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in bedroom,1,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a crocodile egg,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a dove egg,you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+You see a book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen),you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in hallway,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in art studio,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in bedroom,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in greenhouse,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in living room,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in workshop,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in outside,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in foundry,2,gchhablani/bert-base-cased-finetuned-mnli
+"You see a book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)",you are in bathroom,2,gchhablani/bert-base-cased-finetuned-mnli

@@ -1,0 +1,125 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,24,0,Your task is to melt mercury,task-1-melt
+go to kitchen,True,24,1,Your task is to melt mercury,task-1-melt
+pick up thermometer,True,24,2,Your task is to melt mercury,task-1-melt
+open cupboard,True,24,3,Your task is to melt mercury,task-1-melt
+pick up metal pot,True,24,4,Your task is to melt mercury,task-1-melt
+open drawer in counter,True,24,5,Your task is to melt mercury,task-1-melt
+open oven,True,24,6,Your task is to melt mercury,task-1-melt
+open freezer,True,24,7,Your task is to melt mercury,task-1-melt
+open fridge,True,24,8,Your task is to melt mercury,task-1-melt
+open drawer in cupboard,True,24,9,Your task is to melt mercury,task-1-melt
+open glass jar,True,24,10,Your task is to melt mercury,task-1-melt
+open door to bathroom,True,24,11,Your task is to melt mercury,task-1-melt
+go to bathroom,True,24,12,Your task is to melt mercury,task-1-melt
+open door to kitchen,True,24,13,Your task is to melt mercury,task-1-melt
+go to kitchen,True,24,14,Your task is to melt mercury,task-1-melt
+open door to outside,True,24,15,Your task is to melt mercury,task-1-melt
+go to outside,True,24,16,Your task is to melt mercury,task-1-melt
+open door to foundry,True,24,17,Your task is to melt mercury,task-1-melt
+go to foundry,True,24,18,Your task is to melt mercury,task-1-melt
+open door to outside,True,24,19,Your task is to melt mercury,task-1-melt
+go to outside,True,24,20,Your task is to melt mercury,task-1-melt
+open door to green house,True,24,21,Your task is to melt mercury,task-1-melt
+go to green house,True,24,22,Your task is to melt mercury,task-1-melt
+open door to hallway,True,24,23,Your task is to melt mercury,task-1-melt
+go to hallway,True,24,24,Your task is to melt mercury,task-1-melt
+open door to workshop,True,24,25,Your task is to melt mercury,task-1-melt
+go to workshop,True,24,26,Your task is to melt mercury,task-1-melt
+pick up cup,True,24,27,Your task is to melt mercury,task-1-melt
+open door to hallway,True,24,28,Your task is to melt mercury,task-1-melt
+go to hallway,True,24,29,Your task is to melt mercury,task-1-melt
+open door to kitchen,True,24,30,Your task is to melt mercury,task-1-melt
+go to kitchen,True,24,31,Your task is to melt mercury,task-1-melt
+focus on mercury,True,24,32,Your task is to melt mercury,task-1-melt
+pour cup containing mercury into metal pot,True,24,33,Your task is to melt mercury,task-1-melt
+pick up metal pot,True,24,34,Your task is to melt mercury,task-1-melt
+open freezer,True,24,35,Your task is to melt mercury,task-1-melt
+move metal pot to freezer,True,24,36,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,37,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,38,Your task is to melt mercury,task-1-melt
+wait,True,24,39,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,40,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,41,Your task is to melt mercury,task-1-melt
+wait,True,24,42,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,43,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,44,Your task is to melt mercury,task-1-melt
+wait,True,24,45,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,46,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,47,Your task is to melt mercury,task-1-melt
+wait,True,24,48,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,49,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,50,Your task is to melt mercury,task-1-melt
+wait,True,24,51,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,52,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,53,Your task is to melt mercury,task-1-melt
+wait,True,24,54,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,55,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,56,Your task is to melt mercury,task-1-melt
+wait,True,24,57,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,58,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,59,Your task is to melt mercury,task-1-melt
+wait,True,24,60,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,61,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,62,Your task is to melt mercury,task-1-melt
+wait,True,24,63,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,64,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,65,Your task is to melt mercury,task-1-melt
+wait,True,24,66,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,67,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,68,Your task is to melt mercury,task-1-melt
+wait,True,24,69,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,70,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,71,Your task is to melt mercury,task-1-melt
+wait,True,24,72,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,73,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,74,Your task is to melt mercury,task-1-melt
+wait,True,24,75,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,76,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,77,Your task is to melt mercury,task-1-melt
+wait,True,24,78,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,79,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,80,Your task is to melt mercury,task-1-melt
+wait,True,24,81,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,82,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,83,Your task is to melt mercury,task-1-melt
+wait,True,24,84,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,85,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,86,Your task is to melt mercury,task-1-melt
+wait,True,24,87,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,88,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,89,Your task is to melt mercury,task-1-melt
+wait,True,24,90,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,91,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,92,Your task is to melt mercury,task-1-melt
+wait,True,24,93,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,94,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,95,Your task is to melt mercury,task-1-melt
+wait,True,24,96,Your task is to melt mercury,task-1-melt
+pick up metal pot,True,24,97,Your task is to melt mercury,task-1-melt
+open door to hallway,True,24,98,Your task is to melt mercury,task-1-melt
+go to hallway,True,24,99,Your task is to melt mercury,task-1-melt
+open door to workshop,True,24,100,Your task is to melt mercury,task-1-melt
+go to workshop,True,24,101,Your task is to melt mercury,task-1-melt
+open freezer,True,24,102,Your task is to melt mercury,task-1-melt
+move metal pot to freezer,True,24,103,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,104,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,105,Your task is to melt mercury,task-1-melt
+wait,True,24,106,Your task is to melt mercury,task-1-melt
+examine mercury,True,24,107,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on mercury,True,24,108,Your task is to melt mercury,task-1-melt
+wait,True,24,109,Your task is to melt mercury,task-1-melt
+examine solid mercury,True,24,110,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on solid mercury,True,24,111,Your task is to melt mercury,task-1-melt
+wait,True,24,112,Your task is to melt mercury,task-1-melt
+pick up metal pot,True,24,113,Your task is to melt mercury,task-1-melt
+pick up metal pot,True,24,114,Your task is to melt mercury,task-1-melt
+open door to hallway,True,24,115,Your task is to melt mercury,task-1-melt
+go to hallway,True,24,116,Your task is to melt mercury,task-1-melt
+open door to kitchen,True,24,117,Your task is to melt mercury,task-1-melt
+go to kitchen,True,24,118,Your task is to melt mercury,task-1-melt
+move metal pot to stove,True,24,119,Your task is to melt mercury,task-1-melt
+activate stove,True,24,120,Your task is to melt mercury,task-1-melt
+examine solid mercury,True,24,121,Your task is to melt mercury,task-1-melt
+use thermometer in inventory on solid mercury,True,24,122,Your task is to melt mercury,task-1-melt
+examine solid mercury,True,24,123,Your task is to melt mercury,task-1-melt

@@ -1,0 +1,11 @@
+action,landmark,variation,order,goal,task_id
+pour cup containing blue paint in art studio in bowl,False,10,0,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing yellow paint in art studio in bowl,False,10,1,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix bowl,False,10,2,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on green paint,True,10,3,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+wait1,True,10,4,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour bowl in bowl,False,10,5,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+open cupboard,False,10,6,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+pour cup containing yellow paint in bowl,False,10,7,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+mix bowl,False,10,8,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)
+focus on paint in bowl,False,10,9,Your task is to use chemistry to create yellow-green paint,task-5-chemistry-mix-paint-(tertiary-color)

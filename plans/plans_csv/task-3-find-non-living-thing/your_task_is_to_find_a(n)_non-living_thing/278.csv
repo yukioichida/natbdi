@@ -1,0 +1,5 @@
+action,landmark,variation,order,goal,task_id
+open door to bathroom,False,278,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to bathroom,False,278,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on painting,False,278,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move painting to blue box,False,278,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

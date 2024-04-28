@@ -1,0 +1,20 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,12,0,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+go to hallway,False,12,1,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+open door to kitchen,True,12,2,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+go to kitchen,True,12,3,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up thermometer,True,12,4,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+open cupboard,True,12,5,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up metal pot,True,12,6,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+focus on marshmallow,True,12,7,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+move marshmallow to metal pot,True,12,8,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up metal pot,True,12,9,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,12,10,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+activate stove,True,12,11,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+examine marshmallow,True,12,12,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+use thermometer in inventory on marshmallow,False,12,13,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+examine marshmallow,True,12,14,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+use thermometer in inventory on marshmallow,False,12,15,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+examine marshmallow,True,12,16,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+use thermometer in inventory on marshmallow,False,12,17,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+examine marshmallow,True,12,18,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of

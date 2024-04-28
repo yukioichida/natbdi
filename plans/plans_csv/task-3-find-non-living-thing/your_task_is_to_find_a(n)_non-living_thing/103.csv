@@ -1,0 +1,11 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,False,103,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to outside,False,103,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to green house,False,103,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to green house,False,103,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to hallway,False,103,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to hallway,False,103,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to living room,False,103,6,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to living room,False,103,7,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on picture,False,103,8,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move picture to green box,False,103,9,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

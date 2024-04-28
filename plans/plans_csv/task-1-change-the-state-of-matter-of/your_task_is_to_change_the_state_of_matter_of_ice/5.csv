@@ -1,0 +1,27 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,5,0,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+go to hallway,False,5,1,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open door to kitchen,True,5,2,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+go to kitchen,True,5,3,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+pick up thermometer,True,5,4,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open cupboard,True,5,5,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,5,6,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open fridge,True,5,7,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open drawer in cupboard,True,5,8,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open glass jar,True,5,9,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open oven,True,5,10,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open drawer in counter,True,5,11,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open freezer,True,5,12,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+focus on ice,True,5,13,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+move ice to metal pot,True,5,14,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,5,15,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,5,16,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+activate stove,True,5,17,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,5,18,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open door to outside,False,5,19,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+go to outside,False,5,20,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open door to foundry,False,5,21,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+go to foundry,False,5,22,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+open blast furnace,False,5,23,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+move metal pot to blast furnace,False,5,24,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of
+activate blast furnace,False,5,25,Your task is to change the state of matter of ice,task-1-change-the-state-of-matter-of

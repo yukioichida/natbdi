@@ -1,0 +1,20 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,7,0,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+go to kitchen,True,7,1,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+pick up thermometer,True,7,2,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+open cupboard,True,7,3,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,7,4,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+open drawer in cupboard,False,7,5,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+open oven,False,7,6,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+open fridge,True,7,7,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+focus on orange juice,True,7,8,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+pour cup containing orange juice into metal pot,True,7,9,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+pick up metal pot,True,7,10,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+open freezer,True,7,11,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+move metal pot to freezer,True,7,12,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+examine orange juice,True,7,13,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+use thermometer in inventory on orange juice,True,7,14,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+wait,True,7,15,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+examine orange juice,True,7,16,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+use thermometer in inventory on orange juice,True,7,17,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of
+wait,True,7,18,Your task is to change the state of matter of orange juice,task-1-change-the-state-of-matter-of

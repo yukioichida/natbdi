@@ -1,0 +1,23 @@
+action,landmark,variation,order,goal,task_id
+open door to green house,False,105,0,Your task is to grow a orange plant from seed,task-4-grow-plant
+go to green house,False,105,1,Your task is to grow a orange plant from seed,task-4-grow-plant
+pick up seed jar,True,105,2,Your task is to grow a orange plant from seed,task-4-grow-plant
+move orange seed in seed jar to flower pot 3,False,105,3,Your task is to grow a orange plant from seed,task-4-grow-plant
+0,True,105,4,Your task is to grow a orange plant from seed,task-4-grow-plant
+focus on orange seed in flower pot 3,False,105,5,Your task is to grow a orange plant from seed,task-4-grow-plant
+activate sink,True,105,6,Your task is to grow a orange plant from seed,task-4-grow-plant
+move jug to sink,True,105,7,Your task is to grow a orange plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,105,8,Your task is to grow a orange plant from seed,task-4-grow-plant
+deactivate sink,True,105,9,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,10,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,11,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,12,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,13,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,14,Your task is to grow a orange plant from seed,task-4-grow-plant
+activate sink,True,105,15,Your task is to grow a orange plant from seed,task-4-grow-plant
+move jug to sink,True,105,16,Your task is to grow a orange plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,105,17,Your task is to grow a orange plant from seed,task-4-grow-plant
+deactivate sink,True,105,18,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,19,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,20,Your task is to grow a orange plant from seed,task-4-grow-plant
+wait1,True,105,21,Your task is to grow a orange plant from seed,task-4-grow-plant

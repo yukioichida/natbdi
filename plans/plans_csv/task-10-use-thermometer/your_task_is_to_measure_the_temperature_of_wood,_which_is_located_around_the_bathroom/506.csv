@@ -1,0 +1,17 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,506,0,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,506,1,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+pick up thermometer,True,506,2,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,506,3,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,506,4,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,506,5,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+pick up wood,True,506,6,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+focus on wood in inventory,True,506,7,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to kitchen,True,506,8,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to kitchen,True,506,9,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to hallway,False,506,10,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to hallway,False,506,11,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+open door to bedroom,False,506,12,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+go to bedroom,False,506,13,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on wood in inventory,True,506,14,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer
+move wood in inventory to purple box,False,506,15,"Your task is to measure the temperature of wood, which is located around the bathroom",task-10-use-thermometer

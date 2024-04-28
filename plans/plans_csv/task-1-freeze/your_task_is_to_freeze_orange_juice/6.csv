@@ -1,0 +1,22 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,6,0,Your task is to freeze orange juice,task-1-freeze
+go to hallway,False,6,1,Your task is to freeze orange juice,task-1-freeze
+open door to kitchen,True,6,2,Your task is to freeze orange juice,task-1-freeze
+go to kitchen,True,6,3,Your task is to freeze orange juice,task-1-freeze
+pick up thermometer,True,6,4,Your task is to freeze orange juice,task-1-freeze
+open cupboard,True,6,5,Your task is to freeze orange juice,task-1-freeze
+pick up metal pot,True,6,6,Your task is to freeze orange juice,task-1-freeze
+open glass jar,True,6,7,Your task is to freeze orange juice,task-1-freeze
+open oven,False,6,8,Your task is to freeze orange juice,task-1-freeze
+open fridge,True,6,9,Your task is to freeze orange juice,task-1-freeze
+focus on orange juice,True,6,10,Your task is to freeze orange juice,task-1-freeze
+pour cup containing orange juice into metal pot,True,6,11,Your task is to freeze orange juice,task-1-freeze
+pick up metal pot,True,6,12,Your task is to freeze orange juice,task-1-freeze
+open freezer,True,6,13,Your task is to freeze orange juice,task-1-freeze
+move metal pot to freezer,True,6,14,Your task is to freeze orange juice,task-1-freeze
+examine orange juice,True,6,15,Your task is to freeze orange juice,task-1-freeze
+use thermometer in inventory on orange juice,True,6,16,Your task is to freeze orange juice,task-1-freeze
+wait,True,6,17,Your task is to freeze orange juice,task-1-freeze
+examine orange juice,True,6,18,Your task is to freeze orange juice,task-1-freeze
+use thermometer in inventory on orange juice,True,6,19,Your task is to freeze orange juice,task-1-freeze
+wait,True,6,20,Your task is to freeze orange juice,task-1-freeze

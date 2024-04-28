@@ -1,0 +1,38 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,3,0,Your task is to boil water,task-1-boil
+go to kitchen,True,3,1,Your task is to boil water,task-1-boil
+pick up thermometer,True,3,2,Your task is to boil water,task-1-boil
+open cupboard,True,3,3,Your task is to boil water,task-1-boil
+pick up metal pot,True,3,4,Your task is to boil water,task-1-boil
+move metal pot to sink,True,3,5,Your task is to boil water,task-1-boil
+activate sink,True,3,6,Your task is to boil water,task-1-boil
+deactivate sink,True,3,7,Your task is to boil water,task-1-boil
+pick up metal pot,True,3,8,Your task is to boil water,task-1-boil
+move metal pot to sink,True,3,9,Your task is to boil water,task-1-boil
+activate sink,True,3,10,Your task is to boil water,task-1-boil
+deactivate sink,True,3,11,Your task is to boil water,task-1-boil
+pick up metal pot,True,3,12,Your task is to boil water,task-1-boil
+open door to bathroom,False,3,13,Your task is to boil water,task-1-boil
+go to bathroom,False,3,14,Your task is to boil water,task-1-boil
+move metal pot to sink,True,3,15,Your task is to boil water,task-1-boil
+activate sink,True,3,16,Your task is to boil water,task-1-boil
+deactivate sink,True,3,17,Your task is to boil water,task-1-boil
+pick up metal pot,True,3,18,Your task is to boil water,task-1-boil
+focus on substance in metal pot,True,3,19,Your task is to boil water,task-1-boil
+pour metal pot into metal pot,True,3,20,Your task is to boil water,task-1-boil
+pick up metal pot,True,3,21,Your task is to boil water,task-1-boil
+open door to kitchen,True,3,22,Your task is to boil water,task-1-boil
+go to kitchen,True,3,23,Your task is to boil water,task-1-boil
+move metal pot to stove,True,3,24,Your task is to boil water,task-1-boil
+activate stove,True,3,25,Your task is to boil water,task-1-boil
+pick up metal pot,True,3,26,Your task is to boil water,task-1-boil
+open door to outside,False,3,27,Your task is to boil water,task-1-boil
+go to outside,False,3,28,Your task is to boil water,task-1-boil
+open door to foundry,False,3,29,Your task is to boil water,task-1-boil
+go to foundry,False,3,30,Your task is to boil water,task-1-boil
+open blast furnace,False,3,31,Your task is to boil water,task-1-boil
+move metal pot to blast furnace,False,3,32,Your task is to boil water,task-1-boil
+activate blast furnace,False,3,33,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,3,34,Your task is to boil water,task-1-boil
+use thermometer in inventory on substance in metal pot,True,3,35,Your task is to boil water,task-1-boil
+examine substance in metal pot,True,3,36,Your task is to boil water,task-1-boil

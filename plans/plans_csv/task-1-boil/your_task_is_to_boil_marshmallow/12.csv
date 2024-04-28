@@ -1,0 +1,85 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,12,0,Your task is to boil marshmallow,task-1-boil
+go to hallway,False,12,1,Your task is to boil marshmallow,task-1-boil
+open door to kitchen,True,12,2,Your task is to boil marshmallow,task-1-boil
+go to kitchen,True,12,3,Your task is to boil marshmallow,task-1-boil
+pick up thermometer,True,12,4,Your task is to boil marshmallow,task-1-boil
+open cupboard,True,12,5,Your task is to boil marshmallow,task-1-boil
+pick up metal pot,True,12,6,Your task is to boil marshmallow,task-1-boil
+focus on marshmallow,True,12,7,Your task is to boil marshmallow,task-1-boil
+move marshmallow to metal pot,True,12,8,Your task is to boil marshmallow,task-1-boil
+pick up metal pot,True,12,9,Your task is to boil marshmallow,task-1-boil
+move metal pot to stove,True,12,10,Your task is to boil marshmallow,task-1-boil
+activate stove,True,12,11,Your task is to boil marshmallow,task-1-boil
+examine marshmallow,True,12,12,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on marshmallow,False,12,13,Your task is to boil marshmallow,task-1-boil
+examine marshmallow,True,12,14,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on marshmallow,False,12,15,Your task is to boil marshmallow,task-1-boil
+examine marshmallow,True,12,16,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on marshmallow,False,12,17,Your task is to boil marshmallow,task-1-boil
+examine marshmallow,True,12,18,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,19,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,20,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,21,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,22,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,23,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,24,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,25,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,26,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,27,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,28,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,29,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,30,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,31,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,32,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,33,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,34,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,35,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,36,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,37,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,38,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,39,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,40,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,41,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,42,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,43,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,44,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,45,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,46,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,47,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,48,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,49,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,50,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,51,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,52,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,53,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,54,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,55,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,56,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,57,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,58,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,59,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,60,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,61,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,62,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,63,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,64,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,65,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,66,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,67,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,68,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,69,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,70,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,71,Your task is to boil marshmallow,task-1-boil
+pick up metal pot,True,12,72,Your task is to boil marshmallow,task-1-boil
+open door to outside,True,12,73,Your task is to boil marshmallow,task-1-boil
+go to outside,True,12,74,Your task is to boil marshmallow,task-1-boil
+open door to foundry,True,12,75,Your task is to boil marshmallow,task-1-boil
+go to foundry,True,12,76,Your task is to boil marshmallow,task-1-boil
+open blast furnace,True,12,77,Your task is to boil marshmallow,task-1-boil
+move metal pot to blast furnace,True,12,78,Your task is to boil marshmallow,task-1-boil
+activate blast furnace,True,12,79,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,80,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,81,Your task is to boil marshmallow,task-1-boil
+examine liquid marshmallow,True,12,82,Your task is to boil marshmallow,task-1-boil
+use thermometer in inventory on liquid marshmallow,True,12,83,Your task is to boil marshmallow,task-1-boil

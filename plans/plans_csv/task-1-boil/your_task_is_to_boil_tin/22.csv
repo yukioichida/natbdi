@@ -1,0 +1,163 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,22,0,Your task is to boil tin,task-1-boil
+go to hallway,True,22,1,Your task is to boil tin,task-1-boil
+open door to kitchen,True,22,2,Your task is to boil tin,task-1-boil
+go to kitchen,True,22,3,Your task is to boil tin,task-1-boil
+pick up thermometer,True,22,4,Your task is to boil tin,task-1-boil
+open cupboard,True,22,5,Your task is to boil tin,task-1-boil
+pick up metal pot,True,22,6,Your task is to boil tin,task-1-boil
+open oven,True,22,7,Your task is to boil tin,task-1-boil
+open glass jar,True,22,8,Your task is to boil tin,task-1-boil
+open fridge,True,22,9,Your task is to boil tin,task-1-boil
+open drawer in counter,True,22,10,Your task is to boil tin,task-1-boil
+open drawer in cupboard,True,22,11,Your task is to boil tin,task-1-boil
+open freezer,True,22,12,Your task is to boil tin,task-1-boil
+open door to bathroom,True,22,13,Your task is to boil tin,task-1-boil
+go to bathroom,True,22,14,Your task is to boil tin,task-1-boil
+open door to kitchen,True,22,15,Your task is to boil tin,task-1-boil
+go to kitchen,True,22,16,Your task is to boil tin,task-1-boil
+open door to outside,True,22,17,Your task is to boil tin,task-1-boil
+go to outside,True,22,18,Your task is to boil tin,task-1-boil
+open door to foundry,True,22,19,Your task is to boil tin,task-1-boil
+go to foundry,True,22,20,Your task is to boil tin,task-1-boil
+open door to outside,True,22,21,Your task is to boil tin,task-1-boil
+go to outside,True,22,22,Your task is to boil tin,task-1-boil
+open door to green house,True,22,23,Your task is to boil tin,task-1-boil
+go to green house,True,22,24,Your task is to boil tin,task-1-boil
+open door to hallway,True,22,25,Your task is to boil tin,task-1-boil
+go to hallway,True,22,26,Your task is to boil tin,task-1-boil
+open door to workshop,True,22,27,Your task is to boil tin,task-1-boil
+go to workshop,True,22,28,Your task is to boil tin,task-1-boil
+pick up substance in metal pot,False,22,29,Your task is to boil tin,task-1-boil
+open door to hallway,True,22,30,Your task is to boil tin,task-1-boil
+go to hallway,True,22,31,Your task is to boil tin,task-1-boil
+open door to kitchen,True,22,32,Your task is to boil tin,task-1-boil
+go to kitchen,True,22,33,Your task is to boil tin,task-1-boil
+focus on substance in inventory,True,22,34,Your task is to boil tin,task-1-boil
+move substance in inventory to metal pot,True,22,35,Your task is to boil tin,task-1-boil
+pick up metal pot,True,22,36,Your task is to boil tin,task-1-boil
+move metal pot to stove,True,22,37,Your task is to boil tin,task-1-boil
+activate stove,True,22,38,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,39,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,40,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,41,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,42,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,43,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,44,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,45,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,46,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,47,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,48,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,49,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,50,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,51,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,52,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,53,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,54,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,55,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,56,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,57,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,58,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,59,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,60,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,61,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,62,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,63,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,64,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,65,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,66,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,67,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,68,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,69,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,70,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,71,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,72,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,73,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,74,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,75,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,76,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,77,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,78,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,79,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,80,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,81,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,82,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,83,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,84,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,85,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,86,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,87,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,88,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,89,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,90,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,91,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,92,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,93,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,94,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,95,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,96,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,97,Your task is to boil tin,task-1-boil
+use thermometer in inventory on substance in metal pot,True,22,98,Your task is to boil tin,task-1-boil
+pick up metal pot,True,22,99,Your task is to boil tin,task-1-boil
+open door to outside,True,22,100,Your task is to boil tin,task-1-boil
+go to outside,True,22,101,Your task is to boil tin,task-1-boil
+open door to foundry,True,22,102,Your task is to boil tin,task-1-boil
+go to foundry,True,22,103,Your task is to boil tin,task-1-boil
+open blast furnace,True,22,104,Your task is to boil tin,task-1-boil
+move metal pot to blast furnace,True,22,105,Your task is to boil tin,task-1-boil
+activate blast furnace,True,22,106,Your task is to boil tin,task-1-boil
+examine substance in metal pot,True,22,107,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,108,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,109,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,110,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,111,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,112,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,113,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,114,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,115,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,116,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,117,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,118,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,119,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,120,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,121,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,122,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,123,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,124,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,125,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,126,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,127,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,128,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,129,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,130,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,131,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,132,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,133,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,134,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,135,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,136,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,137,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,138,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,139,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,140,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,141,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,142,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,143,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,144,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,145,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,146,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,147,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,148,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,149,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,150,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,151,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,152,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,153,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,154,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,155,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,156,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,157,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,158,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,159,Your task is to boil tin,task-1-boil
+use thermometer in inventory on liquid tin,True,22,160,Your task is to boil tin,task-1-boil
+examine liquid tin,True,22,161,Your task is to boil tin,task-1-boil

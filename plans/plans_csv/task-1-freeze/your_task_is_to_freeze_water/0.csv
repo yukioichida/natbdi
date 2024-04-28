@@ -1,0 +1,21 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,0,0,Your task is to freeze water,task-1-freeze
+go to kitchen,True,0,1,Your task is to freeze water,task-1-freeze
+pick up thermometer,True,0,2,Your task is to freeze water,task-1-freeze
+open cupboard,True,0,3,Your task is to freeze water,task-1-freeze
+pick up metal pot,True,0,4,Your task is to freeze water,task-1-freeze
+move metal pot to sink,True,0,5,Your task is to freeze water,task-1-freeze
+activate sink,True,0,6,Your task is to freeze water,task-1-freeze
+deactivate sink,True,0,7,Your task is to freeze water,task-1-freeze
+pick up metal pot,True,0,8,Your task is to freeze water,task-1-freeze
+focus on substance in metal pot,True,0,9,Your task is to freeze water,task-1-freeze
+pour metal pot into metal pot,True,0,10,Your task is to freeze water,task-1-freeze
+pick up metal pot,True,0,11,Your task is to freeze water,task-1-freeze
+open freezer,True,0,12,Your task is to freeze water,task-1-freeze
+move metal pot to freezer,True,0,13,Your task is to freeze water,task-1-freeze
+examine substance in metal pot,True,0,14,Your task is to freeze water,task-1-freeze
+use thermometer in inventory on substance in metal pot,True,0,15,Your task is to freeze water,task-1-freeze
+wait,True,0,16,Your task is to freeze water,task-1-freeze
+examine substance in metal pot,True,0,17,Your task is to freeze water,task-1-freeze
+use thermometer in inventory on substance in metal pot,True,0,18,Your task is to freeze water,task-1-freeze
+wait,True,0,19,Your task is to freeze water,task-1-freeze

@@ -1,0 +1,9 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,82,0,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+focus on thermometer in inventory,True,82,1,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+open door to bathroom,True,82,2,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+go to bathroom,True,82,3,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+pick up sodium chloride,True,82,4,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+focus on sodium chloride in inventory,True,82,5,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+use thermometer in inventory on sodium chloride in inventory,True,82,6,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer
+move sodium chloride in inventory to blue box,False,82,7,"Your task is to measure the temperature of sodium chloride, which is located around the bathroom",task-10-use-thermometer

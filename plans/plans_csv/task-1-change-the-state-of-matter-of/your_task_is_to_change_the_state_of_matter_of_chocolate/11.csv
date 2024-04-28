@@ -1,0 +1,19 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,11,0,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open cupboard,True,11,1,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+pick up metal pot,True,11,2,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open fridge,True,11,3,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+focus on chocolate,True,11,4,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+move chocolate to metal pot,True,11,5,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+pick up metal pot,True,11,6,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,11,7,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+activate stove,True,11,8,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+pick up metal pot,True,11,9,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open door to outside,False,11,10,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+go to outside,False,11,11,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open door to foundry,False,11,12,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+go to foundry,False,11,13,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+open blast furnace,False,11,14,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+move metal pot to blast furnace,False,11,15,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+activate blast furnace,False,11,16,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of
+examine chocolate,True,11,17,Your task is to change the state of matter of chocolate,task-1-change-the-state-of-matter-of

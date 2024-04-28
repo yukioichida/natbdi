@@ -1,0 +1,692 @@
+p,h,output,model
+"In your inventory, you see: an orange ",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in hallway,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in hallway,0,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in bedroom,0,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in living room,0,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange ",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the living room.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a couch. On the couch is: a white pillow.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a desk. On the desk is: a drawer.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are not in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a cupboard. The cupboard door is closed.,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are not in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are not in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are not in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are not in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are not in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in bedroom,0,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the bathroom.,you are in bathroom,0,MoritzLaurer/MiniLM-L6-mnli
+"You see a bathtub, which is turned off. In the bathtub is: nothing.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a drawing,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass cup (containing nothing),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a toilet. In the toilet is: A drain, which is open, a substance called water.",you are in bathroom,0,MoritzLaurer/MiniLM-L6-mnli
+A door to the kitchen (that is open),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ", you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen., you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent, you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air, you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing., you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.", you see a cupboard,0,MoritzLaurer/MiniLM-L6-mnli
+You see a cupboard. The cupboard door is closed., you see a cupboard,0,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed., you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed., you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride), you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter, you see a cupboard,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.", you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting, you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.", you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap, you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.", you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.", you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing)., you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open), you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open), you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open), you see a cupboard,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in the kitchen ,0,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a cupboard. The cupboard door is closed.,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in the kitchen ,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in the kitchen ,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ", you have metal pot in your inventory,0,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen., you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see the agent, you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air, you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing., you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.", you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).", you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed., you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed., you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride), you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter, you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.", you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a painting, you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.", you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap, you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.", you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.", you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing)., you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open), you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open), you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open), you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are not in workshop ,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are not in workshop ,1,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are not in workshop ,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are not in workshop ,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are not in workshop ,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are not in workshop ,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in greenhouse,0,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in outside,1,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in outside,0,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in foundry,1,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the greenhouse.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a bee hive. The bee hive door is closed.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a jug (containing nothing),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a shovel,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in foundry,0,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in foundry,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the foundry.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a blast furnace, which is turned off. The blast furnace door is closed.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: nothing.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in art studio,0,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the art studio.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a large cupboard. The large cupboard door is closed.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing blue paint),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing red paint),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a wood cup (containing yellow paint),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you have metal pot in your inventory,0,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you have metal pot in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you have metal pot in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in hallway,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in bedroom,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in bedroom,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in greenhouse,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in kitchen,0,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a chair. On the chair is: nothing.,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in kitchen,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a painting,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a sink, which is turned off. In the sink is: nothing.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a table. On the table is: a glass cup (containing nothing).,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the outside (that is open),you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in living room,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in outside,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in foundry,1,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in foundry,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing nothing) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the kitchen.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a cupboard. The cupboard door is open. In the cupboard is: a ceramic cup (containing nothing), a drawer, a tin cup (containing nothing).",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a freezer. The freezer door is closed.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fridge. The fridge door is closed.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a glass jar (containing a substance called sodium chloride),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a lighter,you are in bathroom,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a oven, which is turned off. The oven door is closed.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called soap,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stopwatch, which is deactivated.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a stove, which is turned off. On the stove is: nothing.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the bathroom (that is open),you are in bathroom,0,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you have metal pot with gallium in your inventory,0,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you have metal pot with gallium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you have metal pot with gallium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you have metal pot with gallium in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you have metal pot with gallium in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you have metal pot with gallium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you have metal pot with gallium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in bedroom,1,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in bedroom,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in greenhouse,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in kitchen,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in living room,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in workshop,0,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in outside,1,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ","you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,"you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,"you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,"you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.","you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,"you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),"you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called gallium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange wire, a plastic cup (containing nothing), a switch, which is off, a yellow light bulb, which is off.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in greenhouse,0,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in workshop,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in outside,0,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in foundry,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in foundry,0,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in foundry,2,MoritzLaurer/MiniLM-L6-mnli
+This outside location is called the outside.,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see an axe,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fire pit (containing nothing),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a fountain (containing nothing),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see the ground,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called wood,you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the foundry (that is open),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+A door to the greenhouse (that is open),you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you have metal pot with caesium in your inventory,0,MoritzLaurer/MiniLM-L6-mnli
+This room is called the workshop.,you have metal pot with caesium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see the agent,you have metal pot with caesium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+You see a substance called air,you have metal pot with caesium in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you have metal pot with caesium in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+You see a ultra low temperature freezer. The ultra low temperature freezer door is closed.,you have metal pot with caesium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+A door to the hallway (that is open),you have metal pot with caesium in your inventory,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in art studio,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in outside,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in outside,1,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ","you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.","you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+"In your inventory, you see: a metal pot (containing a substance called caesium) an orange a thermometer, currently reading a temperature of 10 degrees celsius ",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a blue wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a plastic cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you have metal pot with caesium in your inventory,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in hallway,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in art studio,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in bedroom,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in greenhouse,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in kitchen,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in living room,2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in workshop,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in outside,1,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.","you are in bathroom THEN open door,go to kitchen,open door to outside,go to outside,open door to foundry,go to foundry IF your goal is to move to art studio CONSIDERING you are in hallway",2,MoritzLaurer/MiniLM-L6-mnli
+"You see a table. On the table is: a battery, a black wire, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a paper cup (containing nothing), a red light bulb, which is off, a switch, which is off.",you are in bathroom,2,MoritzLaurer/MiniLM-L6-mnli

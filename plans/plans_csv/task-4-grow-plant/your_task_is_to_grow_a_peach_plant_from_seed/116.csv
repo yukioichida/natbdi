@@ -1,0 +1,33 @@
+action,landmark,variation,order,goal,task_id
+pick up seed jar,True,116,0,Your task is to grow a peach plant from seed,task-4-grow-plant
+open door to hallway,False,116,1,Your task is to grow a peach plant from seed,task-4-grow-plant
+go to hallway,False,116,2,Your task is to grow a peach plant from seed,task-4-grow-plant
+open door to green house,False,116,3,Your task is to grow a peach plant from seed,task-4-grow-plant
+go to green house,False,116,4,Your task is to grow a peach plant from seed,task-4-grow-plant
+open door to outside,False,116,5,Your task is to grow a peach plant from seed,task-4-grow-plant
+go to outside,False,116,6,Your task is to grow a peach plant from seed,task-4-grow-plant
+pick up shovel,False,116,7,Your task is to grow a peach plant from seed,task-4-grow-plant
+use shovel in inventory on ground,False,116,8,Your task is to grow a peach plant from seed,task-4-grow-plant
+pick up soil,False,116,9,Your task is to grow a peach plant from seed,task-4-grow-plant
+open door to green house,False,116,10,Your task is to grow a peach plant from seed,task-4-grow-plant
+go to green house,False,116,11,Your task is to grow a peach plant from seed,task-4-grow-plant
+move soil in inventory to flower pot 3,False,116,12,Your task is to grow a peach plant from seed,task-4-grow-plant
+move peach seed in seed jar to flower pot 3,False,116,13,Your task is to grow a peach plant from seed,task-4-grow-plant
+0,True,116,14,Your task is to grow a peach plant from seed,task-4-grow-plant
+focus on peach seed in flower pot 3,False,116,15,Your task is to grow a peach plant from seed,task-4-grow-plant
+activate sink,True,116,16,Your task is to grow a peach plant from seed,task-4-grow-plant
+move jug to sink,True,116,17,Your task is to grow a peach plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,116,18,Your task is to grow a peach plant from seed,task-4-grow-plant
+deactivate sink,True,116,19,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,20,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,21,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,22,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,23,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,24,Your task is to grow a peach plant from seed,task-4-grow-plant
+activate sink,True,116,25,Your task is to grow a peach plant from seed,task-4-grow-plant
+move jug to sink,True,116,26,Your task is to grow a peach plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,116,27,Your task is to grow a peach plant from seed,task-4-grow-plant
+deactivate sink,True,116,28,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,29,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,30,Your task is to grow a peach plant from seed,task-4-grow-plant
+wait1,True,116,31,Your task is to grow a peach plant from seed,task-4-grow-plant

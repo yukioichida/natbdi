@@ -1,0 +1,87 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,16,0,Your task is to boil soap,task-1-boil
+go to kitchen,True,16,1,Your task is to boil soap,task-1-boil
+pick up thermometer,True,16,2,Your task is to boil soap,task-1-boil
+open cupboard,True,16,3,Your task is to boil soap,task-1-boil
+pick up metal pot,True,16,4,Your task is to boil soap,task-1-boil
+focus on soap in table,False,16,5,Your task is to boil soap,task-1-boil
+move soap in table to metal pot,False,16,6,Your task is to boil soap,task-1-boil
+pick up metal pot,True,16,7,Your task is to boil soap,task-1-boil
+move metal pot to stove,True,16,8,Your task is to boil soap,task-1-boil
+activate stove,True,16,9,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,10,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,11,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,12,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,13,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,14,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,15,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,16,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,17,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,18,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,19,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,20,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,21,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,22,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,23,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,24,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,25,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,26,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,27,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,28,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,29,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,30,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,31,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,32,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,33,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,34,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,35,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,36,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,37,Your task is to boil soap,task-1-boil
+examine soap in metal pot,False,16,38,Your task is to boil soap,task-1-boil
+use thermometer in inventory on soap in metal pot,False,16,39,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,40,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,41,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,42,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,43,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,44,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,45,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,46,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,47,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,48,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,49,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,50,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,51,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,52,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,53,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,54,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,55,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,56,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,57,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,58,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,59,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,60,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,61,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,62,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,63,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,64,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,65,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,66,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,67,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,68,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,69,Your task is to boil soap,task-1-boil
+pick up metal pot,True,16,70,Your task is to boil soap,task-1-boil
+open door to outside,True,16,71,Your task is to boil soap,task-1-boil
+go to outside,True,16,72,Your task is to boil soap,task-1-boil
+open door to foundry,True,16,73,Your task is to boil soap,task-1-boil
+go to foundry,True,16,74,Your task is to boil soap,task-1-boil
+open blast furnace,True,16,75,Your task is to boil soap,task-1-boil
+move metal pot to blast furnace,True,16,76,Your task is to boil soap,task-1-boil
+activate blast furnace,True,16,77,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,78,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,79,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,80,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,81,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,82,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,83,Your task is to boil soap,task-1-boil
+examine liquid soap,True,16,84,Your task is to boil soap,task-1-boil
+use thermometer in inventory on liquid soap,True,16,85,Your task is to boil soap,task-1-boil

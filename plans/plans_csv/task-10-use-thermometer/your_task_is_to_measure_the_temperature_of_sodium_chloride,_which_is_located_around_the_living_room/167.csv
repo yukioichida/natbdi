@@ -1,0 +1,19 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,False,167,0,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+go to kitchen,False,167,1,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+pick up thermometer,True,167,2,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+focus on thermometer in inventory,True,167,3,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,167,4,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+go to hallway,True,167,5,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+open door to living room,True,167,6,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+go to living room,True,167,7,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+pick up sodium chloride,True,167,8,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+focus on sodium chloride in inventory,True,167,9,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+open door to hallway,True,167,10,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+go to hallway,True,167,11,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+open door to kitchen,False,167,12,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+go to kitchen,False,167,13,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+open door to bathroom,False,167,14,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+go to bathroom,False,167,15,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+use thermometer in inventory on sodium chloride in inventory,True,167,16,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer
+move sodium chloride in inventory to green box,False,167,17,"Your task is to measure the temperature of sodium chloride, which is located around the living room",task-10-use-thermometer

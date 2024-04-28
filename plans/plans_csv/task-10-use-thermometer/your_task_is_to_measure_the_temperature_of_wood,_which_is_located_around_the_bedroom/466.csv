@@ -1,0 +1,11 @@
+action,landmark,variation,order,goal,task_id
+pick up thermometer,True,466,0,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+focus on thermometer in inventory,True,466,1,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to hallway,True,466,2,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to hallway,True,466,3,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+open door to bedroom,True,466,4,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+go to bedroom,True,466,5,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+pick up wood,True,466,6,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+focus on wood in inventory,True,466,7,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+use thermometer in inventory on wood in inventory,True,466,8,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer
+move wood in inventory to blue box,False,466,9,"Your task is to measure the temperature of wood, which is located around the bedroom",task-10-use-thermometer

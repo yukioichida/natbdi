@@ -1,0 +1,39 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,14,0,Your task is to boil ice cream,task-1-boil
+go to hallway,True,14,1,Your task is to boil ice cream,task-1-boil
+open door to kitchen,True,14,2,Your task is to boil ice cream,task-1-boil
+go to kitchen,True,14,3,Your task is to boil ice cream,task-1-boil
+pick up thermometer,True,14,4,Your task is to boil ice cream,task-1-boil
+open cupboard,True,14,5,Your task is to boil ice cream,task-1-boil
+pick up metal pot,True,14,6,Your task is to boil ice cream,task-1-boil
+open drawer in cupboard,False,14,7,Your task is to boil ice cream,task-1-boil
+open glass jar,False,14,8,Your task is to boil ice cream,task-1-boil
+open freezer,True,14,9,Your task is to boil ice cream,task-1-boil
+focus on ice cream,True,14,10,Your task is to boil ice cream,task-1-boil
+move ice cream to metal pot,True,14,11,Your task is to boil ice cream,task-1-boil
+pick up metal pot,True,14,12,Your task is to boil ice cream,task-1-boil
+move metal pot to stove,True,14,13,Your task is to boil ice cream,task-1-boil
+activate stove,True,14,14,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,15,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,16,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,17,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,18,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,19,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,20,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,21,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,22,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,23,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,24,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,25,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,26,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,27,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,28,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,29,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,30,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,31,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,32,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,33,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,34,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,35,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,14,36,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,14,37,Your task is to boil ice cream,task-1-boil

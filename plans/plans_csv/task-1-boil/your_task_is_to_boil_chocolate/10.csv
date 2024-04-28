@@ -1,0 +1,39 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,10,0,Your task is to boil chocolate,task-1-boil
+go to hallway,False,10,1,Your task is to boil chocolate,task-1-boil
+open door to kitchen,False,10,2,Your task is to boil chocolate,task-1-boil
+go to kitchen,False,10,3,Your task is to boil chocolate,task-1-boil
+pick up thermometer,True,10,4,Your task is to boil chocolate,task-1-boil
+open cupboard,True,10,5,Your task is to boil chocolate,task-1-boil
+pick up metal pot,True,10,6,Your task is to boil chocolate,task-1-boil
+open freezer,True,10,7,Your task is to boil chocolate,task-1-boil
+open drawer in cupboard,True,10,8,Your task is to boil chocolate,task-1-boil
+open drawer in counter,True,10,9,Your task is to boil chocolate,task-1-boil
+open glass jar,False,10,10,Your task is to boil chocolate,task-1-boil
+open oven,False,10,11,Your task is to boil chocolate,task-1-boil
+open fridge,True,10,12,Your task is to boil chocolate,task-1-boil
+focus on chocolate,True,10,13,Your task is to boil chocolate,task-1-boil
+move chocolate to metal pot,True,10,14,Your task is to boil chocolate,task-1-boil
+pick up metal pot,True,10,15,Your task is to boil chocolate,task-1-boil
+move metal pot to stove,True,10,16,Your task is to boil chocolate,task-1-boil
+activate stove,True,10,17,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,18,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,19,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,20,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,21,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,22,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,23,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,24,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,25,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,26,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,27,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,28,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,29,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,30,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,31,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,32,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,33,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,34,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,35,Your task is to boil chocolate,task-1-boil
+examine chocolate,True,10,36,Your task is to boil chocolate,task-1-boil
+use thermometer in inventory on chocolate,True,10,37,Your task is to boil chocolate,task-1-boil

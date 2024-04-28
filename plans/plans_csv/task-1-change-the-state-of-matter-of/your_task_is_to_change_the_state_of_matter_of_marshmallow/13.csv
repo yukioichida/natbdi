@@ -1,0 +1,20 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,13,0,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+go to kitchen,True,13,1,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up thermometer,True,13,2,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+open cupboard,True,13,3,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up metal pot,True,13,4,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+focus on marshmallow,True,13,5,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+move marshmallow to metal pot,True,13,6,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up metal pot,True,13,7,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+move metal pot to stove,True,13,8,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+activate stove,True,13,9,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+pick up metal pot,True,13,10,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+open door to outside,False,13,11,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+go to outside,False,13,12,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+open door to foundry,False,13,13,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+go to foundry,False,13,14,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+open blast furnace,False,13,15,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+move metal pot to blast furnace,False,13,16,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+activate blast furnace,False,13,17,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of
+examine marshmallow,True,13,18,Your task is to change the state of matter of marshmallow,task-1-change-the-state-of-matter-of

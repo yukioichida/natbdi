@@ -1,0 +1,9 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,False,83,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to kitchen,False,83,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to hallway,False,83,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to hallway,False,83,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+open door to bedroom,False,83,4,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to bedroom,False,83,5,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on cloth sittable,False,83,6,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move cloth sittable to purple box,False,83,7,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

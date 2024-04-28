@@ -1,0 +1,37 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,True,6,0,Your task is to boil orange juice,task-1-boil
+go to outside,True,6,1,Your task is to boil orange juice,task-1-boil
+open door to kitchen,True,6,2,Your task is to boil orange juice,task-1-boil
+go to kitchen,True,6,3,Your task is to boil orange juice,task-1-boil
+pick up thermometer,True,6,4,Your task is to boil orange juice,task-1-boil
+open cupboard,True,6,5,Your task is to boil orange juice,task-1-boil
+pick up metal pot,True,6,6,Your task is to boil orange juice,task-1-boil
+open drawer in counter,False,6,7,Your task is to boil orange juice,task-1-boil
+open oven,True,6,8,Your task is to boil orange juice,task-1-boil
+open freezer,True,6,9,Your task is to boil orange juice,task-1-boil
+open fridge,True,6,10,Your task is to boil orange juice,task-1-boil
+focus on orange juice,True,6,11,Your task is to boil orange juice,task-1-boil
+pour cup containing orange juice into metal pot,True,6,12,Your task is to boil orange juice,task-1-boil
+pick up metal pot,True,6,13,Your task is to boil orange juice,task-1-boil
+move metal pot to stove,True,6,14,Your task is to boil orange juice,task-1-boil
+activate stove,True,6,15,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,16,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,17,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,18,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,19,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,20,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,21,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,22,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,23,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,24,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,25,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,26,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,27,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,28,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,29,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,30,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,31,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,32,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,33,Your task is to boil orange juice,task-1-boil
+examine orange juice,True,6,34,Your task is to boil orange juice,task-1-boil
+use thermometer in inventory on orange juice,True,6,35,Your task is to boil orange juice,task-1-boil

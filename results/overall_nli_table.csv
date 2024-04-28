@@ -1,0 +1,5 @@
+Model,Pairs (E),Pairs (NE),LO,mean_h,mean_p
+MoritzLaurer/MiniLM-L6-mnli,23,667,8.91,4.83,10.96
+gchhablani/bert-base-cased-finetuned-mnli,25,665,9.28,4.80,11.12
+roberta-large-mnli,33,768,9.52,5.36,11.52
+ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli,43,758,9.02,5.16,10.79

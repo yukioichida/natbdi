@@ -1,0 +1,25 @@
+action,landmark,variation,order,goal,task_id
+pick up seed jar,True,42,0,Your task is to grow a banana plant from seed,task-4-grow-plant
+open door to hallway,False,42,1,Your task is to grow a banana plant from seed,task-4-grow-plant
+go to hallway,False,42,2,Your task is to grow a banana plant from seed,task-4-grow-plant
+open door to green house,True,42,3,Your task is to grow a banana plant from seed,task-4-grow-plant
+go to green house,True,42,4,Your task is to grow a banana plant from seed,task-4-grow-plant
+move banana seed in seed jar to flower pot 3,False,42,5,Your task is to grow a banana plant from seed,task-4-grow-plant
+0,True,42,6,Your task is to grow a banana plant from seed,task-4-grow-plant
+focus on banana seed in flower pot 3,False,42,7,Your task is to grow a banana plant from seed,task-4-grow-plant
+activate sink,True,42,8,Your task is to grow a banana plant from seed,task-4-grow-plant
+move jug to sink,True,42,9,Your task is to grow a banana plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,42,10,Your task is to grow a banana plant from seed,task-4-grow-plant
+deactivate sink,True,42,11,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,12,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,13,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,14,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,15,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,16,Your task is to grow a banana plant from seed,task-4-grow-plant
+activate sink,True,42,17,Your task is to grow a banana plant from seed,task-4-grow-plant
+move jug to sink,True,42,18,Your task is to grow a banana plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,42,19,Your task is to grow a banana plant from seed,task-4-grow-plant
+deactivate sink,True,42,20,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,21,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,22,Your task is to grow a banana plant from seed,task-4-grow-plant
+wait1,True,42,23,Your task is to grow a banana plant from seed,task-4-grow-plant

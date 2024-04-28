@@ -1,0 +1,3 @@
+action,landmark,variation,order,goal,task_id
+focus on table,False,84,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move table to red box,False,84,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

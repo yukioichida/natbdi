@@ -1,0 +1,25 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,15,0,Your task is to boil ice cream,task-1-boil
+go to hallway,True,15,1,Your task is to boil ice cream,task-1-boil
+open door to kitchen,True,15,2,Your task is to boil ice cream,task-1-boil
+go to kitchen,True,15,3,Your task is to boil ice cream,task-1-boil
+pick up thermometer,True,15,4,Your task is to boil ice cream,task-1-boil
+open cupboard,True,15,5,Your task is to boil ice cream,task-1-boil
+pick up metal pot,True,15,6,Your task is to boil ice cream,task-1-boil
+open freezer,True,15,7,Your task is to boil ice cream,task-1-boil
+focus on ice cream,True,15,8,Your task is to boil ice cream,task-1-boil
+move ice cream to metal pot,True,15,9,Your task is to boil ice cream,task-1-boil
+pick up metal pot,True,15,10,Your task is to boil ice cream,task-1-boil
+move metal pot to stove,True,15,11,Your task is to boil ice cream,task-1-boil
+activate stove,True,15,12,Your task is to boil ice cream,task-1-boil
+pick up metal pot,True,15,13,Your task is to boil ice cream,task-1-boil
+open door to outside,False,15,14,Your task is to boil ice cream,task-1-boil
+go to outside,False,15,15,Your task is to boil ice cream,task-1-boil
+open door to foundry,False,15,16,Your task is to boil ice cream,task-1-boil
+go to foundry,False,15,17,Your task is to boil ice cream,task-1-boil
+open blast furnace,False,15,18,Your task is to boil ice cream,task-1-boil
+move metal pot to blast furnace,False,15,19,Your task is to boil ice cream,task-1-boil
+activate blast furnace,False,15,20,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,15,21,Your task is to boil ice cream,task-1-boil
+use thermometer in inventory on ice cream,True,15,22,Your task is to boil ice cream,task-1-boil
+examine ice cream,True,15,23,Your task is to boil ice cream,task-1-boil

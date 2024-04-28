@@ -1,0 +1,27 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,False,18,0,Your task is to grow a avocado plant from seed,task-4-grow-plant
+go to kitchen,False,18,1,Your task is to grow a avocado plant from seed,task-4-grow-plant
+pick up seed jar,True,18,2,Your task is to grow a avocado plant from seed,task-4-grow-plant
+open door to hallway,False,18,3,Your task is to grow a avocado plant from seed,task-4-grow-plant
+go to hallway,False,18,4,Your task is to grow a avocado plant from seed,task-4-grow-plant
+open door to green house,True,18,5,Your task is to grow a avocado plant from seed,task-4-grow-plant
+go to green house,True,18,6,Your task is to grow a avocado plant from seed,task-4-grow-plant
+move avocado seed in seed jar to flower pot 3,False,18,7,Your task is to grow a avocado plant from seed,task-4-grow-plant
+0,True,18,8,Your task is to grow a avocado plant from seed,task-4-grow-plant
+focus on avocado seed in flower pot 3,False,18,9,Your task is to grow a avocado plant from seed,task-4-grow-plant
+activate sink,True,18,10,Your task is to grow a avocado plant from seed,task-4-grow-plant
+move jug to sink,True,18,11,Your task is to grow a avocado plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,18,12,Your task is to grow a avocado plant from seed,task-4-grow-plant
+deactivate sink,True,18,13,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,14,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,15,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,16,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,17,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,18,Your task is to grow a avocado plant from seed,task-4-grow-plant
+activate sink,True,18,19,Your task is to grow a avocado plant from seed,task-4-grow-plant
+move jug to sink,True,18,20,Your task is to grow a avocado plant from seed,task-4-grow-plant
+pour jug into flower pot 3,False,18,21,Your task is to grow a avocado plant from seed,task-4-grow-plant
+deactivate sink,True,18,22,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,23,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,24,Your task is to grow a avocado plant from seed,task-4-grow-plant
+wait1,True,18,25,Your task is to grow a avocado plant from seed,task-4-grow-plant

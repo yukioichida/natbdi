@@ -1,0 +1,36 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,4,0,Your task is to boil ice,task-1-boil
+go to kitchen,True,4,1,Your task is to boil ice,task-1-boil
+pick up thermometer,True,4,2,Your task is to boil ice,task-1-boil
+open cupboard,True,4,3,Your task is to boil ice,task-1-boil
+pick up metal pot,True,4,4,Your task is to boil ice,task-1-boil
+open glass jar,False,4,5,Your task is to boil ice,task-1-boil
+open drawer in counter,False,4,6,Your task is to boil ice,task-1-boil
+open freezer,True,4,7,Your task is to boil ice,task-1-boil
+focus on ice,True,4,8,Your task is to boil ice,task-1-boil
+move ice to metal pot,True,4,9,Your task is to boil ice,task-1-boil
+pick up metal pot,True,4,10,Your task is to boil ice,task-1-boil
+move metal pot to stove,True,4,11,Your task is to boil ice,task-1-boil
+activate stove,True,4,12,Your task is to boil ice,task-1-boil
+examine ice,False,4,13,Your task is to boil ice,task-1-boil
+use thermometer in inventory on ice,False,4,14,Your task is to boil ice,task-1-boil
+examine ice,False,4,15,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,16,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,17,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,18,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,19,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,20,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,21,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,22,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,23,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,24,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,25,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,26,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,27,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,28,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,29,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,30,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,31,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,32,Your task is to boil ice,task-1-boil
+examine substance in metal pot,True,4,33,Your task is to boil ice,task-1-boil
+use thermometer in inventory on substance in metal pot,True,4,34,Your task is to boil ice,task-1-boil

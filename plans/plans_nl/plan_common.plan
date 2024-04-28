@@ -1,0 +1,3 @@
+IF your goal is to get metal pot CONSIDERING you are in the kitchen AND you see a cupboard THEN
+    open cupboard,
+    pick up metal pot

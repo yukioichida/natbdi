@@ -1,0 +1,152 @@
+action,landmark,variation,order,goal,task_id
+open door to outside,True,26,0,Your task is to boil gallium,task-1-boil
+go to outside,True,26,1,Your task is to boil gallium,task-1-boil
+open door to kitchen,True,26,2,Your task is to boil gallium,task-1-boil
+go to kitchen,True,26,3,Your task is to boil gallium,task-1-boil
+pick up thermometer,True,26,4,Your task is to boil gallium,task-1-boil
+open cupboard,True,26,5,Your task is to boil gallium,task-1-boil
+pick up metal pot,True,26,6,Your task is to boil gallium,task-1-boil
+open drawer in counter,True,26,7,Your task is to boil gallium,task-1-boil
+open fridge,True,26,8,Your task is to boil gallium,task-1-boil
+open freezer,True,26,9,Your task is to boil gallium,task-1-boil
+open drawer in cupboard,True,26,10,Your task is to boil gallium,task-1-boil
+open glass jar,True,26,11,Your task is to boil gallium,task-1-boil
+open oven,True,26,12,Your task is to boil gallium,task-1-boil
+open door to bathroom,True,26,13,Your task is to boil gallium,task-1-boil
+go to bathroom,True,26,14,Your task is to boil gallium,task-1-boil
+open door to kitchen,True,26,15,Your task is to boil gallium,task-1-boil
+go to kitchen,True,26,16,Your task is to boil gallium,task-1-boil
+open door to outside,True,26,17,Your task is to boil gallium,task-1-boil
+go to outside,True,26,18,Your task is to boil gallium,task-1-boil
+open door to foundry,True,26,19,Your task is to boil gallium,task-1-boil
+go to foundry,True,26,20,Your task is to boil gallium,task-1-boil
+open door to outside,True,26,21,Your task is to boil gallium,task-1-boil
+go to outside,True,26,22,Your task is to boil gallium,task-1-boil
+open door to green house,True,26,23,Your task is to boil gallium,task-1-boil
+go to green house,True,26,24,Your task is to boil gallium,task-1-boil
+open door to hallway,True,26,25,Your task is to boil gallium,task-1-boil
+go to hallway,True,26,26,Your task is to boil gallium,task-1-boil
+open door to workshop,True,26,27,Your task is to boil gallium,task-1-boil
+go to workshop,True,26,28,Your task is to boil gallium,task-1-boil
+pick up gallium,True,26,29,Your task is to boil gallium,task-1-boil
+open door to hallway,True,26,30,Your task is to boil gallium,task-1-boil
+go to hallway,True,26,31,Your task is to boil gallium,task-1-boil
+open door to kitchen,True,26,32,Your task is to boil gallium,task-1-boil
+go to kitchen,True,26,33,Your task is to boil gallium,task-1-boil
+focus on gallium,True,26,34,Your task is to boil gallium,task-1-boil
+move gallium to metal pot,True,26,35,Your task is to boil gallium,task-1-boil
+pick up metal pot,True,26,36,Your task is to boil gallium,task-1-boil
+move metal pot to stove,True,26,37,Your task is to boil gallium,task-1-boil
+activate stove,True,26,38,Your task is to boil gallium,task-1-boil
+examine gallium,False,26,39,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on gallium,False,26,40,Your task is to boil gallium,task-1-boil
+examine gallium,False,26,41,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on gallium,False,26,42,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,43,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,44,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,45,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,46,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,47,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,48,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,49,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,50,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,51,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,52,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,53,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,54,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,55,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,56,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,57,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,58,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,59,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,60,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,61,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,62,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,63,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,64,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,65,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,66,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,67,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,68,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,69,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,70,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,71,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,72,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,73,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,74,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,75,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,76,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,77,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,78,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,79,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,80,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,81,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,82,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,83,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,84,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,85,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,86,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,87,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,88,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,89,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,90,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,91,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,92,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,93,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,94,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,95,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,96,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,97,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,98,Your task is to boil gallium,task-1-boil
+pick up metal pot,True,26,99,Your task is to boil gallium,task-1-boil
+open door to outside,True,26,100,Your task is to boil gallium,task-1-boil
+go to outside,True,26,101,Your task is to boil gallium,task-1-boil
+open door to foundry,True,26,102,Your task is to boil gallium,task-1-boil
+go to foundry,True,26,103,Your task is to boil gallium,task-1-boil
+open blast furnace,True,26,104,Your task is to boil gallium,task-1-boil
+move metal pot to blast furnace,True,26,105,Your task is to boil gallium,task-1-boil
+activate blast furnace,True,26,106,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,107,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,108,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,109,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,110,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,111,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,112,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,113,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,114,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,115,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,116,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,117,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,118,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,119,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,120,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,121,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,122,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,123,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,124,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,125,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,126,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,127,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,128,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,129,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,130,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,131,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,132,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,133,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,134,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,135,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,136,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,137,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,138,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,139,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,140,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,141,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,142,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,143,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,144,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,145,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,146,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,147,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,148,Your task is to boil gallium,task-1-boil
+examine liquid gallium,True,26,149,Your task is to boil gallium,task-1-boil
+use thermometer in inventory on liquid gallium,True,26,150,Your task is to boil gallium,task-1-boil

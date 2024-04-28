@@ -1,0 +1,3 @@
+action,landmark,variation,order,goal,task_id
+focus on cup,False,130,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move cup to yellow box,False,130,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

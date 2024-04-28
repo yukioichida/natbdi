@@ -1,0 +1,31 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,12,0,Your task is to freeze marshmallow,task-1-freeze
+go to hallway,False,12,1,Your task is to freeze marshmallow,task-1-freeze
+open door to kitchen,True,12,2,Your task is to freeze marshmallow,task-1-freeze
+go to kitchen,True,12,3,Your task is to freeze marshmallow,task-1-freeze
+pick up thermometer,True,12,4,Your task is to freeze marshmallow,task-1-freeze
+open cupboard,True,12,5,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,12,6,Your task is to freeze marshmallow,task-1-freeze
+focus on marshmallow,True,12,7,Your task is to freeze marshmallow,task-1-freeze
+move marshmallow to metal pot,True,12,8,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,12,9,Your task is to freeze marshmallow,task-1-freeze
+move metal pot to stove,True,12,10,Your task is to freeze marshmallow,task-1-freeze
+activate stove,True,12,11,Your task is to freeze marshmallow,task-1-freeze
+examine marshmallow,True,12,12,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on marshmallow,False,12,13,Your task is to freeze marshmallow,task-1-freeze
+examine marshmallow,True,12,14,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on marshmallow,False,12,15,Your task is to freeze marshmallow,task-1-freeze
+examine marshmallow,True,12,16,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on marshmallow,False,12,17,Your task is to freeze marshmallow,task-1-freeze
+examine marshmallow,True,12,18,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,12,19,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,12,20,Your task is to freeze marshmallow,task-1-freeze
+pick up metal pot,True,12,21,Your task is to freeze marshmallow,task-1-freeze
+open freezer,True,12,22,Your task is to freeze marshmallow,task-1-freeze
+move metal pot to freezer,True,12,23,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,12,24,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,12,25,Your task is to freeze marshmallow,task-1-freeze
+wait,True,12,26,Your task is to freeze marshmallow,task-1-freeze
+examine liquid marshmallow,True,12,27,Your task is to freeze marshmallow,task-1-freeze
+use thermometer in inventory on liquid marshmallow,True,12,28,Your task is to freeze marshmallow,task-1-freeze
+wait,True,12,29,Your task is to freeze marshmallow,task-1-freeze

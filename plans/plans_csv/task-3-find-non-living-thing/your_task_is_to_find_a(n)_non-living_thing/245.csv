@@ -1,0 +1,3 @@
+action,landmark,variation,order,goal,task_id
+focus on thermometer,False,245,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move thermometer to purple box,False,245,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

@@ -1,0 +1,49 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,True,8,0,Your task is to boil apple juice,task-1-boil
+go to kitchen,True,8,1,Your task is to boil apple juice,task-1-boil
+pick up thermometer,True,8,2,Your task is to boil apple juice,task-1-boil
+open cupboard,True,8,3,Your task is to boil apple juice,task-1-boil
+pick up metal pot,True,8,4,Your task is to boil apple juice,task-1-boil
+open freezer,True,8,5,Your task is to boil apple juice,task-1-boil
+open fridge,True,8,6,Your task is to boil apple juice,task-1-boil
+focus on apple juice,True,8,7,Your task is to boil apple juice,task-1-boil
+pour cup containing apple juice into metal pot,False,8,8,Your task is to boil apple juice,task-1-boil
+pick up metal pot,True,8,9,Your task is to boil apple juice,task-1-boil
+move metal pot to stove,True,8,10,Your task is to boil apple juice,task-1-boil
+activate stove,True,8,11,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,12,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,13,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,14,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,15,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,16,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,17,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,18,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,19,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,20,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,21,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,22,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,23,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,24,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,25,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,26,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,27,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,28,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,29,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,30,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,31,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,32,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,33,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,34,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,35,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,36,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,37,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,38,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,39,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,40,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,41,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,42,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,43,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,44,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,45,Your task is to boil apple juice,task-1-boil
+examine apple juice,True,8,46,Your task is to boil apple juice,task-1-boil
+use thermometer in inventory on apple juice,True,8,47,Your task is to boil apple juice,task-1-boil

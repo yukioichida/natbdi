@@ -1,0 +1,5 @@
+action,landmark,variation,order,goal,task_id
+open door to kitchen,False,62,0,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+go to kitchen,False,62,1,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+focus on table,False,62,2,Your task is to find a(n) non-living thing,task-3-find-non-living-thing
+move table to blue box,False,62,3,Your task is to find a(n) non-living thing,task-3-find-non-living-thing

@@ -1,0 +1,15 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,True,473,0,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+go to hallway,True,473,1,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+open door to kitchen,True,473,2,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+go to kitchen,True,473,3,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+pick up thermometer,True,473,4,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+focus on thermometer in inventory,True,473,5,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+open door to hallway,True,473,6,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+go to hallway,True,473,7,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+open door to bedroom,True,473,8,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+go to bedroom,True,473,9,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+pick up wire,True,473,10,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+focus on wire in inventory,True,473,11,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+use thermometer in inventory on wire in inventory,True,473,12,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer
+move wire in inventory to yellow box,False,473,13,"Your task is to measure the temperature of wire, which is located around the bedroom",task-10-use-thermometer

@@ -1,0 +1,41 @@
+action,landmark,variation,order,goal,task_id
+open door to hallway,False,59,0,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to hallway,False,59,1,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to kitchen,False,59,2,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to kitchen,False,59,3,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to bathroom,False,59,4,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to bathroom,False,59,5,Your task is to grow a cherry plant from seed,task-4-grow-plant
+pick up seed jar,True,59,6,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to kitchen,False,59,7,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to kitchen,False,59,8,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to outside,False,59,9,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to outside,False,59,10,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to green house,True,59,11,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to green house,True,59,12,Your task is to grow a cherry plant from seed,task-4-grow-plant
+pick up shovel,False,59,13,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to outside,False,59,14,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to outside,False,59,15,Your task is to grow a cherry plant from seed,task-4-grow-plant
+use shovel in inventory on ground,False,59,16,Your task is to grow a cherry plant from seed,task-4-grow-plant
+pick up soil,False,59,17,Your task is to grow a cherry plant from seed,task-4-grow-plant
+open door to green house,True,59,18,Your task is to grow a cherry plant from seed,task-4-grow-plant
+go to green house,True,59,19,Your task is to grow a cherry plant from seed,task-4-grow-plant
+move soil in inventory to flower pot 2,False,59,20,Your task is to grow a cherry plant from seed,task-4-grow-plant
+move cherry seed in seed jar to flower pot 2,False,59,21,Your task is to grow a cherry plant from seed,task-4-grow-plant
+0,True,59,22,Your task is to grow a cherry plant from seed,task-4-grow-plant
+focus on cherry seed in flower pot 2,False,59,23,Your task is to grow a cherry plant from seed,task-4-grow-plant
+activate sink,True,59,24,Your task is to grow a cherry plant from seed,task-4-grow-plant
+move jug to sink,True,59,25,Your task is to grow a cherry plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,59,26,Your task is to grow a cherry plant from seed,task-4-grow-plant
+deactivate sink,True,59,27,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,28,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,29,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,30,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,31,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,32,Your task is to grow a cherry plant from seed,task-4-grow-plant
+activate sink,True,59,33,Your task is to grow a cherry plant from seed,task-4-grow-plant
+move jug to sink,True,59,34,Your task is to grow a cherry plant from seed,task-4-grow-plant
+pour jug into flower pot 2,False,59,35,Your task is to grow a cherry plant from seed,task-4-grow-plant
+deactivate sink,True,59,36,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,37,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,38,Your task is to grow a cherry plant from seed,task-4-grow-plant
+wait1,True,59,39,Your task is to grow a cherry plant from seed,task-4-grow-plant
