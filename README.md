@@ -1,5 +1,8 @@
 # Nat BDI
 
+[![Python application](https://github.com/yukioichida/nat-bdi/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/yukioichida/nat-bdi/actions/workflows/python-app.yml)
+
+
 ## Directories
 - **data**: Files containing data used in experiments
 - **models**: Trained models used in experiments
@@ -21,3 +24,4 @@
   publisher = {IFAAMAS}
 }
 ```
+
