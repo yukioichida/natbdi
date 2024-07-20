@@ -65,7 +65,7 @@ def run_agent(plan_library: PlanLibrary,
 def init_nli_model(nli_model: str, device: str) -> NLIModel:
     model = AutoModelForSequenceClassification \
         .from_pretrained(nli_model, torch_dtype=torch.float16) \
-        .to(device).eval()
+        .to(device).eval().float()
     tokenizer = AutoTokenizer.from_pretrained(nli_model)
     nli_model = NLIModel(model=model, tokenizer=tokenizer, device=device)
     return nli_model
@@ -75,7 +75,7 @@ class NatBDIAgentTest(unittest.TestCase):
 
     def setUp(self) -> None:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        hf_nli_model = 'roberta-large-mnli'
+        hf_nli_model = 'microsoft/deberta-base-mnli' # avoid getting a big model in test
         self.nli_model = init_nli_model(hf_nli_model, device)
         # loading scienceworld env
         self.env = ScienceWorldEnv("", "", envStepLimit=100)

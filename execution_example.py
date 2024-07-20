@@ -74,7 +74,7 @@ def run_agent(plan_library: PlanLibrary,
 def init_nli_model(args) -> NLIModel:
     model = AutoModelForSequenceClassification \
         .from_pretrained(args.nli_model, torch_dtype=torch.float16) \
-        .to(args.device).eval()
+        .to(args.device).eval().float()
     tokenizer = AutoTokenizer.from_pretrained(args.nli_model)
     nli_model = NLIModel(model=model, tokenizer=tokenizer, device=args.device)
     return nli_model
