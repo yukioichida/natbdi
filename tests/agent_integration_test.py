@@ -1,15 +1,5 @@
-from unittest.mock import MagicMock, Mock
 import unittest
-import torch
-import argparse
-import os.path
-import random
-import json
-import re
-from os import listdir
-from os.path import isfile, join
 
-import pandas as pd
 import torch
 from scienceworld import ScienceWorldEnv
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -20,7 +10,8 @@ from sources.bdi_components.inference import NLIModel
 from sources.bdi_components.plans import PlanLibrary
 from sources.bdi_components.policy import DRRNFallbackPolicy
 from sources.scienceworld import parse_state, load_step_function
-from sources.utils import setup_logger
+
+import sys
 
 
 def load_plan_library(plan_file: str):
@@ -123,4 +114,5 @@ class NatBDIAgentTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    sys.path.insert(0, '.')
     NatBDIAgentTest.main()
