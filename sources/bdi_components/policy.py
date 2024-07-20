@@ -20,6 +20,14 @@ class FallbackPolicy:
         """
         pass
 
+    def fallback_action(self, current_state: State) -> str:
+        """
+        Maps the current state to an action to be performed on the agent.
+        :param current_state: current information about the environment
+        :return: action to be performed on the agent
+        """
+        pass
+
 
 class DRRNFallbackPolicy(FallbackPolicy):
 
@@ -46,6 +54,17 @@ class DRRNFallbackPolicy(FallbackPolicy):
                 break
         self.score = state.score  # score acquired exclusively from DRRN (RL)
         return state
+
+    def fallback_action(self, current_state: State) -> str:
+        """
+        Maps the current state to an action to be performed on the agent.
+        :param current_state: current information about the environment
+        :return: action to be performed on the agent
+        """
+        info = current_state.metadata
+        obs = info['observation']
+        fallback_action = self._select_action(info)
+        return fallback_action
 
     def _select_action(self, info: dict) -> str:
         """

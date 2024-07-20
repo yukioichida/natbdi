@@ -48,6 +48,7 @@ class NatBDIAgent:
         self.intention_structure = Deque[Intention]()
         self.event_trace = []
         self.action_trace = []
+        self.intention_trace = []
         self.fallback_policy = fallback_policy
 
     def act(self,
@@ -64,11 +65,11 @@ class NatBDIAgent:
         # BDI reasoning cycle
         self.reasoning_cycle(step_function=step_function)
         # Fallback Policy execution
-        if not self.belief_base.get_current_beliefs().completed:
-            logger.warn("Using fallback policy")
-            current_beliefs = self.belief_base.get_current_beliefs()
-            self.fallback_policy.fallback_plan(current_state=current_beliefs,
-                                               step_function=step_function)
+        # if not self.belief_base.get_current_beliefs().completed:
+        # logger.warn("Using fallback policy")
+        #    current_beliefs = self.belief_base.get_current_beliefs()
+        #    self.fallback_policy.fallback_plan(current_state=current_beliefs,
+        #                                       step_function=step_function)
 
     def _update_beliefs(self, state):
         """
@@ -80,6 +81,13 @@ class NatBDIAgent:
     def reasoning_cycle(self, step_function: Callable[[str], State]):
         while True:
             has_candidate_plan = self._select_plan()
+
+            if not has_candidate_plan:
+                logger.info("Activating fallback policy")
+                action = self.fallback_policy.fallback_action(current_state=self.belief_base.get_current_beliefs())
+                fallback_intention = Intention(content=action, type=IntentionType.ACTION)
+                self.intention_structure.appendleft(fallback_intention)
+
             if len(self.intention_structure) > 0:
                 self._execute_intention(step_function=step_function)
             else:
@@ -101,10 +109,10 @@ class NatBDIAgent:
                     int_type = IntentionType.SUB_GOAL if step in self.plan_library.plans.keys() else IntentionType.ACTION
                     intention = Intention(content=step, type=int_type)
                     self.intention_structure.appendleft(intention)
-                return True
             else:
                 logger.warn(f"No plans for goal: {event.content}")
                 return False
+        return True
 
     def _execute_intention(self, step_function: Callable[[str], State]):
         """
@@ -112,6 +120,7 @@ class NatBDIAgent:
         :param step_function: Function that executes an action in the environment
         """
         current_intention = self.intention_structure.popleft()
+        self.intention_trace.append(current_intention)
         if current_intention.type == IntentionType.SUB_GOAL:
             # includes a new goal addition event to deal with the subgoal
             self.event_queue.appendleft(Event(EventType.GOAL_ADDITION, current_intention.content))
