@@ -35,26 +35,6 @@ def load_plan_library(plan_file: str):
     return pl
 
 
-def get_drrn_pretrained_info(path: str) -> pd.DataFrame:
-    """
-    Loads DRRN models trained using different number of episodes
-    :param path: model_file path
-    :return: dataframe with all trained models
-    """
-    model_files = [f for f in listdir(path) if isfile(join(path, f)) and f.endswith(".pt")]
-    metadata = []
-    for file in model_files:
-        x = re.findall("model-steps(\d*)-eps(\d*).pt", file)[0]
-        steps, eps = x
-        metadata.append({
-                'drrn_model_file': path + file,
-                'eps': eps,
-                'steps': steps
-        })
-    models_df = pd.DataFrame(metadata).sort_values("eps")
-    return models_df
-
-
 def run_agent(plan_library: PlanLibrary,
               nli_model: NLIModel,
               env: ScienceWorldEnv,
@@ -118,7 +98,7 @@ if __name__ == '__main__':
     env.load(args.task, 0)
 
     task = "melt"
-    plan_file = f"plans/plans_nl/plan_{task}_0.plan"
+    plan_file = f"plans/plans_nl/plan_{task}_100.plan"
     drrn_model_file = "models/model_task1melt/model-steps80000-eps614.pt"
 
     pl = load_plan_library(plan_file)
@@ -127,9 +107,9 @@ if __name__ == '__main__':
     env.load(task, 26, simplificationStr="easy")
     print(env.getTaskDescription())
     agent = run_agent(plan_library=pl,
-                                  nli_model=nli_model,
-                                  env=env,
-                                  drrn_model_file=drrn_model_file)
+                      nli_model=nli_model,
+                      env=env,
+                      drrn_model_file=drrn_model_file)
     last_state = agent.belief_base.get_current_beliefs()
     bdi_score = max(last_state.score - agent.fallback_policy.score, 0)
     data = {

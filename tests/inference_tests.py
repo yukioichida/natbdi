@@ -19,9 +19,14 @@ class NLIModelTest(unittest.TestCase):
         self.nli_model = nli_model
 
     def test_negative(self):
+        """
+        If the nli model classifies as non entailment sentence pair, then
+        """
         beliefs = ['you are not seeing a ball']
         plan_contexts = ['you see a ball']
-        self.nli_model._predict_nli = MagicMock(return_value=(torch.tensor([2]), torch.tensor([[0., 0., 1.]])))
+        # returns contradiction with 60% [neutral, entailment, contradiction]
+        self.nli_model._predict_nli = MagicMock(return_value=(torch.tensor([2]), torch.tensor([[.2, .2, .6]])))
+
         result, _ = self.nli_model.check_context_entailment(beliefs, plan_contexts)
         self.assertEqual(result, False)
 

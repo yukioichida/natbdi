@@ -58,18 +58,11 @@ class NatBDIAgent:
 
         # update belief base
         self._update_beliefs(state)
-
         # Plan Adoption for the main goal
         init_event = Event(EventType.GOAL_ADDITION, goal)
         self.event_queue.appendleft(init_event)
         # BDI reasoning cycle
         self.reasoning_cycle(step_function=step_function)
-        # Fallback Policy execution
-        # if not self.belief_base.get_current_beliefs().completed:
-        # logger.warn("Using fallback policy")
-        #    current_beliefs = self.belief_base.get_current_beliefs()
-        #    self.fallback_policy.fallback_plan(current_state=current_beliefs,
-        #                                       step_function=step_function)
 
     def _update_beliefs(self, state):
         """

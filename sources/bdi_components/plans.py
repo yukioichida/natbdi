@@ -36,7 +36,7 @@ class PlanParser:
             triggering_event = self.preprocess_text(groups[0])
 
             if len(groups) == 3:
-                context = self.preprocess_text(groups[1]).split("AND")
+                context = self.preprocess_text(groups[1]).split(" AND ")
                 plan_body = groups[2]
             else:
                 context = []
