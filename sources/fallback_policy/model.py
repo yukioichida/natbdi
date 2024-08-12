@@ -8,9 +8,9 @@ class PositionWiseFF(nn.Module):
 
     def __init__(self, embedding_dim:int, dropout_rate=0.1):
         super().__init__()
-        self.c_fc = nn.Linear(embedding_dim, 4 * embedding_dim, bias=False)
+        self.c_fc = nn.Linear(embedding_dim, 1 * embedding_dim, bias=False)
         self.gelu = nn.GELU()
-        self.c_proj = nn.Linear(4 * embedding_dim, embedding_dim, bias=False)
+        self.c_proj = nn.Linear(1 * embedding_dim, embedding_dim, bias=False)
         self.dropout = nn.Dropout(dropout_rate)
 
     def forward(self, x):
@@ -65,7 +65,6 @@ class BeliefTransformerBlock(nn.Module):
         x = self.self_attention(x, belief_base_sizes)
         x = self.layer_norm_2(x)
         x = self.mlp(x)
-        # TODO: evaluate using a position-wise ff
         return x
 
 
@@ -88,9 +87,11 @@ class BeliefBaseEncoder(nn.Module):
 
 class QNetwork(nn.Module):
 
-    def __init__(self, action_dim: int, belief_base_dim: int, n_blocks: int = 3):
+    def __init__(self, action_dim: int, belief_base_dim: int, goal_dim: int, n_blocks: int = 3):
         super(QNetwork, self).__init__()
         self.belief_base_encoder = BeliefBaseEncoder(belief_dim=belief_base_dim, n_blocks=n_blocks)
+        # Goal will be in belief base, we test using goal as input but all actions will receive the same goal and,
+        # hence, the q-values would be similar regardless of reward
         output_dim = action_dim + belief_base_dim
 
         self.hidden = nn.Linear(output_dim, belief_base_dim, bias=False)

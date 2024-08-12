@@ -40,6 +40,7 @@ def parse_goal(task_description: str) -> str:
                  "") \
         .replace("move", "by moving") \
         .replace("Your task is to", "") \
+        .replace("For compounds without a boiling point, combusting the substance is also acceptable", "") \
         .replace(".", "").strip()
 
     return main_goal
