@@ -8,9 +8,10 @@ class PositionWiseFF(nn.Module):
 
     def __init__(self, embedding_dim:int, dropout_rate=0.1):
         super().__init__()
-        self.c_fc = nn.Linear(embedding_dim, 1 * embedding_dim, bias=False)
+        mult = 1
+        self.c_fc = nn.Linear(embedding_dim, mult * embedding_dim, bias=False)
         self.gelu = nn.GELU()
-        self.c_proj = nn.Linear(1 * embedding_dim, embedding_dim, bias=False)
+        self.c_proj = nn.Linear(mult * embedding_dim, embedding_dim, bias=False)
         self.dropout = nn.Dropout(dropout_rate)
 
     def forward(self, x):
