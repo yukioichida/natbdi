@@ -8,7 +8,7 @@ class PositionWiseFF(nn.Module):
 
     def __init__(self, embedding_dim:int, dropout_rate=0.1):
         super().__init__()
-        mult = 1
+        mult = 4
         self.c_fc = nn.Linear(embedding_dim, mult * embedding_dim, bias=False)
         self.gelu = nn.GELU()
         self.c_proj = nn.Linear(mult * embedding_dim, embedding_dim, bias=False)
@@ -42,6 +42,8 @@ class BeliefTransformerBlock(nn.Module):
                        x: torch.Tensor,
                        belief_base_sizes: list[int]) -> torch.Tensor:
         # TODO: evaluate using flash attention cuda kernels (pytorch implementation -> F.scaled_dot_product)
+
+        #q, k, v = x.chunk(3, dim=-1)
         q, k, v = self.qkv_proj_layer(x).chunk(3, dim=-1)
         attention = torch.matmul(q, k.transpose(-1, -2))
         if self.scale_attention:
@@ -88,7 +90,7 @@ class BeliefBaseEncoder(nn.Module):
 
 class QNetwork(nn.Module):
 
-    def __init__(self, action_dim: int, belief_base_dim: int, goal_dim: int, n_blocks: int = 3):
+    def __init__(self, action_dim: int, belief_base_dim: int, n_blocks: int = 3):
         super(QNetwork, self).__init__()
         self.belief_base_encoder = BeliefBaseEncoder(belief_dim=belief_base_dim, n_blocks=n_blocks)
         # Goal will be in belief base, we test using goal as input but all actions will receive the same goal and,
@@ -103,7 +105,43 @@ class QNetwork(nn.Module):
                 belief_base_sizes: list[int],
                 action_tensors: torch.Tensor) -> torch.Tensor:
         encoded_belief_base = self.belief_base_encoder(belief_base, belief_base_sizes)  # [bs, belief_dim]
-        # encoded_belief_base = encoded_belief_base.unsqueeze(1).repeat(1, num_actions, 1)  # [bs, num_action, belief_dim]
+        #batch_size, num_actions, action_dim = action_tensors.size()
+        #encoded_belief_base = encoded_belief_base.unsqueeze(1).repeat(1, num_actions, 1)  # [bs, num_action, belief_dim]
+
+        #print(encoded_belief_base.size())
+        #encoded_belief_base = encoded_belief_base.repeat(1, num_action, 1)
+        #print(encoded_belief_base.size())
+        output_repr = torch.cat([encoded_belief_base, action_tensors], dim=-1)
+        x = self.hidden(output_repr)
+        x = F.relu(x)
+        q_values = self.q_value_layer(x)
+        return q_values
+
+class SimpleQNetwork(nn.Module):
+
+    def __init__(self, action_dim: int, belief_base_dim: int, n_blocks: int = 3):
+        super(SimpleQNetwork, self).__init__()
+        # Goal will be in belief base, we test using goal as input but all actions will receive the same goal and,
+        # hence, the q-values would be similar regardless of reward
+        self.belief_base_encoder = nn.ModuleList([nn.Linear(belief_base_dim, belief_base_dim)
+                                                  for _ in range(n_blocks)])
+        output_dim = action_dim + belief_base_dim
+
+        self.hidden = nn.Linear(output_dim, belief_base_dim, bias=False)
+        self.q_value_layer = nn.Linear(belief_base_dim, 1, bias=False)
+
+    def forward(self,
+                belief_base: torch.Tensor,
+                belief_base_sizes: list[int],
+                action_tensors: torch.Tensor) -> torch.Tensor:
+        mask = torch.zeros_like(belief_base).to('cuda')
+        for size in belief_base_sizes:
+            mask[:, :size] = 1
+        encoded_belief_base = (belief_base*mask).sum(dim=1)/mask.sum(dim=1)
+
+        for block in self.belief_base_encoder:
+            encoded_belief_base = block(encoded_belief_base)
+
         output_repr = torch.cat([encoded_belief_base, action_tensors], dim=-1)
         x = self.hidden(output_repr)
         x = F.relu(x)
