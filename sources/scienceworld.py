@@ -56,8 +56,10 @@ def parse_beliefs(observation: str,
     :param inventory: inventory information
     :return: list of belief sentences
     """
+    use_observation = True
     if look.split("\n")[:3] == observation.split("\n")[:3]:
         observation = ""
+        use_observation = False
 
     x = re.search(r"([\S\s]*?)(?:In it, you see:)([\S\s]*?)(?:You also see:)([\S\s]*)", look)
     if x is None:
@@ -73,7 +75,10 @@ def parse_beliefs(observation: str,
     obs_split = [f"You see {obs}" for obs in obs_split]
     doors_split = [door.strip() for door in doors.split('\n') if len(door.strip()) > 0]
     inventory = inventory.replace('\n', ' ').replace('\t', '')
-    return loc_split + obs_split + doors_split + [inventory, observation]
+    if use_observation:
+        return loc_split + obs_split + doors_split + [inventory, observation]
+    else:
+        return loc_split + obs_split + doors_split + [inventory]
 
 
 def parse_state(observation: str,

@@ -33,10 +33,10 @@ class BeliefTransformerBlock(nn.Module):
         self.attention_dropout = nn.Dropout(dropout_rate)
         self.output_dropout = nn.Dropout(dropout_rate)
 
-        self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
+        #self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
         self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=False)
-        self.mlp = PositionWiseFF(belief_dim, dropout_rate)
-        self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
+        #self.mlp = PositionWiseFF(belief_dim, dropout_rate)
+        #self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
 
     def self_attention(self,
                        x: torch.Tensor,
@@ -55,7 +55,7 @@ class BeliefTransformerBlock(nn.Module):
 
         y = torch.matmul(attention, v)
         y = self.output_dropout(y)
-        return y
+        return y, attention
 
     def mask_padding(self, x: torch.Tensor, belief_base_sizes: list[int]) -> torch.Tensor:
         mask = torch.zeros_like(x)
@@ -63,12 +63,14 @@ class BeliefTransformerBlock(nn.Module):
             mask[i, :, size:] = 1
         return mask.bool()
 
-    def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> torch.Tensor:
-        x = self.layer_norm_1(x)
-        x = self.self_attention(x, belief_base_sizes) + x
-        x = self.layer_norm_2(x)
-        x = self.mlp(x) + x
-        return x
+    def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
+        old_x = x
+        #x = self.layer_norm_1(x)
+        x, a = self.self_attention(x, belief_base_sizes)
+        x = x + old_x # residual
+        #x = self.layer_norm_2(x)
+        #x = self.mlp(x) + x
+        return x, a
 
 
 class BeliefBaseEncoder(nn.Module):
@@ -81,11 +83,11 @@ class BeliefBaseEncoder(nn.Module):
         representation = x[:, 0, :]
         return representation
 
-    def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> torch.Tensor:
+    def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
         for block in self.blocks:
-            x = block(x, belief_base_sizes)
+            x, a = block(x, belief_base_sizes)
         representation = self.pooling_belief_base(x)
-        return representation
+        return representation, a
 
 
 class QNetwork(nn.Module):
@@ -103,19 +105,20 @@ class QNetwork(nn.Module):
     def forward(self,
                 belief_base: torch.Tensor,
                 belief_base_sizes: list[int],
-                action_tensors: torch.Tensor) -> torch.Tensor:
-        encoded_belief_base = self.belief_base_encoder(belief_base, belief_base_sizes)  # [bs, belief_dim]
-        #batch_size, num_actions, action_dim = action_tensors.size()
-        #encoded_belief_base = encoded_belief_base.unsqueeze(1).repeat(1, num_actions, 1)  # [bs, num_action, belief_dim]
-
-        #print(encoded_belief_base.size())
-        #encoded_belief_base = encoded_belief_base.repeat(1, num_action, 1)
-        #print(encoded_belief_base.size())
-        output_repr = torch.cat([encoded_belief_base, action_tensors], dim=-1)
-        x = self.hidden(output_repr)
+                action_tensors: torch.Tensor,
+                return_attentions: bool = False):
+        encoded_belief_base, attention = self.belief_base_encoder(belief_base, belief_base_sizes)  # [bs, belief_dim]
+        x = torch.cat([encoded_belief_base, action_tensors], dim=-1)
+        x = F.relu(x)
+        x = self.hidden(x)
         x = F.relu(x)
         q_values = self.q_value_layer(x)
-        return q_values
+        #q_values = F.tanh(q_values)
+
+        if return_attentions:
+            return q_values, attention
+        else:
+            return q_values
 
 class SimpleQNetwork(nn.Module):
 
