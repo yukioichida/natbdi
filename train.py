@@ -15,8 +15,9 @@ torch.manual_seed(42)
 
 use_transformer = True
 if use_transformer:
-    network = QNetwork(768, 768, n_blocks=4)
-    use_cls = True
+    # its seems like minimun n_blocks in order to learn something is 4
+    network = QNetwork(768, 768, n_blocks=3)
+    use_cls = False
 else:
     network = SimpleQNetwork(768, 768, 1)
     use_cls = False
@@ -162,7 +163,7 @@ with torch.no_grad():
     # print(f"attention {attn}")
     # simple network epoch 299 - loss  0.0219
     print("Test in a single trajectory")
-    turn = 8
+    turn = 6
     expected_action = gold_sequence[turn]['action']
     annotated_belief_base = parse_beliefs(observation=gold_sequence[turn - 1]['observation'],
                                           look=gold_sequence[turn]['freelook'],

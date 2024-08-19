@@ -34,7 +34,7 @@ class BeliefTransformerBlock(nn.Module):
         self.output_dropout = nn.Dropout(dropout_rate)
 
         #self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
-        self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=False)
+        self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=True)
         #self.mlp = PositionWiseFF(belief_dim, dropout_rate)
         #self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
 
@@ -80,7 +80,8 @@ class BeliefBaseEncoder(nn.Module):
         self.blocks = nn.ModuleList([BeliefTransformerBlock(belief_dim=belief_dim) for _ in range(n_blocks)])
 
     def pooling_belief_base(self, x: torch.Tensor) -> torch.Tensor:
-        representation = x[:, 0, :]
+        #representation = x[:, 0, :]
+        representation = x.mean(1) # mean pooling looks better in this case
         return representation
 
     def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
