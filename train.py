@@ -16,7 +16,7 @@ torch.manual_seed(42)
 use_transformer = True
 if use_transformer:
     # its seems like minimun n_blocks in order to learn something is 4
-    network = QNetwork(768, 768, n_blocks=3)
+    network = QNetwork(768, 768, n_blocks=4)
     use_cls = False
 else:
     network = SimpleQNetwork(768, 768, 1)
@@ -140,7 +140,7 @@ def contrastive_loss(belief_base_emb, num_belief_emb, action_emb):
     return F.smooth_l1_loss(all_q_values, labels)
 
 
-for epoch in range(100):
+for epoch in range(200):
     batch = memory_buffer.sample(BATCH_SIZE)
     belief_base_emb = torch.cat([b.belief_base for b in batch], dim=0)
     batch_size, _, belief_dim = belief_base_emb.size()
@@ -149,7 +149,7 @@ for epoch in range(100):
 
     optimizer.zero_grad()
     loss = contrastive_loss(belief_base_emb, num_belief_emb, actions)
-    if epoch % 10 == 0:
+    if epoch % 50 == 0:
         print(f"epoch {epoch} - loss {loss.item(): .4f}")
     loss.backward()
     optimizer.step()
