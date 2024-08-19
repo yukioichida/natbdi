@@ -35,7 +35,7 @@ class BeliefTransformerBlock(nn.Module):
 
         self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
         self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=False)
-        #self.mlp = PositionWiseFF(belief_dim, dropout_rate)
+        self.mlp = PositionWiseFF(belief_dim, dropout_rate)
         self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
 
     def self_attention(self,
@@ -65,9 +65,9 @@ class BeliefTransformerBlock(nn.Module):
 
     def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> torch.Tensor:
         x = self.layer_norm_1(x)
-        x = self.self_attention(x, belief_base_sizes)
+        x = self.self_attention(x, belief_base_sizes) + x
         x = self.layer_norm_2(x)
-        #x = self.mlp(x)
+        x = self.mlp(x) + x
         return x
 
 
