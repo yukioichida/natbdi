@@ -8,7 +8,7 @@ class PositionWiseFF(nn.Module):
 
     def __init__(self, embedding_dim:int, dropout_rate=0.1):
         super().__init__()
-        mult = 4
+        mult = 1
         self.c_fc = nn.Linear(embedding_dim, mult * embedding_dim, bias=False)
         self.gelu = nn.GELU()
         self.c_proj = nn.Linear(mult * embedding_dim, embedding_dim, bias=False)
@@ -35,7 +35,7 @@ class BeliefTransformerBlock(nn.Module):
 
         self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
         self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=False)
-        self.mlp = PositionWiseFF(belief_dim, dropout_rate)
+        #self.mlp = PositionWiseFF(belief_dim, dropout_rate)
         self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
 
     def self_attention(self,
@@ -67,7 +67,7 @@ class BeliefTransformerBlock(nn.Module):
         x = self.layer_norm_1(x)
         x = self.self_attention(x, belief_base_sizes)
         x = self.layer_norm_2(x)
-        x = self.mlp(x)
+        #x = self.mlp(x)
         return x
 
 
