@@ -33,14 +33,14 @@ class BeliefTransformerBlock(nn.Module):
         self.attention_dropout = nn.Dropout(dropout_rate)
         self.output_dropout = nn.Dropout(dropout_rate)
 
-        #self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
-        self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=True)
-        #self.mlp = PositionWiseFF(belief_dim, dropout_rate)
-        #self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
+        self.layer_norm_1 = nn.LayerNorm(belief_dim, bias=False)
+        self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=False)
+        self.mlp = PositionWiseFF(belief_dim, dropout_rate)
+        self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
 
     def self_attention(self,
                        x: torch.Tensor,
-                       belief_base_sizes: list[int]) -> torch.Tensor:
+                       belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
         # TODO: evaluate using flash attention cuda kernels (pytorch implementation -> F.scaled_dot_product)
 
         #q, k, v = x.chunk(3, dim=-1)
@@ -65,11 +65,11 @@ class BeliefTransformerBlock(nn.Module):
 
     def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
         old_x = x
-        #x = self.layer_norm_1(x)
+        x = self.layer_norm_1(x)
         x, a = self.self_attention(x, belief_base_sizes)
         x = x + old_x # residual
-        #x = self.layer_norm_2(x)
-        #x = self.mlp(x) + x
+        x = self.layer_norm_2(x)
+        x = self.mlp(x) + x
         return x, a
 
 
@@ -80,8 +80,8 @@ class BeliefBaseEncoder(nn.Module):
         self.blocks = nn.ModuleList([BeliefTransformerBlock(belief_dim=belief_dim) for _ in range(n_blocks)])
 
     def pooling_belief_base(self, x: torch.Tensor) -> torch.Tensor:
-        #representation = x[:, 0, :]
-        representation = x.mean(1) # mean pooling looks better in this case
+        representation = x[:, 0, :] # using CLS sounds better in CL learning
+        #representation = x.mean(1) # mean pooling looks better in this case
         return representation
 
     def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
