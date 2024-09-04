@@ -16,6 +16,8 @@ from sources.scienceworld import parse_beliefs
 
 from torch.utils.data import DataLoader
 
+L.seed_everything(42)
+
 
 class ContrastiveQNetwork(L.LightningModule):
 
@@ -85,7 +87,9 @@ class ContrastiveQNetwork(L.LightningModule):
         # x2 representation (goal?)
         x2 = action_emb
 
-        similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / 0.1
+        #temp = 0.1 # 0.1 is the best with batch_size = 8
+        temp = 0.5
+        similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / temp
         return similarity_matrix
 
     def configure_optimizers(self):
@@ -111,6 +115,7 @@ def load_goldpaths():
     use_cls = True
     observation = ""
     all_trajectories = []
+    previous_action = []
     for i, trajectory in enumerate(gold_sequence):
         look_around = trajectory['freelook']
         inventory = trajectory['inventory']
@@ -121,12 +126,19 @@ def load_goldpaths():
             break
 
         belief_base = belief_base + [goal]
-        belief_base_sizes = len(belief_base) + 1 if use_cls else len(belief_base)
+
         if trajectory['action'] != 'look around':
+            for a in previous_action:
+                belief_base.append(f"You already executed the action {a['action']} at turn {a['turn']}")
+            belief_base_sizes = len(belief_base) + 1 if use_cls else len(belief_base)
             all_trajectories.append({
                     'belief_base': belief_base,
                     'action': trajectory['action'],
                     'belief_base_sizes': belief_base_sizes,
+            })
+            previous_action.append({
+                'turn': i,
+                'action': trajectory['action']
             })
 
     return all_trajectories, json_data
@@ -159,7 +171,7 @@ def collate_fn(data):
 
 
 print(len(dataset))
-dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=16, shuffle=True)
+dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=8, shuffle=True)
 model = ContrastiveQNetwork(768, encoder_model=encoder_model)
 
 
@@ -178,10 +190,12 @@ variation_idx = json_data['goldActionSequences'][0]['variationIdx']
 
 env.load("boil", variation_idx, "openDoors")
 with torch.no_grad():
-    max_steps = 15
+    max_steps = 30
     action = "look around"
 
+    plan = []
     blacklist_action = []
+    previous_action = []
     for i in range(max_steps):
         obs, reward, is_done, info = env.step(action)
 
@@ -190,24 +204,40 @@ with torch.no_grad():
         # else
         #    do nothing
 
-        print(f"Step {i} - reward: {reward:.3f} - is_done: {is_done} - action: {action}")
+        print(f" => Step {i} - reward: {reward:.3f} - is_done: {is_done} - action: {action}")
         belief_base = parse_beliefs(observation=obs, look=info['look'], inventory=info['inv']) + [goal]
         belief_base = [b.replace("greenhouse", "green house") for b in belief_base]
+
+        for a in previous_action:
+            belief_base.append(f"You already executed the action {a['action']} at turn {a['turn']}")
+
         num_beliefs = len(belief_base) + 1 + 1 # including cls
 
         q_values = model.act(belief_base, candidate_actions=info['valid'])
         selected_action = q_values.argmax(dim=-1)[0]
         action = info['valid'][selected_action]
-        if i == 8:
-            action = "focus on substance in metal pot"
-            #print(f"Belief Base: {belief_base}")
+        # if i == 1:
+        #   action = "focus on substance in metal pot"
+        print(f"Belief Base: {belief_base}")
         print(f"obs: {obs}")
         print(f"Selected action: {action}")
         values, idxs = torch.sort(q_values.squeeze(0), descending=True)
 
         top_k = 5
-        print(f"Action space - Top {top_k}:")
+        print(f"\tAction space - Top {top_k}:")
         for i, idx in enumerate(idxs[:top_k]):
-            print(f"\tCandidate Action: {info['valid'][idx]} - q_value: {values[i]:.3f}")
+            print(f"\t\tCandidate Action: {info['valid'][idx]} - q_value: {values[i]:.3f}")
+
+        plan.append(action)
+
+        previous_action.append({
+            'turn': i,
+            'action': action
+        })
+
+
+    print("Plan Executed: ")
+    for i, a in enumerate(plan):
+        print(f"{i} -  {a}")
 
 
