@@ -74,11 +74,18 @@ def parse_beliefs(observation: str,
     obs_split = [obs.strip() for obs in objects.split('\n') if len(obs.strip()) > 0]
     obs_split = [f"You see {obs}" for obs in obs_split]
     doors_split = [door.strip() for door in doors.split('\n') if len(door.strip()) > 0]
-    inventory = inventory.replace('\n', ' ').replace('\t', '')
+    inventory = _parse_inventory(inventory)
     if use_observation:
-        return loc_split + obs_split + doors_split + [inventory, observation]
+        return loc_split + obs_split + doors_split + inventory + [observation]
     else:
-        return loc_split + obs_split + doors_split + [inventory]
+        return loc_split + obs_split + doors_split + inventory
+
+def _parse_inventory(inventory: str) -> list[str]:
+    inv_fragments = inventory.split("\n")
+    inv_fragments = [i.replace("\t", "") for i in inv_fragments if len(i) > 0]
+    inv_preamble = inv_fragments[0]
+    inv_fragments = [f"{inv_preamble} {i}" for i in inv_fragments[1:]]
+    return inv_fragments
 
 
 def parse_state(observation: str,

@@ -8,11 +8,11 @@ import torch.nn.functional as F
 
 from datasets import Dataset, Features, Sequence, Value
 from lightning import Trainer
+from scienceworld import ScienceWorldEnv
 
 from sources.fallback_policy.encoder import HFEncoderModel, EncoderModel
 from sources.fallback_policy.model import BeliefBaseEncoder
 from sources.scienceworld import parse_beliefs
-
 
 from torch.utils.data import DataLoader
 
@@ -30,9 +30,16 @@ class ContrastiveQNetwork(L.LightningModule):
         self.linear_act = nn.Linear(belief_dim, belief_dim)
         self.linear_belief = nn.Linear(belief_dim, belief_dim)
 
+    def act(self, belief_base, candidate_actions):
+        batch = {
+                'belief_base': [belief_base],
+                'actions': candidate_actions,
+                'belief_base_sizes': [len(belief_base)]
+        }
+        similarity_matrix = self.forward(batch)
+        return similarity_matrix
 
     def _encode_batch(self, batch):
-
         max_size = max([len(belief_base) for belief_base in batch['belief_base']])
         belief_base_emb = [self.encoder_model.encode_batch(belief_base,
                                                            max_size=max_size,
@@ -55,7 +62,7 @@ class ContrastiveQNetwork(L.LightningModule):
         belief_base_emb, action_tensor = self._encode_batch(batch)
         belief_base_sizes = batch['belief_base_sizes']
         encoded_belief_base, attention = self.belief_base_encoder(belief_base_emb, belief_base_sizes)
-        #encoded_belief_base = self.pooling_belief_base(belief_base_emb, belief_base_sizes)
+        # encoded_belief_base = self.pooling_belief_base(belief_base_emb, belief_base_sizes)
 
         action_tensor = self.linear_act(action_tensor)
         belief_tensor = self.linear_belief(encoded_belief_base)
@@ -67,7 +74,7 @@ class ContrastiveQNetwork(L.LightningModule):
         batch_size = similarity_matrix.size(0)  # batch_size, similarity
         cl_label = torch.arange(batch_size, dtype=torch.long).to('cuda')
         loss = F.cross_entropy(similarity_matrix, cl_label)
-        self.log("train_loss", loss, prog_bar=True, on_step=True, on_epoch=True, batch_size=batch_size)
+        self.log("train_loss", loss, prog_bar=True, on_epoch=True, batch_size=batch_size)
         return loss
 
     def contrastive_step(self,
@@ -82,7 +89,7 @@ class ContrastiveQNetwork(L.LightningModule):
         return similarity_matrix
 
     def configure_optimizers(self):
-        optimizer = torch.optim.AdamW(params=self.parameters(), lr=1e-4)
+        optimizer = torch.optim.AdamW(params=self.parameters(), lr=5e-5)
         # scheduler = get_linear_schedule_with_warmup(optimizer, num_training_steps=self.hparams['training_epochs'], num_warmup_steps=0)
         # return {"optimizer": optimizer, "lr_scheduler": scheduler}
 
@@ -122,11 +129,15 @@ def load_goldpaths():
                     'belief_base_sizes': belief_base_sizes,
             })
 
-    return all_trajectories
+    return all_trajectories, json_data
 
+
+##
+## TRAINING
+##
 
 encoder_model = HFEncoderModel("princeton-nlp/sup-simcse-roberta-base", device='cuda')
-trajectories = load_goldpaths()
+trajectories, json_data = load_goldpaths()
 
 trajectories_pd = pd.DataFrame(trajectories)
 dataset = Dataset.from_pandas(trajectories_pd, features=Features({
@@ -146,10 +157,57 @@ def collate_fn(data):
             'belief_base_sizes': belief_base_sizes,
             'belief_base': belief_base}
 
+
 print(len(dataset))
 dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=16, shuffle=True)
 model = ContrastiveQNetwork(768, encoder_model=encoder_model)
 
-trainer = Trainer(max_epochs=40,
+
+trainer = Trainer(max_epochs=50,
                   accelerator='gpu')
 trainer.fit(model, dataloader)
+
+
+
+model = model.to('cuda')
+model = model.eval()
+
+env = ScienceWorldEnv()
+goal = json_data['goldActionSequences'][0]['taskDescription'].split('.')[0]
+variation_idx = json_data['goldActionSequences'][0]['variationIdx']
+
+env.load("boil", variation_idx, "openDoors")
+with torch.no_grad():
+    max_steps = 15
+    action = "look around"
+
+    blacklist_action = []
+    for i in range(max_steps):
+        obs, reward, is_done, info = env.step(action)
+
+        # if obs is non action that matches the input then
+        #    remove action from info['valid']
+        # else
+        #    do nothing
+
+        print(f"Step {i} - reward: {reward:.3f} - is_done: {is_done} - action: {action}")
+        belief_base = parse_beliefs(observation=obs, look=info['look'], inventory=info['inv']) + [goal]
+        belief_base = [b.replace("greenhouse", "green house") for b in belief_base]
+        num_beliefs = len(belief_base) + 1 + 1 # including cls
+
+        q_values = model.act(belief_base, candidate_actions=info['valid'])
+        selected_action = q_values.argmax(dim=-1)[0]
+        action = info['valid'][selected_action]
+        if i == 8:
+            action = "focus on substance in metal pot"
+            #print(f"Belief Base: {belief_base}")
+        print(f"obs: {obs}")
+        print(f"Selected action: {action}")
+        values, idxs = torch.sort(q_values.squeeze(0), descending=True)
+
+        top_k = 5
+        print(f"Action space - Top {top_k}:")
+        for i, idx in enumerate(idxs[:top_k]):
+            print(f"\tCandidate Action: {info['valid'][idx]} - q_value: {values[i]:.3f}")
+
+
