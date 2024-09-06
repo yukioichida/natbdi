@@ -27,7 +27,8 @@ class BeliefTransformerBlock(nn.Module):
     def __init__(self,
                  belief_dim: int,
                  scale_attention: bool = True,
-                 dropout_rate: float = 0.0):
+                 dropout_rate: float = 0.0,
+                 n_head: int = 1):
         super(BeliefTransformerBlock, self).__init__()
         self.scale_attention = scale_attention
         self.attention_dropout = nn.Dropout(dropout_rate)
@@ -37,6 +38,7 @@ class BeliefTransformerBlock(nn.Module):
         self.qkv_proj_layer = nn.Linear(belief_dim, belief_dim * 3, bias=False)
         self.mlp = PositionWiseFF(belief_dim, dropout_rate)
         self.layer_norm_2 = nn.LayerNorm(belief_dim, bias=False)
+        self.n_head = n_head
 
     def self_attention(self,
                        x: torch.Tensor,
@@ -45,22 +47,33 @@ class BeliefTransformerBlock(nn.Module):
 
         #q, k, v = x.chunk(3, dim=-1)
         q, k, v = self.qkv_proj_layer(x).chunk(3, dim=-1)
-        attention = torch.matmul(q, k.transpose(-1, -2))
+
+        batch_size, seq_len, emb_dim = q.size()
+        head_emb_dim = emb_dim // self.n_head
+
+        # split the emb dim axis, and then transpose for matmul operations
+        k = k.view(batch_size, seq_len, self.n_head, head_emb_dim).transpose(1, 2)  # (B, nh, T, hs)
+        q = q.view(batch_size, seq_len, self.n_head, head_emb_dim).transpose(1, 2)  # (B, nh, T, hs)
+        v = v.view(batch_size, seq_len, self.n_head, head_emb_dim).transpose(1, 2)  # (B, nh, T, hs)
+
+        attention = torch.matmul(q, k.transpose(-2, -1))
         if self.scale_attention:
-            attention = attention / math.sqrt(v.size(-1))
+            attention = attention / math.sqrt(head_emb_dim)
         pad_mask = self.mask_padding(attention, belief_base_sizes)
-        attention[pad_mask] = -torch.inf
+        attention[pad_mask] = -1e10
         attention = self.attention_dropout(attention)
         attention = nn.Softmax(dim=-1)(attention)
 
         y = torch.matmul(attention, v)
+        y = y.transpose(1, 2).contiguous().view(batch_size, seq_len, emb_dim)  # re-assemble all head outputs side by side
+
         y = self.output_dropout(y)
         return y, attention
 
     def mask_padding(self, x: torch.Tensor, belief_base_sizes: list[int]) -> torch.Tensor:
         mask = torch.zeros_like(x)
         for i, size in enumerate(belief_base_sizes):
-            mask[i, :, size:] = 1
+            mask[i, :, :, size:] = 1
         return mask.bool()
 
     def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):

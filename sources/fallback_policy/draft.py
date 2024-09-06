@@ -1,20 +1,22 @@
 import json
-import pandas as pd
 
 import lightning as L
+import pandas as pd
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
 from datasets import Dataset, Features, Sequence, Value
 from lightning import Trainer
+from lightning.pytorch.callbacks import LearningRateMonitor, ModelCheckpoint
+from lightning.pytorch.loggers import TensorBoardLogger
 from scienceworld import ScienceWorldEnv
+from torch.utils.data import DataLoader
 
 from sources.fallback_policy.encoder import HFEncoderModel, EncoderModel
 from sources.fallback_policy.model import BeliefBaseEncoder
 from sources.scienceworld import parse_beliefs
 
-from torch.utils.data import DataLoader
+# sys.path.append("..")
 
 L.seed_everything(42)
 
@@ -24,7 +26,7 @@ class ContrastiveQNetwork(L.LightningModule):
     def __init__(self,
                  belief_dim: int,
                  encoder_model: EncoderModel,
-                 n_blocks: int = 4):
+                 n_blocks: int = 2):
         super(ContrastiveQNetwork, self).__init__()
         self.belief_base_encoder = BeliefBaseEncoder(belief_dim, n_blocks)
         self.similarity_function = nn.CosineSimilarity(dim=-1, eps=1e-6)
@@ -42,7 +44,7 @@ class ContrastiveQNetwork(L.LightningModule):
         return similarity_matrix
 
     def _encode_batch(self, batch):
-        max_size = max([len(belief_base) for belief_base in batch['belief_base']])
+        max_size = max([belief_base_sizes for belief_base_sizes in batch['belief_base_sizes']])
         belief_base_emb = [self.encoder_model.encode_batch(belief_base,
                                                            max_size=max_size,
                                                            include_cls=False)
@@ -88,15 +90,12 @@ class ContrastiveQNetwork(L.LightningModule):
         x2 = action_emb
 
         #temp = 0.1 # 0.1 is the best with batch_size = 8
-        temp = 0.5
+        temp = 0.5 # 0.5 leads to best
         similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / temp
         return similarity_matrix
 
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW(params=self.parameters(), lr=5e-5)
-        # scheduler = get_linear_schedule_with_warmup(optimizer, num_training_steps=self.hparams['training_epochs'], num_warmup_steps=0)
-        # return {"optimizer": optimizer, "lr_scheduler": scheduler}
-
         return {"optimizer": optimizer}
 
 
@@ -116,10 +115,13 @@ def load_goldpaths():
     observation = ""
     all_trajectories = []
     previous_action = []
+    available_actions = []
     for i, trajectory in enumerate(gold_sequence):
         look_around = trajectory['freelook']
         inventory = trajectory['inventory']
+
         belief_base = parse_beliefs(observation=observation, look=look_around, inventory=inventory)
+        belief_base = [b for b in belief_base if len(b) > 0]
         is_done = trajectory['isCompleted']
         if is_done == 'true':
             next_state = ""
@@ -128,20 +130,26 @@ def load_goldpaths():
         belief_base = belief_base + [goal]
 
         if trajectory['action'] != 'look around':
-            for a in previous_action:
-                belief_base.append(f"You already executed the action {a['action']} at turn {a['turn']}")
+            for a in previous_action[-5:]:
+                belief_base.append(f"You executed the action {a['action']} at turn {a['turn']}")
             belief_base_sizes = len(belief_base) + 1 if use_cls else len(belief_base)
+            action = trajectory['action']
             all_trajectories.append({
                     'belief_base': belief_base,
-                    'action': trajectory['action'],
+                    'action': action,
                     'belief_base_sizes': belief_base_sizes,
             })
             previous_action.append({
-                'turn': i,
-                'action': trajectory['action']
+                    'turn': i,
+                    'action': action
             })
 
-    return all_trajectories, json_data
+            if action not in available_actions:
+                available_actions.append(action)
+
+            observation = trajectory['observation']
+
+    return all_trajectories, json_data, available_actions
 
 
 ##
@@ -149,7 +157,7 @@ def load_goldpaths():
 ##
 
 encoder_model = HFEncoderModel("princeton-nlp/sup-simcse-roberta-base", device='cuda')
-trajectories, json_data = load_goldpaths()
+trajectories, json_data, available_actions = load_goldpaths()
 
 trajectories_pd = pd.DataFrame(trajectories)
 dataset = Dataset.from_pandas(trajectories_pd, features=Features({
@@ -174,13 +182,29 @@ print(len(dataset))
 dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=8, shuffle=True)
 model = ContrastiveQNetwork(768, encoder_model=encoder_model)
 
+base_dir = "cl_step"
+tb_logger = TensorBoardLogger(f"logs/{base_dir}")
+tb_logger.log_hyperparams(model.hparams)
+version = tb_logger.version
+filename = base_dir + "/version_" + str(version) + "/" + "v" + str(
+        version) + "-{epoch}-{step}-{train_loss_epoch:.3f}"
+checkpoint_callback = ModelCheckpoint(dirpath='checkpoints',
+                                      monitor='train_loss_epoch',
+                                      save_top_k=2,
+                                      filename=filename)
 
-trainer = Trainer(max_epochs=50,
-                  accelerator='gpu')
+trainer = Trainer(max_epochs=40,
+                  accelerator='gpu',
+                  logger=tb_logger,
+                  callbacks=[checkpoint_callback]
+                  )
 trainer.fit(model, dataloader)
 
 
-
+#print(f"BEST CHECKPOINT: {checkpoint_callback.best_model_path}")
+#model = ContrastiveQNetwork.load_from_checkpoint(checkpoint_callback.best_model_path,
+#                                                 belief_dim=768,
+#                                                 encoder_model=encoder_model)
 model = model.to('cuda')
 model = model.eval()
 
@@ -194,9 +218,8 @@ with torch.no_grad():
     action = "look around"
 
     plan = []
-    blacklist_action = []
     previous_action = []
-    for i in range(max_steps):
+    for step in range(max_steps):
         obs, reward, is_done, info = env.step(action)
 
         # if obs is non action that matches the input then
@@ -204,40 +227,39 @@ with torch.no_grad():
         # else
         #    do nothing
 
-        print(f" => Step {i} - reward: {reward:.3f} - is_done: {is_done} - action: {action}")
+        print(f" => Step {step} - reward: {reward:.3f} - is_done: {is_done} - action: {action}")
         belief_base = parse_beliefs(observation=obs, look=info['look'], inventory=info['inv']) + [goal]
         belief_base = [b.replace("greenhouse", "green house") for b in belief_base]
 
-        for a in previous_action:
-            belief_base.append(f"You already executed the action {a['action']} at turn {a['turn']}")
+        for a in previous_action[-5:]:
+            belief_base.append(f"You executed the action {a['action']} at turn {a['turn']}")
 
-        num_beliefs = len(belief_base) + 1 + 1 # including cls
-
-        q_values = model.act(belief_base, candidate_actions=info['valid'])
+        num_beliefs = len(belief_base) + 1 + 1  # including cls
+        #candidate_actions = available_actions
+        candidate_actions = info['valid']
+        #q_values = model.act(belief_base, candidate_actions=info['valid'])
+        q_values = model.act(belief_base, candidate_actions=candidate_actions)
         selected_action = q_values.argmax(dim=-1)[0]
-        action = info['valid'][selected_action]
+        action = candidate_actions[selected_action]
         # if i == 1:
         #   action = "focus on substance in metal pot"
-        print(f"Belief Base: {belief_base}")
+        #print(f"Belief Base: {belief_base}")
         print(f"obs: {obs}")
         print(f"Selected action: {action}")
         values, idxs = torch.sort(q_values.squeeze(0), descending=True)
 
-        top_k = 5
+        top_k = 3
         print(f"\tAction space - Top {top_k}:")
         for i, idx in enumerate(idxs[:top_k]):
-            print(f"\t\tCandidate Action: {info['valid'][idx]} - q_value: {values[i]:.3f}")
+            print(f"\t\tCandidate Action: {candidate_actions[idx]} - q_value: {values[i]:.3f}")
 
         plan.append(action)
 
         previous_action.append({
-            'turn': i,
-            'action': action
+                'turn': step,
+                'action': action
         })
-
 
     print("Plan Executed: ")
     for i, a in enumerate(plan):
         print(f"{i} -  {a}")
-
-
