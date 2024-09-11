@@ -80,7 +80,7 @@ if __name__ == '__main__':
         previous_actions = []
         acc_reward = 0
         observation, info = env.reset()
-        belief_base, num_beliefs = parse_state(observation, info, previous_actions, goal)
+        belief_base, belief_base_size = parse_state(observation, info, previous_actions, goal)
         for step in range(max_steps):
             obs, reward, is_done, info = env.step(action)
             if is_done:
@@ -99,4 +99,6 @@ if __name__ == '__main__':
                     'action': action
             })
 
-            #action = agent.act
+
+            belief_base, belief_base_size = next_belief_base, next_belief_base_size
+            # action = agent.select_action(belief_base, belief_base_size)
