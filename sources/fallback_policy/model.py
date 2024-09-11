@@ -90,7 +90,8 @@ class BeliefBaseEncoder(nn.Module):
 
     def __init__(self, belief_dim: int, n_blocks: int = 10, n_heads: int = 8):
         super(BeliefBaseEncoder, self).__init__()
-        self.blocks = nn.ModuleList([BeliefTransformerBlock(belief_dim=belief_dim, n_heads=n_heads) for _ in range(n_blocks)])
+        self.blocks = nn.ModuleList(
+                [BeliefTransformerBlock(belief_dim=belief_dim, n_heads=n_heads) for _ in range(n_blocks)])
 
     def pooling_belief_base(self, x: torch.Tensor) -> torch.Tensor:
         representation = x[:, 0, :]  # using CLS sounds better in CL learning
@@ -171,13 +172,16 @@ class ContrastiveQNetwork(L.LightningModule):
                  belief_dim: int,
                  encoder_model: EncoderModel,
                  n_blocks: int = 2,
-                 n_heads: int = 8):
+                 n_heads: int = 8,
+                 cl_temp: float = 0.5):
         super(ContrastiveQNetwork, self).__init__()
         self.belief_base_encoder = BeliefBaseEncoder(belief_dim, n_blocks, n_heads=n_heads)
         self.similarity_function = nn.CosineSimilarity(dim=-1, eps=1e-6)
         self.encoder_model = encoder_model
         self.linear_act = nn.Linear(belief_dim, belief_dim)
         self.linear_belief = nn.Linear(belief_dim, belief_dim)
+        self.cl_temp = cl_temp
+        self.save_hyperparameters('n_blocks', 'n_heads', 'belief_dim', 'cl_temp')
 
     def act(self, belief_base, candidate_actions):
         batch = {
@@ -218,8 +222,7 @@ class ContrastiveQNetwork(L.LightningModule):
     def contrastive_step(self, belief_base_emb: torch.Tensor, action_emb: torch.Tensor):
         x1 = belief_base_emb
         x2 = action_emb
-        temp = 0.5  # 0.5 leads to best
-        similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / temp
+        similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / self.cl_temp
         return similarity_matrix
 
     def configure_optimizers(self):

@@ -80,6 +80,7 @@ def parse_beliefs(observation: str,
     else:
         return loc_split + obs_split + doors_split + inventory
 
+
 def _parse_inventory(inventory: str) -> list[str]:
     inv_fragments = inventory.split("\n")
     inv_fragments = [i.replace("\t", "") for i in inv_fragments if len(i) > 0]
@@ -110,3 +111,5 @@ def parse_state(observation: str,
                  completed=completed,
                  error=error,
                  metadata=info)
+
+

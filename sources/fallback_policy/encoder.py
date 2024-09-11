@@ -1,14 +1,9 @@
-import json
 import abc
 
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from transformers import AutoModel, AutoTokenizer, PreTrainedTokenizer
+from transformers import AutoModel, AutoTokenizer, PreTrainedTokenizer, AutoConfig
 
 from sources.cl_nli.model import SimCSE
-from sources.fallback_policy.replay import ReplayMemory, Transition
-from sources.scienceworld import parse_beliefs
 
 
 class EncoderModel:
@@ -39,8 +34,10 @@ class EncoderModel:
 class HFEncoderModel(EncoderModel):
 
     def __init__(self, hf_model_name: str, device: str):
-        super().__init__(tokenizer = AutoTokenizer.from_pretrained(hf_model_name))
+        super().__init__(tokenizer=AutoTokenizer.from_pretrained(hf_model_name))
         self.encoder_model = AutoModel.from_pretrained(hf_model_name).eval().to(device)
+        encoder_config = AutoConfig.from_pretrained(hf_model_name)
+        self.embedding_dim = encoder_config.hidden_size
 
     def encode(self, texts: list[str]) -> torch.Tensor:
         with torch.no_grad():
