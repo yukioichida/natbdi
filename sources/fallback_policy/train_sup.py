@@ -1,5 +1,7 @@
 import argparse
 
+import time
+
 import lightning
 import pandas as pd
 import torch
@@ -10,7 +12,8 @@ from lightning.pytorch.loggers import TensorBoardLogger
 from scienceworld import ScienceWorldEnv
 from torch.utils.data import DataLoader
 
-from sources.fallback_policy.encoder import HFEncoderModel
+from sources.cl_nli.model import SimCSE
+from sources.fallback_policy.encoder import HFEncoderModel, CustomSimCSEModel
 from sources.fallback_policy.model import ContrastiveQNetwork
 from sources.scienceworld.utils import parse_beliefs, parse_goal
 
@@ -90,30 +93,52 @@ def load_argparse() -> argparse.Namespace:
     parser.add_argument("--task_name", type=str, default='task-1-boil')
     parser.add_argument("--encoder_model", type=str, default='princeton-nlp/sup-simcse-roberta-base')
     parser.add_argument("--epochs", type=int, default=50)
+    parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--n_blocks", type=int, default=2)
+    parser.add_argument("--cl_temp", type=float, default=0.5)
+    parser.add_argument("--mean_pooling", action='store_true', default=False)
+    parser.add_argument("--n_heads", type=int, default=8)
     return parser.parse_args()
 
 
 if __name__ == '__main__':
+
+    start_time = time.time()
     lightning.seed_everything(42)
     args = load_argparse()
+    print(args)
     print("Loading encoder model")
+
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    encoder_model = HFEncoderModel(args.encoder_model, device=device)
+    custom_encoder = False
+    print(f"Custom encoder model {custom_encoder}")
+    if custom_encoder:
+        simcse = SimCSE.load_from_checkpoint(
+            '/opt/models/simcse_default/version_0/v0-epoch=4-step=18304-val_nli_loss=0.658-train_loss=0.551.ckpt')
+
+        encoder_model = CustomSimCSEModel(simcse)
+    else:
+        encoder_model = HFEncoderModel(args.encoder_model, device=device)
 
     goldpath_file = get_dataset_file(args)
     #dataset = load_goldpath_dataset(goldpath_file, variation=0)  # TODO: remove variation
     dataset = load_goldpath_dataset(goldpath_file)
-    dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=8, shuffle=True)
+    # gerar os embeddings aqui, talvez criar um huggingface datasets
+    dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=args.batch_size, shuffle=True)
 
     embedding_dim = encoder_model.embedding_dim
     model = ContrastiveQNetwork(embedding_dim,
                                 encoder_model=encoder_model,
-                                n_blocks=2)
+                                n_blocks=args.n_blocks,
+                                n_heads=args.n_heads,
+                                cl_temp=args.cl_temp,
+                                mean_pooling=args.mean_pooling)
 
-    base_dir = "sup"
+    base_dir = "sup_all"
     tb_logger = TensorBoardLogger(f"logs/{base_dir}")
     tb_logger.log_hyperparams(model.hparams)
     tb_logger.log_hyperparams(args)
+    tb_logger.log_hyperparams({'custom_encoder': custom_encoder})
     filename = base_dir + "/version_" + str(tb_logger.version) + "/{epoch}-{step}-{train_loss_epoch:.3f}"
 
     checkpoint_callback = ModelCheckpoint(dirpath='checkpoints',
@@ -126,6 +151,9 @@ if __name__ == '__main__':
                       logger=tb_logger,
                       callbacks=[checkpoint_callback])
     trainer.fit(model, dataloader)
+
+    end_time =  time.time() - start_time
+    print(f"TRAINING DURATION --- {end_time}")
 
     # model = ContrastiveQNetwork.load_from_checkpoint("checkpoints/sup/version_3/epoch=37-step=190-train_loss_epoch=0.812.ckpt", encoder_model = encoder_model)
     #eval_in_env(model, variation=0)

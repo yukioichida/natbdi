@@ -88,15 +88,21 @@ class BeliefTransformerBlock(nn.Module):
 
 class BeliefBaseEncoder(nn.Module):
 
-    def __init__(self, belief_dim: int, n_blocks: int = 10, n_heads: int = 8):
+    def __init__(self,
+                 belief_dim: int,
+                 n_blocks: int = 10,
+                 n_heads: int = 8,
+                 mean_pooling: bool = False):
         super(BeliefBaseEncoder, self).__init__()
         self.blocks = nn.ModuleList(
                 [BeliefTransformerBlock(belief_dim=belief_dim, n_heads=n_heads) for _ in range(n_blocks)])
+        self.mean_pooling = mean_pooling
 
     def pooling_belief_base(self, x: torch.Tensor) -> torch.Tensor:
-        representation = x[:, 0, :]  # using CLS sounds better in CL learning
-        # representation = x.mean(1) # mean pooling looks better in this case
-        return representation
+        if self.mean_pooling:
+            return x.mean(dim=1)
+        else:
+            return x[:, 0, :]  # CLS
 
     def forward(self, x: torch.Tensor, belief_base_sizes: list[int]) -> (torch.Tensor, torch.Tensor):
         for block in self.blocks:
@@ -105,98 +111,51 @@ class BeliefBaseEncoder(nn.Module):
         return representation, a
 
 
-class QNetwork(nn.Module):
-
-    def __init__(self, action_dim: int, belief_base_dim: int, n_blocks: int = 3):
-        super(QNetwork, self).__init__()
-        self.belief_base_encoder = BeliefBaseEncoder(belief_dim=belief_base_dim, n_blocks=n_blocks)
-        # Goal will be in belief base, we test using goal as input but all actions will receive the same goal and,
-        # hence, the q-values would be similar regardless of reward
-        output_dim = action_dim + belief_base_dim
-
-        self.hidden = nn.Linear(output_dim, belief_base_dim, bias=False)
-        self.q_value_layer = nn.Linear(belief_base_dim, 1, bias=False)
-
-    def forward(self,
-                belief_base: torch.Tensor,
-                belief_base_sizes: list[int],
-                action_tensors: torch.Tensor,
-                return_attentions: bool = False):
-        encoded_belief_base, attention = self.belief_base_encoder(belief_base, belief_base_sizes)  # [bs, belief_dim]
-        x = torch.cat([encoded_belief_base, action_tensors], dim=-1)
-        x = F.relu(x)
-        x = self.hidden(x)
-        x = F.relu(x)
-        q_values = self.q_value_layer(x)
-        # q_values = F.tanh(q_values)
-
-        if return_attentions:
-            return q_values, attention
-        else:
-            return q_values
-
-
-class SimpleQNetwork(nn.Module):
-
-    def __init__(self, action_dim: int, belief_base_dim: int, n_blocks: int = 3):
-        super(SimpleQNetwork, self).__init__()
-        self.belief_base_encoder = nn.ModuleList([nn.Linear(belief_base_dim, belief_base_dim)
-                                                  for _ in range(n_blocks)])
-        output_dim = action_dim + belief_base_dim
-
-        self.hidden = nn.Linear(output_dim, belief_base_dim, bias=False)
-        self.q_value_layer = nn.Linear(belief_base_dim, 1, bias=False)
-
-    def forward(self,
-                belief_base: torch.Tensor,
-                belief_base_sizes: list[int],
-                action_tensors: torch.Tensor) -> torch.Tensor:
-        mask = torch.zeros_like(belief_base).to('cuda')
-        for size in belief_base_sizes:
-            mask[:, :size] = 1
-        encoded_belief_base = (belief_base * mask).sum(dim=1) / mask.sum(dim=1)
-
-        for block in self.belief_base_encoder:
-            encoded_belief_base = block(encoded_belief_base)
-
-        output_repr = torch.cat([encoded_belief_base, action_tensors], dim=-1)
-        x = self.hidden(output_repr)
-        x = F.relu(x)
-        q_values = self.q_value_layer(x)
-        return q_values
-
-
 class ContrastiveQNetwork(L.LightningModule):
 
     def __init__(self,
                  belief_dim: int,
                  encoder_model: EncoderModel,
+                 proj_dim: int = 64,
                  n_blocks: int = 2,
                  n_heads: int = 8,
-                 cl_temp: float = 0.5):
+                 cl_temp: float = 0.5,
+                 mean_pooling: bool = False,
+                 lr: float = 5e-5):
         super(ContrastiveQNetwork, self).__init__()
-        self.belief_base_encoder = BeliefBaseEncoder(belief_dim, n_blocks, n_heads=n_heads)
+        self.belief_base_encoder = BeliefBaseEncoder(belief_dim,
+                                                     n_blocks=n_blocks,
+                                                     n_heads=n_heads,
+                                                     mean_pooling=mean_pooling)
         self.similarity_function = nn.CosineSimilarity(dim=-1, eps=1e-6)
         self.encoder_model = encoder_model
-        self.linear_act = nn.Linear(belief_dim, belief_dim)
-        self.linear_belief = nn.Linear(belief_dim, belief_dim)
-        self.cl_temp = cl_temp
-        self.save_hyperparameters('n_blocks', 'n_heads', 'belief_dim', 'cl_temp')
+        self.linear_act = nn.Sequential(
+                nn.Linear(belief_dim, belief_dim),
+                nn.ReLU(),
+                nn.Linear(belief_dim, proj_dim)
+        )
+        self.linear_belief = nn.Sequential(
+                nn.Linear(belief_dim, belief_dim),
+                nn.ReLU(),
+                nn.Linear(belief_dim, proj_dim)
+        )
+        self.save_hyperparameters('n_blocks', 'n_heads', 'belief_dim', 'cl_temp', 'proj_dim', 'mean_pooling', 'lr')
 
     def act(self, belief_base, candidate_actions):
         batch = {
                 'belief_base': [belief_base],
                 'actions': candidate_actions,
-                'belief_base_sizes': [len(belief_base)]
+                'belief_base_sizes': [len(belief_base) + 1]
         }
         similarity_matrix = self.forward(batch)
         return similarity_matrix
 
     def _encode_batch(self, batch):
+        use_cls = not self.hparams['mean_pooling']
         max_size = max([belief_base_sizes for belief_base_sizes in batch['belief_base_sizes']])
         belief_base_emb = [self.encoder_model.encode_batch(belief_base,
                                                            max_size=max_size,
-                                                           include_cls=False)
+                                                           include_cls=use_cls)
                            for belief_base in batch['belief_base']]
         belief_base_emb = torch.cat(belief_base_emb, dim=0)
         action_emb = self.encoder_model.encode(batch['actions']).squeeze(0)
@@ -222,9 +181,9 @@ class ContrastiveQNetwork(L.LightningModule):
     def contrastive_step(self, belief_base_emb: torch.Tensor, action_emb: torch.Tensor):
         x1 = belief_base_emb
         x2 = action_emb
-        similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / self.cl_temp
+        similarity_matrix = self.similarity_function(x1.unsqueeze(1), x2.unsqueeze(0)) / self.hparams['cl_temp']
         return similarity_matrix
 
     def configure_optimizers(self):
-        optimizer = torch.optim.AdamW(params=self.parameters(), lr=5e-5)
+        optimizer = torch.optim.AdamW(params=self.parameters(), lr=self.hparams['lr'])
         return {"optimizer": optimizer}

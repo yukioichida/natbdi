@@ -1,0 +1,12 @@
+batch_size: 16
+belief_dim: 768
+cl_temp: 0.1
+encoder_model: princeton-nlp/sup-simcse-roberta-base
+epochs: 5
+goldpath_dir: /opt/data/scienceworld-goldpaths/trajectories_csv/
+lr: 5.0e-05
+mean_pooling: false
+n_blocks: 2
+n_heads: 8
+proj_dim: 64
+task_name: task-1-boil

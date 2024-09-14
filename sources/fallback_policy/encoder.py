@@ -57,6 +57,8 @@ class CustomSimCSEModel(EncoderModel):
         tokenizer = AutoTokenizer.from_pretrained(hf_model_name)
         super().__init__(tokenizer)
         self.encoder_model = encoder_model
+        encoder_config = AutoConfig.from_pretrained(hf_model_name)
+        self.embedding_dim = encoder_config.hidden_size
 
     def encode(self, texts: list[str]) -> torch.Tensor:
         device = self.encoder_model.device
@@ -64,5 +66,5 @@ class CustomSimCSEModel(EncoderModel):
                                         padding='longest',
                                         truncation=True,
                                         return_tensors='pt').to(device)
-        embeddings = self.encoder_model.encode(tokenized_text).detach()  # batch axis
+        embeddings = self.encoder_model.encode(tokenized_text).unsqueeze(0).detach()  # batch axis
         return embeddings
